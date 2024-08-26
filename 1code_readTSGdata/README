@@ -1,0 +1,72 @@
+
+OBJECTIVE:
+# read, format and remove bad data all log files from underway flow through system aboard CCGS HUDSON  
+# writes one csv file per log file with the name xxxxdata_yyyymmdd.csv 
+# assuming the log file name is xxxx_yyyymmdd.CSV which is saved once per day per data type (xxx) NMEA, flow, TSG, PCO2
+
+
+VERSIONS:
+
+RStudio - Version 1.2.1335
+R version 4.0.4 (2021-02-15) 
+Platform: x86_64-w64-mingw32/x64 (64-bit)
+
+SCRIPTS:
+
+readflowdata.R
+readnmeadata.R
+readpco2data.R
+readtsgdata.R
+
+FUNCTIONS:
+
+read.flow - filename readFLOW.R
+read.nmea - filename readNMEA.R
+read.pco2_2 - filename readpco2_2.R
+read.tsgout - filename readTSGout.R
+
+PACKAGES:
+
+only base R was used, no packages
+
+FOLDER STRUCTURE:
+
+code_readTSGdata - contains all code and functions and log files ouput from code 
+
+rawdata - CSV text files logged by the TSG includes a log file saved once per day per data type; 
+		NMEA, flow, TSG data, PCO2 data. Example; NMEA_20210918.CSV, FLOW_20210918.CSV, PCO2_20210918.CSV, TSGOUT_20210918.CSV
+		
+processed - the same log files in the rawdata but formated with some bad data removed.  Files are renamed to;  
+		TSGposition_20210918.CSV, FLOWdata_20210918.CSV, PCO2data_20210918.CSV, TSGadta_20210918.CSV
+
+
+STEPS TO RUN THE CODE:	
+
+Insure all TSG log files are in the folder rawdata and 
+Create the folder processed 
+update the paths in each script for the variables; pathrawdata,  pathprocessed
+Run each of these scripts the order does not matter.  
+
+readflowdata.R
+readnmeadata.R
+readpco2data.R
+readtsgdata.R
+
+
+# author Chantelle Layton and Diana Cardoso
+# Oct 2021
+# Fisheries and Oceans Canada,Bedford Institute of Oceanography, Dartmouth, N.S. Canada B2Y 4A2
+
+> sessionInfo()
+R version 4.0.4 (2021-02-15)
+Platform: x86_64-w64-mingw32/x64 (64-bit)
+Running under: Windows 10 x64 (build 19042)
+
+Matrix products: default
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  methods   base     
+
+loaded via a namespace (and not attached):
+[1] compiler_4.0.4 tools_4.0.4  
+
