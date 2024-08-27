@@ -1,6 +1,6 @@
 ##3TSGcontourplot.R
 
-#**NOTE may need to remove data from the interpolated data file when TSG is shut on and off throughout mission
+#**NOTE may need to remove data from the interpolated data file when TSG is turned on and off throughout mission
 
 #***Desciption: Script to read interpolated data and plot map contour plots from underway flow 
 # through system.  plots are saved in the \3code_plot_TSGdata folder
@@ -15,7 +15,7 @@
 # 3- The longitude and latitude limits for plots variable lonlim and latlim 
 # 4- The data coastlineWorldFine downloaded from the ocedata package
 
-# OUTPUT is in the \2code_interp_plot_TSGdata\hourly_TSG_dataplots folder and includes:
+# OUTPUT is in the 3code_plot_TSGdata and includes:
 # - one plot per variable of hourly interpolated data, named TSG_variable.png
 # - a NetCDF file containing Topographic data
 
@@ -100,6 +100,6 @@ for (var in variables){
 }
 
 # Record session information
-sink("session_info.txt")
+sink("session_info2.txt")
 sessionInfo()
 sink()
