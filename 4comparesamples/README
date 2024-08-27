@@ -1,0 +1,127 @@
+
+OBJECTIVE:
+# Script to read processed and bottle (Chl, Oxy, Salts) data from underway system and read CTD and ELOG files
+# to match the sample, CTD and TSG data creating tables and plots.  
+
+# output from the code is in the 4comparesamples and includes:
+#read_elog_tsg3.R
+# - Bottle_TSG_QAT.csv - table: TSG data average of a minute (12 values) matched with sample data 
+# - TSG_bottletable2.csv - table: TSG data when the sample was taken, 12 readings for the minute time of sample 
+# - TSG_samples.csv -  table: time, date, lat, lon, ID of each sample taken from TSG
+# - chl2tsgplot.jpeg, oxy2tsgplot.jpeg, salt2sgplot.jpeg - plots of TSG vs sample data
+#read_elog_tsg_pco2.R
+# - Bottle_TSG_PCO2_QAT.csv - table: TSG data average of a minute (12 values) matched with sample data  including PCO2 data
+# - TSG_PCO2_bottletable.csv - table: TSG data when the sample was taken, 12 readings for the minute time of sample including PCO2 data
+# - TSG_PCO2_samples.csv-  table: time, date, lat, lon, ID of each sample taken from TSG
+# - chl2tsgplot.jpeg, oxy2tsgplot.jpeg, salt2sgplot.jpeg - plots of TSG vs sample data
+# addPCO2_2.R
+# - TSG_PCO2_bottletable2.csv - table: TSG data when the sample was taken, 12 readings for the minute time of sample including PCO2 data
+# tsg_ctd.R
+# - CTD_table3.csv-  table:CTD data at a certain depth near surface per event with time and position 
+# ctd_tsg_compare4.R
+# - CTD_TSG_QAT.csv-  table:CTD data at a certain depth near surface per event with time and position matched with TSG data 
+# - TSG_ctdtable.RData
+# - XXX_TSGCTDplot.jpeg - plots TSG vs CTD data for each variable per event and per day
+
+
+VERSIONS:
+
+R version 4.4.1 (2024-06-14 ucrt)
+Platform: x86_64-w64-mingw32/x64
+Running under: Windows 10 x64 (build 19045)
+RStudio - 2024.04.2 Build 764
+
+SCRIPTS:
+
+4TSGcompare_ctd_samples.R
+
+FUNCTIONS:
+# read_elog_tsg3.R - read elog and processed tsg files, match the samples to the TSG data and create tables and plots
+# read_elog_tsg_pco2.R - read elog and processed tsg files including PCO2, match the samples to the TSG data and create tables and plots
+# addPCO2_2.R - add pco2 data only to the table created by the function read_elog_tsg3.R
+# tsg_ctd.R - read ctd ODF data and match to TSG data and create a table 
+# ctd_tsg_compare4.R - read table created by function tsg_ctd.R and plot TSG vs CTD data
+
+PACKAGES:
+
+library(stringr)
+library(lubridate)
+library(readxl)
+library(readr)
+library(oce)
+
+FOLDER STRUCTURE:
+
+\1code_readTSGdata - functions to read and cleanup TSG log files and calculate oxygen saturation called from the script "1readTSGdata.R",
+ output is saved in the processed folder
+
+\raw - CSV text files logged by the TSG includes a log file saved once per day per data type; 
+		NMEA, flow, TSG data, PCO2 data. Example; NMEA_20210918.CSV, FLOW_20210918.CSV, PCO2_20210918.CSV, TSGOUT_20210918.CSV
+		
+\processed - the same log files in the rawdata but formated and some bad data removed. 
+			Files are the output from the code 1readTSGdata.R
+			Files are renamed to;  TSGposition_20210918.CSV, FLOWdata_20210918.CSV, PCO2data_20210918.CSV, TSGadta_20210918.CSV.
+
+\2code_interp_plot_TSGdata - contains functions to interpolate hourly and plot the processed data in the processed folder
+						  output from the code in the 2code_interp_plot_TSGdata\hourly_TSG_dataplots folder
+
+\2code_interp_plot_TSGdata\hourly_TSG_dataplots - contains the output from the code in the code_interp_plot_TSGdata folder includes;
+   - one file per variable of hourly interpolated data, named TSG_xxxxdata_xxxx_HUDyyyyfff.csv 
+   (where xxxx is variable and HUDyyyyfff is the mission number)
+   - a file containing all the variables interpolated hourly, named HUDyyyyfff_TSG_hourly.csv
+   - a plot of each variable versus time and versus longitude, named TSG_xxxxdata_xxxx_HUDyyyyfff.jpeg and  TSG_xxxx_long.jpeg, 
+   - a map of station locations, named TSG_map.jpeg
+ 
+\3code_plot_TSGdata - plots of the interpolated data created from the script "3TSGcontourplot.R"
+\4comparesamples -  compare TSG water samples with TSG data and compare CTD and TSG data
+#\bottle - water sample data from the TSG analysed on the ship typically salts, Chlorophyll and oxygen 
+#\ctd- ctd files in ODF format processed on the ship
+#\elog - TSG log files from ELOG
+		
+STEPS TO RUN THE CODE:	
+
+set working directory
+#**NOTE  processed TSGdata files can not start with a time of 00:00:00
+INPUTS
+# 1- pathelog - directory of ELOG .log Flow-Through files 
+# 2- pathbottle - directory of analysed Sample data taken from the TSG
+# file names start with the variable type:     
+    # - 'Oxy.*\\.csv  (convert .dat file to csv, 8 header lines)
+    # - 'Chl.*\\.xlsx' (excel, 18 header lines)
+    # - 'Salts.*\\.csv' (csv, 4 header lines)
+#Note: salts data is generated as 1 files per run these need to be compiled into 1 file, use the file 
+#with 1 calculated value per sample ID and not the multiple readings per run or multiple run values
+# and a 4 line header is added: 
+#   ShipsName=Teleost
+#   CruiseNumber=TEL2024880
+#   Analyst=Diana Cardoso
+#   SalinometerSerialNumber=71418
+  
+# 3- pathctd - directory of CTD processed ODF files 
+# 4- pathprocessed - directory of TSG processed files
+# 5- CTDpres - CTD pressure for comparison with TSG intake depth, typically between 4 - 8 m
+ Run this script 4TSGcompare_ctd_samples.R
+
+# author Diana Cardoso
+# Oct 2023
+# Fisheries and Oceans Canada,Bedford Institute of Oceanography, Dartmouth, N.S. Canada B2Y 4A2
+
+> sessionInfo()
+R version 4.4.1 (2024-06-14 ucrt)
+Platform: x86_64-w64-mingw32/x64
+Running under: Windows 10 x64 (build 19045)
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  methods   base     
+
+other attached packages:
+[1] oce_1.8-3       gsw_1.1-1       readr_2.1.5     readxl_1.4.3    lubridate_1.9.3 stringr_1.5.1  
+
+loaded via a namespace (and not attached):
+ [1] utf8_1.2.4        R6_2.5.1          cellranger_1.1.0  tzdb_0.4.0        magrittr_2.0.3   
+ [6] glue_1.7.0        tibble_3.2.1      pkgconfig_2.0.3   timechange_0.3.0  generics_0.1.3   
+[11] lifecycle_1.0.4   cli_3.6.3         fansi_1.0.6       vctrs_0.6.5       compiler_4.4.1   
+[16] rstudioapi_0.16.0 tools_4.4.1       hms_1.1.3         pillar_1.9.0      Rcpp_1.0.13      
+[21] rlang_1.1.4       stringi_1.8.4    
+ 
+> 
