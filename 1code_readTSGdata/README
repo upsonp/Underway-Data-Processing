@@ -1,72 +1,80 @@
 
 OBJECTIVE:
-# read, format and remove bad data all log files from underway flow through system aboard CCGS HUDSON  
+# read, format and remove bad data all log files from underway flow through system
 # writes one csv file per log file with the name xxxxdata_yyyymmdd.csv 
 # assuming the log file name is xxxx_yyyymmdd.CSV which is saved once per day per data type (xxx) NMEA, flow, TSG, PCO2
 
 
 VERSIONS:
 
-RStudio - Version 1.2.1335
-R version 4.0.4 (2021-02-15) 
-Platform: x86_64-w64-mingw32/x64 (64-bit)
+R version 4.4.1 (2024-06-14 ucrt)
+Platform: x86_64-w64-mingw32/x64
+Running under: Windows 10 x64 (build 19045)
+RStudio - 2024.04.2 Build 764
+
 
 SCRIPTS:
 
-readflowdata.R
-readnmeadata.R
-readpco2data.R
-readtsgdata.R
+1readTSGdata.R
 
 FUNCTIONS:
 
-read.flow - filename readFLOW.R
-read.nmea - filename readNMEA.R
-read.pco2_2 - filename readpco2_2.R
-read.tsgout - filename readTSGout.R
+source("1code_readTSGdata/readflowdata.R")
+source("1code_readTSGdata/readFLOW.R")
+source("1code_readTSGdata/readnmeadata.R")
+source("1code_readTSGdata/readNMEA.R")
+source("1code_readTSGdata/readpco2data.R")
+source("1code_readTSGdata/readpco2_2.R")
+source("1code_readTSGdata/readtsgdata.R")
+source("1code_readTSGdata/readTSGout.R")
+source("1code_readTSGdata/TSG_optode_SatO2_4.R")
 
 PACKAGES:
 
-only base R was used, no packages
+library(oce)
+library(csasAtlPhys)
 
 FOLDER STRUCTURE:
 
-code_readTSGdata - contains all code and functions and log files ouput from code 
+\1code_readTSGdata - functions to read and cleanup TSG log files and calculate oxygen saturation called from the script "1readTSGdata.R"
 
-rawdata - CSV text files logged by the TSG includes a log file saved once per day per data type; 
+\raw - CSV text files logged by the TSG includes a log file saved once per day per data type; 
 		NMEA, flow, TSG data, PCO2 data. Example; NMEA_20210918.CSV, FLOW_20210918.CSV, PCO2_20210918.CSV, TSGOUT_20210918.CSV
 		
-processed - the same log files in the rawdata but formated with some bad data removed.  Files are renamed to;  
+\processed - the same log files in the rawdata but formated with some bad data removed.  Files are renamed to;  
 		TSGposition_20210918.CSV, FLOWdata_20210918.CSV, PCO2data_20210918.CSV, TSGadta_20210918.CSV
 
 
 STEPS TO RUN THE CODE:	
 
-Insure all TSG log files are in the folder rawdata and 
-Create the folder processed 
-update the paths in each script for the variables; pathrawdata,  pathprocessed
-Run each of these scripts the order does not matter.  
+Insure all TSG log files are in the folder raw
+set working directory
+Create the folders 1code_readTSGdata, processed and raw
+update the paths pathrawdata,  pathprocessed
+Run scripts 1readTSGdata.R  
 
-readflowdata.R
-readnmeadata.R
-readpco2data.R
-readtsgdata.R
-
-
-# author Chantelle Layton and Diana Cardoso
-# Oct 2021
+# Diana Cardoso
+# Oct 2023
 # Fisheries and Oceans Canada,Bedford Institute of Oceanography, Dartmouth, N.S. Canada B2Y 4A2
 
 > sessionInfo()
-R version 4.0.4 (2021-02-15)
-Platform: x86_64-w64-mingw32/x64 (64-bit)
-Running under: Windows 10 x64 (build 19042)
-
-Matrix products: default
+R version 4.4.1 (2024-06-14 ucrt)
+Platform: x86_64-w64-mingw32/x64
+Running under: Windows 10 x64 (build 19045)
 
 attached base packages:
 [1] stats     graphics  grDevices utils     datasets  methods   base     
 
+other attached packages:
+[1] csasAtlPhys_0.0.9000 oce_1.8-3            gsw_1.1-1           
+
 loaded via a namespace (and not attached):
-[1] compiler_4.0.4 tools_4.0.4  
+ [1] gtable_0.3.5      dplyr_1.1.4       compiler_4.4.1    tidyselect_1.2.1  Rcpp_1.0.13      
+ [6] xml2_1.3.6        bitops_1.0-8      gridExtra_2.3     scales_1.3.0      readxl_1.4.3     
+[11] lattice_0.22-6    ggplot2_3.5.1     R6_2.5.1          generics_0.1.3    viridis_0.6.5    
+[16] XML_3.99-0.17     tibble_3.2.1      munsell_0.5.1     pillar_1.9.0      rlang_1.1.4      
+[21] utf8_1.2.4        sp_2.1-4          viridisLite_0.4.2 cli_3.6.3         smatr_3.4-8      
+[26] magrittr_2.0.3    rvest_1.0.4       grid_4.4.1        ncdf4_1.23        rstudioapi_0.16.0
+[31] lifecycle_1.0.4   vctrs_0.6.5       glue_1.7.0        cellranger_1.1.0  RCurl_1.98-1.16  
+[36] fansi_1.0.6       colorspace_2.1-1  httr_1.4.7        tools_4.4.1       pkgconfig_2.0.3  
 
