@@ -1,21 +1,30 @@
+##1readTSGdata.R
 #***Desciption:  Script to read all log files from underway flow through system 
 #which include NMEA, flow, sensor and PCO2 data and clean it up.
+#processed files output from the code are saved in the processed folder
+# removes or replaces corrupted data and incomplete lines in log files with 999 or NaN
+# and adds column headers. 
+# calculates of Oxygen Concentration (ml/L) per log file
 
 #***INPUT: Log files generated every 24 hours and are named:
 # NMEA_yyyymmdd.CSV, FLOW_yyyymmdd.CSV, TSGOUT_yyyymmdd.CSV, PCO2_yyyymmdd.CSV
 
-#***OUTPUT: writes one csv file per log file 
-# removes or replaces corrupted data and incomplete lines in log files with 999 or NaN
-# and adds column headers 
+#***OUTPUT: writes one csv file per log file saved in the processed folder
+# TSGpositionlog.txt - is a log of percent bad NMEA data per log file
+# O2concTSGdata_yyyymmdd.csv - a table of calculations of Oxygen Concentration (ml/L) per log file
 
 #**Folder structure:
 #C:\TSG_process - working dir
-#\1code_readTSGdata - dir for script "1readTSGdata.R" to read all log files and process
-#\2code_interp_plot_TSGdata - interpolate the processed data over time
-#\3code_plot_TSGdata - plot the interpolated data
-#\4comparesamples -  compare TSG water samples with TSG data and compare CTD and TSG data
-#\processed - formatted log files from TSG with corrupted data removed
+#\1code_readTSGdata - functions to read and cleanup TSG log files and calculate oxygen saturation called from the script "1readTSGdata.R"
+#\2code_interp_plot_TSGdata - functions to interpolate the processed data over time called from the script "2TSG_interp.R"
+#\2code_interp_plot_TSGdata\hourly_TSG_dataplots - plots and tables of interpolated data from the script "2TSG_interp.R"
+#\3code_plot_TSGdata - plots of the interpolated data created from the script "3TSGcontourplot.R"
+#\4comparesamples - functions to compare and plot TSG data with water samples and  CTD data  called from the script "4TSGcompare_ctd_samples.R"
+#\processed - formatted log files from TSG with corrupted data removed created from the script "1readTSGdata.R"
 #\raw - log files from TSG 
+#\bottle - water sample data analysed on the ship typically salts, Chlorophyll and oxygen 
+#\ctd- ctd files in ODF format processed on the ship
+#\elog - log files from ELOG
 
 
 # author Diana Cardoso

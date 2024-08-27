@@ -1,4 +1,6 @@
-#processed TSGdata files can not start with a time of 00:00:00
+##4TSGcompare_ctd_samples.R
+
+#**NOTE  processed TSGdata files can not start with a time of 00:00:00
 
 #***Desciption: Script to read processed and bottle (Chl, Oxy, Salts) data from underway system and read CTD and ELOG files
 # to match the sample, CTD and TSG data creating tables and plots.  
@@ -51,9 +53,10 @@
 #\4comparesamples -  compare TSG water samples with TSG data and compare CTD and TSG data
 #\processed - formatted log files from TSG with corrupted data removed
 #\raw - log files from TSG
-#\bottle - analysed sample data from the TSG files directory (Oxygen, Salts, Chlorophyl)
-#\ctd - CTD processed ODF files directory
-#\elog - ELOG  Flow-Through .log files directory
+#\bottle - water sample data from the TSG analysed on the ship typically salts, Chlorophyll and oxygen 
+#\ctd- ctd files in ODF format processed on the ship
+#\elog - TSG log files from ELOG
+
 
 #** FUNCTIONS:
 
@@ -101,6 +104,11 @@ source("4comparesamples/ctd_tsg_compare4.R")
 # read and process data
 read.elog_tsg(pathelog,pathbottle)
 read.elog_tsg_pco2(pathelog,pathprocessed,pathbottle)
-read.addPCO2(pathprocessed)
+read.addPCO2(pathprocessed) 
 read.tsg_ctd(pathctd,CTDpres)
 read.ctd_tsg_compare4(pathprocessed)
+
+# Record session information
+sink("session_info.txt")
+sessionInfo()
+sink()

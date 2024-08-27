@@ -1,7 +1,7 @@
+##2TSG_interp.R
 #***Desciption: Script to read,interpolate hourly, and plot all processed data from underway flow 
-# through system aboard CCGS HUDSON. processed files are output from the code in the 
-# code_readTSGdata folder and saved in processed folder
-# 2 code_interp_plot_TSGdata folder contains all code and functions to interpolate and plot
+# through system. processed files are saved in the processed folder and  
+# 2 code_interp_plot_TSGdata folder contains all functions to interpolate and plot
 
 #***INPUT: 
 # 1- processed files one per 24 hours in processed folder and are named:
@@ -20,12 +20,16 @@
 
 #**Folder structure:
 #C:\TSG_process - working dir
-#\1code_readTSGdata - dir for script "1readTSGdata.R" to read all log files and process
-#\2code_interp_plot_TSGdata - interpolate the processed data over time
-#\3code_plot_TSGdata - plot the interpolated data
-#\4comparesamples -  compare TSG water samples with TSG data and compare CTD and TSG data
-#\processed - formatted log files from TSG with corrupted data removed
+#\1code_readTSGdata - functions to read and cleanup TSG log files and calculate oxygen saturation called from the script "1readTSGdata.R"
+#\2code_interp_plot_TSGdata - functions to interpolate the processed data over time called from the script "2TSG_interp.R"
+#\2code_interp_plot_TSGdata\hourly_TSG_dataplots - plots and tables of interpolated data from the script "2TSG_interp.R"
+#\3code_plot_TSGdata - plots of the interpolated data created from the script "3TSGcontourplot.R"
+#\4comparesamples - functions to compare and plot TSG data with water samples and  CTD data  called from the script "4TSGcompare_ctd_samples.R"
+#\processed - formatted log files from TSG with corrupted data removed created from the script "1readTSGdata.R"
 #\raw - log files from TSG 
+#\bottle - water sample data analysed on the ship typically salts, Chlorophyll and oxygen 
+#\ctd- ctd files in ODF format processed on the ship
+#\elog - log files from ELOG
 
 # FUNCTIONS:
 
@@ -133,3 +137,7 @@ write.csv(interpdataall, file = filename,row.names = FALSE)
 
 plot.tsg(interpdataall,lonlim,latlim)
 
+# Record session information
+sink("session_info.txt")
+sessionInfo()
+sink()

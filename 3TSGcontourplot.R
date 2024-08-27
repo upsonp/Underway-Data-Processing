@@ -1,6 +1,11 @@
+##3TSGcontourplot.R
+
+#**NOTE may need to remove data from the interpolated data file when TSG is shut on and off throughout mission
+
 #***Desciption: Script to read interpolated data and plot map contour plots from underway flow 
-# through system. The interpolated data file is output from the code 2TSG_interp.R and 
-# saved in the \3code_plot_TSGdata folder with name HUDyyyyfff_TSG_hourly.csv
+# through system.  plots are saved in the \3code_plot_TSGdata folder
+# The interpolated data file is output from the code 2TSG_interp.R and 
+# saved in the \2code_interp_plot_TSGdata\hourly_TSG_dataplots with name HUDyyyyfff_TSG_hourly.csv
 
 #***INPUT: 
 # 1- The interpolated data file output from the code 2TSG_interp.R and 
@@ -16,12 +21,16 @@
 
 #**Folder structure:
 #C:\TSG_process - working dir
-#\1code_readTSGdata - dir for script "1readTSGdata.R" to read all log files and process
-#\2code_interp_plot_TSGdata - interpolate the processed data over time
-#\3code_plot_TSGdata - plot the interpolated data
-#\4comparesamples -  compare TSG water samples with TSG data and compare CTD and TSG data
-#\processed - formatted log files from TSG with corrupted data removed
+#\1code_readTSGdata - functions to read and cleanup TSG log files and calculate oxygen saturation called from the script "1readTSGdata.R"
+#\2code_interp_plot_TSGdata - functions to interpolate the processed data over time called from the script "2TSG_interp.R"
+#\2code_interp_plot_TSGdata\hourly_TSG_dataplots - plots and tables of interpolated data from the script "2TSG_interp.R"
+#\3code_plot_TSGdata - plots of the interpolated data created from the script "3TSGcontourplot.R"
+#\4comparesamples - functions to compare and plot TSG data with water samples and  CTD data  called from the script "4TSGcompare_ctd_samples.R"
+#\processed - formatted log files from TSG with corrupted data removed created from the script "1readTSGdata.R"
 #\raw - log files from TSG 
+#\bottle - water sample data analysed on the ship typically salts, Chlorophyll and oxygen 
+#\ctd- ctd files in ODF format processed on the ship
+#\elog - log files from ELOG
 
 # author Diana Cardoso
 # Oct 2021
@@ -89,3 +98,8 @@ for (var in variables){
   mapPoints(lon, lat, pch = 20, col = cm$zcol)
   dev.off()
 }
+
+# Record session information
+sink("session_info.txt")
+sessionInfo()
+sink()
