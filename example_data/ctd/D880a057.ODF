@@ -1,0 +1,1127 @@
+ ODF_HEADER,
+   FILE_SPECIFICATION ='C:\CTD_PROCESSING\2024880TEL\CTDDATA\D880A057.ODF'
+ CRUISE_HEADER,
+   COUNTRY_INSTITUTE_CODE=1810,
+   CRUISE_NUMBER='TEL2024880',
+   ORGANIZATION='BIO',
+   CHIEF_SCIENTIST='LINDSAY BEAZLEY',
+   START_DATE='17-NOV-1858 00:00:00.00',
+   END_DATE='17-NOV-1858 00:00:00.00',
+   PLATFORM='CCGS TELEOST',
+   CRUISE_NAME='SCOTIAN SHELF',
+   CRUISE_DESCRIPTION='ATLANTIC ZONE MONITORING PROGRAM (AZMP)'
+ EVENT_HEADER,
+   DATA_TYPE='CTD',
+   EVENT_NUMBER='057',
+   EVENT_QUALIFIER1='1',
+   EVENT_QUALIFIER2='DN',
+   CREATION_DATE='15-APR-2024 12:32:28.00',
+   ORIG_CREATION_DATE='15-APR-2024 12:32:28.00',
+   START_DATE_TIME='15-APR-2024 11:06:21.00',
+   END_DATE_TIME='17-NOV-1858 00:00:00.00',
+   INITIAL_LATITUDE= 43.0278,
+   INITIAL_LONGITUDE= -70.0092,
+   END_LATITUDE=-99.9000,
+   END_LONGITUDE=-999.9000,
+   MIN_DEPTH=   1.5,
+   MAX_DEPTH= 131.0,
+   SAMPLING_INTERVAL=    0.00000000,
+   SOUNDING= 132.0,
+   DEPTH_OFF_BOTTOM=   1.0,
+   STATION_NAME='PL_01',
+   SET_NUMBER='',
+   EVENT_COMMENTS='PL_01,503285'
+ INSTRUMENT_HEADER,
+   INST_TYPE='Sea-Bird',
+   MODEL='SBE 9 ',
+   SERIAL_NUMBER=' ',
+   DESCRIPTION='C:\CTD_PROCESSING\2024880TEL\CTDDATA\880a057.hex C:\CTD_PROCESSING\2024880TEL\CTDDATA\880a057.XMLCON'
+ HISTORY_HEADER,
+   CREATION_DATE='15-APR-2024 12:32:28.00',
+   PROCESS='* Sea-Bird SBE 9 Data File:',
+   PROCESS='* FileName = C:\CTD_ACQUISITION\2024880TEL\ctddata\880a057.hdr',
+   PROCESS='* Software Version Seasave V 7.26.7.121',
+   PROCESS='* Temperature SN = 4807',
+   PROCESS='* Conductivity SN = 4361',
+   PROCESS='* Number of Bytes Per Scan = 40',
+   PROCESS='* Number of Voltage Words = 5',
+   PROCESS='* Number of Scans Averaged by the Deck Unit = 1',
+   PROCESS='* System UpLoad Time = Apr 15 2024 12:06:42',
+   PROCESS='* NMEA Latitude = 43 01.67 N',
+   PROCESS='* NMEA Longitude = 070 00.55 W',
+   PROCESS='* NMEA UTC (Time) = Apr 15 2024 11:06:21',
+   PROCESS='* Store Lat/Lon Data = Append to Every Scan',
+   PROCESS='* SBE 11plus V 5.2',
+   PROCESS='* number of scans to average = 1',
+   PROCESS='* pressure baud rate = 9600',
+   PROCESS='* NMEA baud rate = 4800',
+   PROCESS='* surface PAR voltage added to scan',
+   PROCESS='* A/D offset = 2',
+   PROCESS='* Latitude/Longitude added to scan',
+   PROCESS='* GPIB address = 1',
+   PROCESS='* advance primary conductivity  0.073 seconds',
+   PROCESS='* advance secondary conductivity  0.073 seconds',
+   PROCESS='* autorun on power up is disabled',
+   PROCESS='* S>',
+   PROCESS='** Ship: CCGS TELEOST',
+   PROCESS='** Cruise: TEL2024880',
+   PROCESS='** Chief_Scientist: LINDSAY BEAZLEY',
+   PROCESS='** Organization: BIO',
+   PROCESS='** Area_of_Operation: SCOTIAN SHELF',
+   PROCESS='** Cruise_Description: ATLANTIC ZONE MONITORING PROGRAM (AZMP)',
+   PROCESS='** Station_Name: PL_01',
+   PROCESS='** Event_Number:  057',
+   PROCESS='** Sounding:  132',
+   PROCESS='** Event_Comments: PL_01,503285',
+   PROCESS='* System UTC = Apr 15 2024 12:06:42',
+   PROCESS='* Surface_Pressure_Offset =  0.253, Temperature = 5.4654, Scan = 66.0',
+   PROCESS='* Near_Surface_Scan = 90.0, P = 1.001, T = 5.2048, S = 31.3915',
+   PROCESS='# nquan = 28',
+   PROCESS='# nvalues = 260',
+   PROCESS='# units = specified',
+   PROCESS='# name 0 = scan: Scan Count',
+   PROCESS='# name 1 = timeS: Time, Elapsed [seconds]',
+   PROCESS='# name 2 = prDM: Pressure, Digiquartz [db]',
+   PROCESS='# name 3 = t090C: Temperature [ITS-90, deg C]',
+   PROCESS='# name 4 = c0S/m: Conductivity [S/m]',
+   PROCESS='# name 5 = t190C: Temperature, 2 [ITS-90, deg C]',
+   PROCESS='# name 6 = c1S/m: Conductivity, 2 [S/m]',
+   PROCESS='# name 7 = altM: Altimeter [m]',
+   PROCESS='# name 8 = par/log: PAR/Logarithmic, Satlantic [umol photons/m2/s]',
+   PROCESS='# name 9 = sbeox0V: Oxygen raw, SBE 43 [V]',
+   PROCESS='# name 10 = sbeox1V: Oxygen raw, SBE 43, 2 [V]',
+   PROCESS='# name 11 = flSPuv0: Fluorescence, Seapoint Ultraviolet',
+   PROCESS='# name 12 = flSP: Fluorescence, Seapoint',
+   PROCESS='# name 13 = ph: pH',
+   PROCESS='# name 14 = turbWETbb0: Turbidity, WET Labs ECO BB [m^-1/sr]',
+   PROCESS='# name 15 = spar: SPAR/Surface Irradiance',
+   PROCESS='# name 16 = latitude: Latitude [deg]',
+   PROCESS='# name 17 = longitude: Longitude [deg]',
+   PROCESS='# name 18 = sal00: Salinity, Practical [PSU]',
+   PROCESS='# name 19 = sal11: Salinity, Practical, 2 [PSU]',
+   PROCESS='# name 20 = potemp090C: Potential Temperature [ITS-90, deg C]',
+   PROCESS='# name 21 = potemp190C: Potential Temperature, 2 [ITS-90, deg C]',
+   PROCESS='# name 22 = sigma-é00: Density [sigma-theta, kg/m^3]',
+   PROCESS='# name 23 = sigma-é11: Density, 2 [sigma-theta, kg/m^3]',
+   PROCESS='# name 24 = sbeox0ML/L: Oxygen, SBE 43 [ml/l], WS = 2',
+   PROCESS='# name 25 = sbeox1ML/L: Oxygen, SBE 43, 2 [ml/l], WS = 2',
+   PROCESS='# name 26 = nbin: number of scans per bin',
+   PROCESS='# name 27 = flag: flag',
+   PROCESS='# span 0 =       3851,      10722',
+   PROCESS='# span 1 =    160.427,    446.713',
+   PROCESS='# span 2 =      1.500,    131.000',
+   PROCESS='# span 3 =     4.8379,     7.3327',
+   PROCESS='# span 4 =   3.027647,   3.379925',
+   PROCESS='# span 5 =     4.8371,     7.3298',
+   PROCESS='# span 6 =   3.029326,   3.381148',
+   PROCESS='# span 7 =       4.25,      99.99',
+   PROCESS='# span 8 = 1.0144e-01, 6.1535e+01',
+   PROCESS='# span 9 =     1.7655,     2.4079',
+   PROCESS='# span 10 =     1.7968,     2.4482',
+   PROCESS='# span 11 =     1.8651,     2.0715',
+   PROCESS='# span 12 = 9.7706e-02, 7.8746e-01',
+   PROCESS='# span 13 =      7.898,      8.051',
+   PROCESS='# span 14 = 1.4845e-03, 4.1988e-03',
+   PROCESS='# span 15 = 2.6483e+00, 2.6680e+00',
+   PROCESS='# span 16 =   43.02785,   43.02796',
+   PROCESS='# span 17 =  -70.00896,  -70.00829',
+   PROCESS='# span 18 =    31.1542,    32.9846',
+   PROCESS='# span 19 =    31.1736,    33.0009',
+   PROCESS='# span 20 =     4.8358,     7.3205',
+   PROCESS='# span 21 =     4.8351,     7.3178',
+   PROCESS='# span 22 =    24.6041,    25.7877',
+   PROCESS='# span 23 =    24.6195,    25.8009',
+   PROCESS='# span 24 =     4.5089,     7.1825',
+   PROCESS='# span 25 =     4.4333,     7.0213',
+   PROCESS='# span 26 =         11,         78',
+   PROCESS='# span 27 = 0.0000e+00, 0.0000e+00',
+   PROCESS='# interval = decibars: 0.5',
+   PROCESS='# start_time = Apr 15 2024 11:06:21 [NMEA time, header]',
+   PROCESS='# bad_flag = -9.990e-29',
+   PROCESS='# <Sensors count="15" >',
+   PROCESS='#   <sensor Channel="1" >',
+   PROCESS='#     <!-- Frequency 0, Temperature -->',
+   PROCESS='#     <TemperatureSensor SensorID="55" >',
+   PROCESS='#       <SerialNumber>4807</SerialNumber>',
+   PROCESS='#       <CalibrationDate>08-Dec-23</CalibrationDate>',
+   PROCESS='#       <!-- t0pcor = -2.0600e-007 specified on DatCnv command line -->',
+   PROCESS='#       <UseG_J>1</UseG_J>',
+   PROCESS='#       <A>0.00000000e+000</A>',
+   PROCESS='#       <B>0.00000000e+000</B>',
+   PROCESS='#       <C>0.00000000e+000</C>',
+   PROCESS='#       <D>0.00000000e+000</D>',
+   PROCESS='#       <F0_Old>0.000</F0_Old>',
+   PROCESS='#       <G>4.33903194e-003</G>',
+   PROCESS='#       <H>6.40144058e-004</H>',
+   PROCESS='#       <I>2.17259458e-005</I>',
+   PROCESS='#       <J>1.93300739e-006</J>',
+   PROCESS='#       <F0>1000.000</F0>',
+   PROCESS='#       <Slope>1.00000000</Slope>',
+   PROCESS='#       <Offset>0.0000</Offset>',
+   PROCESS='#     </TemperatureSensor>',
+   PROCESS='#   </sensor>',
+   PROCESS='#   <sensor Channel="2" >',
+   PROCESS='#     <!-- Frequency 1, Conductivity -->',
+   PROCESS='#     <ConductivitySensor SensorID="3" >',
+   PROCESS='#       <SerialNumber>4361</SerialNumber>',
+   PROCESS='#       <CalibrationDate>22-Dec-23</CalibrationDate>',
+   PROCESS='#       <UseG_J>1</UseG_J>',
+   PROCESS='#       <!-- Cell const and series R are applicable only for wide range sensors. -->',
+   PROCESS='#       <SeriesR>0.0000</SeriesR>',
+   PROCESS='#       <CellConst>2000.0000</CellConst>',
+   PROCESS='#       <ConductivityType>0</ConductivityType>',
+   PROCESS='#       <Coefficients equation="0" >',
+   PROCESS='#         <A>0.00000000e+000</A>',
+   PROCESS='#         <B>0.00000000e+000</B>',
+   PROCESS='#         <C>0.00000000e+000</C>',
+   PROCESS='#         <D>0.00000000e+000</D>',
+   PROCESS='#         <M>0.0</M>',
+   PROCESS='#         <CPcor>-9.57000000e-008</CPcor>',
+   PROCESS='#       </Coefficients>',
+   PROCESS='#       <Coefficients equation="1" >',
+   PROCESS='#         <G>-9.88308832e+000</G>',
+   PROCESS='#         <H>1.35799438e+000</H>',
+   PROCESS='#         <I>-4.65225314e-004</I>',
+   PROCESS='#         <J>1.25875177e-004</J>',
+   PROCESS='#         <CPcor>-9.57000000e-008</CPcor>',
+   PROCESS='#         <CTcor>3.2500e-006</CTcor>',
+   PROCESS='#         <!-- WBOTC not applicable unless ConductivityType = 1. -->',
+   PROCESS='#         <WBOTC>0.00000000e+000</WBOTC>',
+   PROCESS='#       </Coefficients>',
+   PROCESS='#       <Slope>1.00000000</Slope>',
+   PROCESS='#       <Offset>0.00000</Offset>',
+   PROCESS='#     </ConductivitySensor>',
+   PROCESS='#   </sensor>',
+   PROCESS='#   <sensor Channel="3" >',
+   PROCESS='#     <!-- Frequency 2, Pressure, Digiquartz with TC -->',
+   PROCESS='#     <PressureSensor SensorID="45" >',
+   PROCESS='#       <SerialNumber>1214</SerialNumber>',
+   PROCESS='#       <CalibrationDate>24-Mar-23</CalibrationDate>',
+   PROCESS='#       <C1>-4.470905e+004</C1>',
+   PROCESS='#       <C2>3.840789e-001</C2>',
+   PROCESS='#       <C3>1.367850e-002</C3>',
+   PROCESS='#       <D1>3.661600e-002</D1>',
+   PROCESS='#       <D2>0.000000e+000</D2>',
+   PROCESS='#       <T1>3.015271e+001</T1>',
+   PROCESS='#       <T2>-1.367200e-004</T2>',
+   PROCESS='#       <T3>3.926620e-006</T3>',
+   PROCESS='#       <T4>3.761680e-009</T4>',
+   PROCESS='#       <Slope>0.99999135</Slope>',
+   PROCESS='#       <Offset>-1.00729</Offset>',
+   PROCESS='#       <T5>0.000000e+000</T5>',
+   PROCESS='#       <AD590M>1.280000e-002</AD590M>',
+   PROCESS='#       <AD590B>-9.348400e+000</AD590B>',
+   PROCESS='#     </PressureSensor>',
+   PROCESS='#   </sensor>',
+   PROCESS='#   <sensor Channel="4" >',
+   PROCESS='#     <!-- Frequency 3, Temperature, 2 -->',
+   PROCESS='#     <TemperatureSensor SensorID="55" >',
+   PROCESS='#       <SerialNumber>5081</SerialNumber>',
+   PROCESS='#       <CalibrationDate>29-Feb-24</CalibrationDate>',
+   PROCESS='#       <!-- t1pcor = -2.0600e-007 specified on DatCnv command line -->',
+   PROCESS='#       <UseG_J>1</UseG_J>',
+   PROCESS='#       <A>0.00000000e+000</A>',
+   PROCESS='#       <B>0.00000000e+000</B>',
+   PROCESS='#       <C>0.00000000e+000</C>',
+   PROCESS='#       <D>0.00000000e+000</D>',
+   PROCESS='#       <F0_Old>0.000</F0_Old>',
+   PROCESS='#       <G>4.36898939e-003</G>',
+   PROCESS='#       <H>6.44138655e-004</H>',
+   PROCESS='#       <I>2.30318963e-005</I>',
+   PROCESS='#       <J>2.17642856e-006</J>',
+   PROCESS='#       <F0>1000.000</F0>',
+   PROCESS='#       <Slope>1.00000000</Slope>',
+   PROCESS='#       <Offset>0.0000</Offset>',
+   PROCESS='#     </TemperatureSensor>',
+   PROCESS='#   </sensor>',
+   PROCESS='#   <sensor Channel="5" >',
+   PROCESS='#     <!-- Frequency 4, Conductivity, 2 -->',
+   PROCESS='#     <ConductivitySensor SensorID="3" >',
+   PROCESS='#       <SerialNumber>1874</SerialNumber>',
+   PROCESS='#       <CalibrationDate>14-Dec-23</CalibrationDate>',
+   PROCESS='#       <UseG_J>1</UseG_J>',
+   PROCESS='#       <!-- Cell const and series R are applicable only for wide range sensors. -->',
+   PROCESS='#       <SeriesR>0.0000</SeriesR>',
+   PROCESS='#       <CellConst>2000.0000</CellConst>',
+   PROCESS='#       <ConductivityType>0</ConductivityType>',
+   PROCESS='#       <Coefficients equation="0" >',
+   PROCESS='#         <A>0.00000000e+000</A>',
+   PROCESS='#         <B>0.00000000e+000</B>',
+   PROCESS='#         <C>0.00000000e+000</C>',
+   PROCESS='#         <D>0.00000000e+000</D>',
+   PROCESS='#         <M>0.0</M>',
+   PROCESS='#         <CPcor>-9.57000000e-008</CPcor>',
+   PROCESS='#       </Coefficients>',
+   PROCESS='#       <Coefficients equation="1" >',
+   PROCESS='#         <G>-4.01949586e+000</G>',
+   PROCESS='#         <H>5.07361345e-001</H>',
+   PROCESS='#         <I>-1.12882116e-003</I>',
+   PROCESS='#         <J>8.35645801e-005</J>',
+   PROCESS='#         <CPcor>-9.57000000e-008</CPcor>',
+   PROCESS='#         <CTcor>3.2500e-006</CTcor>',
+   PROCESS='#         <!-- WBOTC not applicable unless ConductivityType = 1. -->',
+   PROCESS='#         <WBOTC>0.00000000e+000</WBOTC>',
+   PROCESS='#       </Coefficients>',
+   PROCESS='#       <Slope>1.00000000</Slope>',
+   PROCESS='#       <Offset>0.00000</Offset>',
+   PROCESS='#     </ConductivitySensor>',
+   PROCESS='#   </sensor>',
+   PROCESS='#   <sensor Channel="6" >',
+   PROCESS='#     <!-- A/D voltage 0, Altimeter -->',
+   PROCESS='#     <AltimeterSensor SensorID="0" >',
+   PROCESS='#       <SerialNumber>62184</SerialNumber>',
+   PROCESS='#       <CalibrationDate>30-Nov-2018</CalibrationDate>',
+   PROCESS='#       <ScaleFactor>15.000</ScaleFactor>',
+   PROCESS='#       <Offset>0.000</Offset>',
+   PROCESS='#     </AltimeterSensor>',
+   PROCESS='#   </sensor>',
+   PROCESS='#   <sensor Channel="7" >',
+   PROCESS='#     <!-- A/D voltage 1, PAR/Logarithmic, Satlantic -->',
+   PROCESS='#     <PARLog_SatlanticSensor SensorID="76" >',
+   PROCESS='#       <SerialNumber>1043</SerialNumber>',
+   PROCESS='#       <CalibrationDate>01-Dec-2015</CalibrationDate>',
+   PROCESS='#       <a0>1.03320000</a0>',
+   PROCESS='#       <a1>0.80737000</a1>',
+   PROCESS='#       <Im>1.35890000</Im>',
+   PROCESS='#       <Multiplier>1.00000000</Multiplier>',
+   PROCESS='#     </PARLog_SatlanticSensor>',
+   PROCESS='#   </sensor>',
+   PROCESS='#   <sensor Channel="8" >',
+   PROCESS='#     <!-- A/D voltage 2, Oxygen, SBE 43 -->',
+   PROCESS='#     <OxygenSensor SensorID="38" >',
+   PROCESS='#       <SerialNumber>3026</SerialNumber>',
+   PROCESS='#       <CalibrationDate>03-Jan-2024</CalibrationDate>',
+   PROCESS='#       <Use2007Equation>1</Use2007Equation>',
+   PROCESS='#       <CalibrationCoefficients equation="0" >',
+   PROCESS='#         <!-- Coefficients for Owens-Millard equation. -->',
+   PROCESS='#         <Boc>0.0000</Boc>',
+   PROCESS='#         <Soc>0.0000e+000</Soc>',
+   PROCESS='#         <offset>0.0000</offset>',
+   PROCESS='#         <Pcor>0.00e+000</Pcor>',
+   PROCESS='#         <Tcor>0.0000</Tcor>',
+   PROCESS='#         <Tau>0.0</Tau>',
+   PROCESS='#       </CalibrationCoefficients>',
+   PROCESS='#       <CalibrationCoefficients equation="1" >',
+   PROCESS='#         <!-- Coefficients for Sea-Bird equation - SBE calibration in 2007 and later. -->',
+   PROCESS='#         <Soc>5.3355e-001</Soc>',
+   PROCESS='#         <offset>-0.5009</offset>',
+   PROCESS='#         <A>-5.4815e-003</A>',
+   PROCESS='#         <B> 1.9682e-004</B>',
+   PROCESS='#         <C>-2.4769e-006</C>',
+   PROCESS='#         <D0> 2.5826e+000</D0>',
+   PROCESS='#         <D1> 1.92634e-004</D1>',
+   PROCESS='#         <D2>-4.64803e-002</D2>',
+   PROCESS='#         <E> 3.6000e-002</E>',
+   PROCESS='#         <Tau20> 1.5400</Tau20>',
+   PROCESS='#         <H1>-3.3000e-002</H1>',
+   PROCESS='#         <H2> 5.0000e+003</H2>',
+   PROCESS='#         <H3> 1.4500e+003</H3>',
+   PROCESS='#       </CalibrationCoefficients>',
+   PROCESS='#     </OxygenSensor>',
+   PROCESS='#   </sensor>',
+   PROCESS='#   <sensor Channel="9" >',
+   PROCESS='#     <!-- A/D voltage 3, Oxygen, SBE 43, 2 -->',
+   PROCESS='#     <OxygenSensor SensorID="38" >',
+   PROCESS='#       <SerialNumber>4366</SerialNumber>',
+   PROCESS='#       <CalibrationDate>01-Mar-2024</CalibrationDate>',
+   PROCESS='#       <Use2007Equation>1</Use2007Equation>',
+   PROCESS='#       <CalibrationCoefficients equation="0" >',
+   PROCESS='#         <!-- Coefficients for Owens-Millard equation. -->',
+   PROCESS='#         <Boc>0.0000</Boc>',
+   PROCESS='#         <Soc>0.0000e+000</Soc>',
+   PROCESS='#         <offset>0.0000</offset>',
+   PROCESS='#         <Pcor>0.00e+000</Pcor>',
+   PROCESS='#         <Tcor>0.0000</Tcor>',
+   PROCESS='#         <Tau>0.0</Tau>',
+   PROCESS='#       </CalibrationCoefficients>',
+   PROCESS='#       <CalibrationCoefficients equation="1" >',
+   PROCESS='#         <!-- Coefficients for Sea-Bird equation - SBE calibration in 2007 and later. -->',
+   PROCESS='#         <Soc>5.0639e-001</Soc>',
+   PROCESS='#         <offset>-0.5090</offset>',
+   PROCESS='#         <A>-2.5828e-003</A>',
+   PROCESS='#         <B> 1.0873e-004</B>',
+   PROCESS='#         <C>-2.0052e-006</C>',
+   PROCESS='#         <D0> 2.5826e+000</D0>',
+   PROCESS='#         <D1> 1.92634e-004</D1>',
+   PROCESS='#         <D2>-4.64803e-002</D2>',
+   PROCESS='#         <E> 3.6000e-002</E>',
+   PROCESS='#         <Tau20> 1.5600</Tau20>',
+   PROCESS='#         <H1>-3.3000e-002</H1>',
+   PROCESS='#         <H2> 5.0000e+003</H2>',
+   PROCESS='#         <H3> 1.4500e+003</H3>',
+   PROCESS='#       </CalibrationCoefficients>',
+   PROCESS='#     </OxygenSensor>',
+   PROCESS='#   </sensor>',
+   PROCESS='#   <sensor Channel="10" >',
+   PROCESS='#     <!-- A/D voltage 4, Fluorometer, Seapoint Ultraviolet -->',
+   PROCESS='#     <Fluorometer SensorID="69" >',
+   PROCESS='#       <SerialNumber>6225</SerialNumber>',
+   PROCESS='#       <CalibrationDate>1-Feb-2024</CalibrationDate>',
+   PROCESS='#       <Range>30.0</Range>',
+   PROCESS='#       <Offset>0.0000</Offset>',
+   PROCESS='#     </Fluorometer>',
+   PROCESS='#   </sensor>',
+   PROCESS='#   <sensor Channel="11" >',
+   PROCESS='#     <!-- A/D voltage 5, Fluorometer, Seapoint -->',
+   PROCESS='#     <FluoroSeapointSensor SensorID="11" >',
+   PROCESS='#       <SerialNumber>3867</SerialNumber>',
+   PROCESS='#       <CalibrationDate>1-Feb-2024</CalibrationDate>',
+   PROCESS='#       <!-- The following is an array index, not the actual gain setting. -->',
+   PROCESS='#       <GainSetting>2</GainSetting>',
+   PROCESS='#       <Offset>0.000</Offset>',
+   PROCESS='#     </FluoroSeapointSensor>',
+   PROCESS='#   </sensor>',
+   PROCESS='#   <sensor Channel="12" >',
+   PROCESS='#     <!-- A/D voltage 6, pH -->',
+   PROCESS='#     <pH_Sensor SensorID="43" >',
+   PROCESS='#       <SerialNumber>1214</SerialNumber>',
+   PROCESS='#       <CalibrationDate>22-Mar-24</CalibrationDate>',
+   PROCESS='#       <Slope>4.5755</Slope>',
+   PROCESS='#       <Offset>2.5440</Offset>',
+   PROCESS='#     </pH_Sensor>',
+   PROCESS='#   </sensor>',
+   PROCESS='#   <sensor Channel="13" >',
+   PROCESS='#     <!-- A/D voltage 7, OBS, WET Labs, ECO-BB -->',
+   PROCESS='#     <TurbidityMeter SensorID="70" >',
+   PROCESS='#       <SerialNumber>1490</SerialNumber>',
+   PROCESS='#       <CalibrationDate>10-Feb-2024</CalibrationDate>',
+   PROCESS='#       <ScaleFactor>3.109e-003</ScaleFactor>',
+   PROCESS='#       <!-- Dark output -->',
+   PROCESS='#       <DarkVoltage>4.200e-002</DarkVoltage>',
+   PROCESS='#     </TurbidityMeter>',
+   PROCESS='#   </sensor>',
+   PROCESS='#   <sensor Channel="14" >',
+   PROCESS='#     <!-- SPAR voltage, Unavailable -->',
+   PROCESS='#   </sensor>',
+   PROCESS='#   <sensor Channel="15" >',
+   PROCESS='#     <!-- SPAR voltage, SPAR/Surface Irradiance -->',
+   PROCESS='#     <SPAR_Sensor SensorID="51" >',
+   PROCESS='#       <SerialNumber>1168</SerialNumber>',
+   PROCESS='#       <CalibrationDate>27-Nov-2018</CalibrationDate>',
+   PROCESS='#       <ConversionFactor>1.00000000</ConversionFactor>',
+   PROCESS='#       <RatioMultiplier>1.00000000</RatioMultiplier>',
+   PROCESS='#     </SPAR_Sensor>',
+   PROCESS='#   </sensor>',
+   PROCESS='# </Sensors>',
+   PROCESS='# datcnv_date = Apr 15 2024 12:32:26, 7.26.6.28 [datcnv_vars = 18]',
+   PROCESS='# datcnv_in = C:\CTD_PROCESSING\2024880TEL\CTDDATA\880a057.hex C:\CTD_PROCESSING\2024880TEL\CTDDATA\880a057.XMLCON',
+   PROCESS='# datcnv_skipover = 1497',
+   PROCESS='# datcnv_ox_hysteresis_correction = yes',
+   PROCESS='# wildedit_date = Apr 15 2024 12:32:27, 7.26.6.28',
+   PROCESS='# wildedit_in = C:\CTD_PROCESSING\2024880TEL\ctddata\880a057.cnv',
+   PROCESS='# wildedit_pass1_nstd = 2.0',
+   PROCESS='# wildedit_pass2_nstd = 4.0',
+   PROCESS='# wildedit_pass2_mindelta = 0.000e+000',
+   PROCESS='# wildedit_npoint = 19',
+   PROCESS='# wildedit_vars = prDM t090C c0S/m t190C c1S/m',
+   PROCESS='# wildedit_excl_bad_scans = yes',
+   PROCESS='# filter_date = Apr 15 2024 12:32:27, 7.26.6.28',
+   PROCESS='# filter_in = C:\CTD_PROCESSING\2024880TEL\ctddata\880a057.cnv',
+   PROCESS='# filter_low_pass_tc_A = 0.150',
+   PROCESS='# filter_low_pass_tc_B = 0.150',
+   PROCESS='# filter_low_pass_A_vars = prDM',
+   PROCESS='# filter_low_pass_B_vars = t090C c0S/m t190C c1S/m',
+   PROCESS='# alignctd_date = Apr 15 2024 12:32:27, 7.26.6.28',
+   PROCESS='# alignctd_in = C:\CTD_PROCESSING\2024880TEL\ctddata\880a057.cnv',
+   PROCESS='# alignctd_adv = c0S/m -0.010, c1S/m -0.010, sbeox0V 8.000, sbeox1V 8.000',
+   PROCESS='# celltm_date = Apr 15 2024 12:32:27, 7.26.6.28',
+   PROCESS='# celltm_in = C:\CTD_PROCESSING\2024880TEL\ctddata\880a057.cnv',
+   PROCESS='# celltm_alpha = 0.0300, 0.0300',
+   PROCESS='# celltm_tau = 7.0000, 7.0000',
+   PROCESS='# celltm_temp_sensor_use_for_cond = primary, secondary',
+   PROCESS='# loopedit_date = Apr 15 2024 12:32:27, 7.26.6.28',
+   PROCESS='# loopedit_in = C:\CTD_PROCESSING\2024880TEL\ctddata\880a057.cnv',
+   PROCESS='# loopedit_minVelocity = 0.050',
+   PROCESS='# loopedit_surfaceSoak: minDepth = 5.0, maxDepth = 20, useDeckPress = 1',
+   PROCESS='# loopedit_excl_bad_scans = yes',
+   PROCESS='# Derive_date = Apr 15 2024 12:32:27, 7.26.6.28 [derive_vars = 8]',
+   PROCESS='# Derive_in = C:\CTD_PROCESSING\2024880TEL\ctddata\880a057.cnv C:\CTD_PROCESSING\2024880TEL\CTDDATA\880a057.XMLCON',
+   PROCESS='# derive_time_window_docdt = seconds: 2',
+   PROCESS='# derive_ox_tau_correction = yes',
+   PROCESS='# binavg_date = Apr 15 2024 12:32:27, 7.26.6.28',
+   PROCESS='# binavg_in = C:\CTD_PROCESSING\2024880TEL\ctddata\880a057.cnv',
+   PROCESS='# binavg_bintype = decibars',
+   PROCESS='# binavg_binsize = 0.5',
+   PROCESS='# binavg_excl_bad_scans = yes',
+   PROCESS='# binavg_skipover = 0',
+   PROCESS='# binavg_surface_bin = no, min = 0.000, max = 0.000, value = 0.000',
+   PROCESS='# split_date = Apr 15 2024 12:32:28, 7.26.6.28',
+   PROCESS='# split_in = C:\CTD_PROCESSING\2024880TEL\ctddata\880a057.cnv',
+   PROCESS='# split_excl_bad_scans = yes',
+   PROCESS='# file_type = ascii',
+   PROCESS='*END*'
+ HISTORY_HEADER,
+   CREATION_DATE='15-APR-2024 12:32:28.00',
+   PROCESS='SEAODF.exe version 3.4   called from CTDDAP version 5.0'
+   PROCESS='During the creation of the ODF file, 0 records flagged bad have been removed.'
+   PROCESS='During the creation of the ODF file, [Elapsed Time, seconds] has been converted to 'DD-MON-YYYY HH:MM:SS.ss'. The Event start_date_time is used as the starting point for the calculation.' 
+ PARAMETER_HEADER,
+   TYPE='INTE',
+   NAME='CNTR_01',
+   CODE='CNTR_01',
+   NULL_VALUE=  -99.00000000,
+   PRINT_FIELD_WIDTH=    11,
+   PRINT_DECIMAL_PLACES=     0,
+   ANGLE_OF_SECTION= 0.00000000000000E+00,
+   MAGNETIC_VARIATION= 0.00000000000000E+00,
+   DEPTH= 0.00000000000000E+00,
+   MINIMUM_VALUE= 3.85100000000000E+03,
+   MAXIMUM_VALUE= 1.07220000000000E+04,
+   NUMBER_VALID=         260,
+   NUMBER_NULL=           0
+   UNITS='',
+ PARAMETER_HEADER,
+   TYPE='SYTM',
+   NAME='SYTM_01',
+   CODE='SYTM_01',
+   NULL_VALUE='17-NOV-1858 00:00:00.00',
+   PRINT_FIELD_WIDTH=    27,
+   PRINT_DECIMAL_PLACES=     0,
+   ANGLE_OF_SECTION= 0.00000000000000E+00,
+   MAGNETIC_VARIATION= 0.00000000000000E+00,
+   DEPTH= 0.00000000000000E+00,
+   MINIMUM_VALUE='15-APR-2024 11:09:01.43',
+   MAXIMUM_VALUE='15-APR-2024 11:13:47.71',
+   NUMBER_VALID=         260,
+   NUMBER_NULL=           0
+   UNITS='UTC',
+ PARAMETER_HEADER,
+   TYPE='DOUB',
+   NAME='PRES_01',
+   CODE='PRES_01',
+   NULL_VALUE=  -99.00000000,
+   PRINT_FIELD_WIDTH=    11,
+   PRINT_DECIMAL_PLACES=     3,
+   ANGLE_OF_SECTION= 0.00000000000000E+00,
+   MAGNETIC_VARIATION= 0.00000000000000E+00,
+   DEPTH= 0.00000000000000E+00,
+   MINIMUM_VALUE= 1.50000000000000E+00,
+   MAXIMUM_VALUE= 1.31000000000000E+02,
+   NUMBER_VALID=         260,
+   NUMBER_NULL=           0
+   UNITS='db',
+ PARAMETER_HEADER,
+   TYPE='DOUB',
+   NAME='TE90_01',
+   CODE='TE90_01',
+   NULL_VALUE=  -99.00000000,
+   PRINT_FIELD_WIDTH=    11,
+   PRINT_DECIMAL_PLACES=     4,
+   ANGLE_OF_SECTION= 0.00000000000000E+00,
+   MAGNETIC_VARIATION= 0.00000000000000E+00,
+   DEPTH= 0.00000000000000E+00,
+   MINIMUM_VALUE= 4.83790000000000E+00,
+   MAXIMUM_VALUE= 7.33270000000000E+00,
+   NUMBER_VALID=         260,
+   NUMBER_NULL=           0
+   UNITS='ITS-90, deg C',
+ PARAMETER_HEADER,
+   TYPE='DOUB',
+   NAME='CNDC_01',
+   CODE='CNDC_01',
+   NULL_VALUE=  -99.00000000,
+   PRINT_FIELD_WIDTH=    11,
+   PRINT_DECIMAL_PLACES=     6,
+   ANGLE_OF_SECTION= 0.00000000000000E+00,
+   MAGNETIC_VARIATION= 0.00000000000000E+00,
+   DEPTH= 0.00000000000000E+00,
+   MINIMUM_VALUE= 3.02764700000000E+00,
+   MAXIMUM_VALUE= 3.37992500000000E+00,
+   NUMBER_VALID=         260,
+   NUMBER_NULL=           0
+   UNITS='S/m',
+ PARAMETER_HEADER,
+   TYPE='DOUB',
+   NAME='TE90_02',
+   CODE='TE90_02',
+   NULL_VALUE=  -99.00000000,
+   PRINT_FIELD_WIDTH=    11,
+   PRINT_DECIMAL_PLACES=     4,
+   ANGLE_OF_SECTION= 0.00000000000000E+00,
+   MAGNETIC_VARIATION= 0.00000000000000E+00,
+   DEPTH= 0.00000000000000E+00,
+   MINIMUM_VALUE= 4.83710000000000E+00,
+   MAXIMUM_VALUE= 7.32980000000000E+00,
+   NUMBER_VALID=         260,
+   NUMBER_NULL=           0
+   UNITS='ITS-90, deg C',
+ PARAMETER_HEADER,
+   TYPE='DOUB',
+   NAME='CNDC_02',
+   CODE='CNDC_02',
+   NULL_VALUE=  -99.00000000,
+   PRINT_FIELD_WIDTH=    11,
+   PRINT_DECIMAL_PLACES=     6,
+   ANGLE_OF_SECTION= 0.00000000000000E+00,
+   MAGNETIC_VARIATION= 0.00000000000000E+00,
+   DEPTH= 0.00000000000000E+00,
+   MINIMUM_VALUE= 3.02932600000000E+00,
+   MAXIMUM_VALUE= 3.38114800000000E+00,
+   NUMBER_VALID=         260,
+   NUMBER_NULL=           0
+   UNITS='S/m',
+ PARAMETER_HEADER,
+   TYPE='DOUB',
+   NAME='ALT_01',
+   CODE='ALTB_01',
+   NULL_VALUE=  -99.00000000,
+   PRINT_FIELD_WIDTH=    11,
+   PRINT_DECIMAL_PLACES=     2,
+   ANGLE_OF_SECTION= 0.00000000000000E+00,
+   MAGNETIC_VARIATION= 0.00000000000000E+00,
+   DEPTH= 0.00000000000000E+00,
+   MINIMUM_VALUE= 4.25000000000000E+00,
+   MAXIMUM_VALUE= 9.99900000000000E+01,
+   NUMBER_VALID=         260,
+   NUMBER_NULL=           0
+   UNITS='m',
+ PARAMETER_HEADER,
+   TYPE='DOUB',
+   NAME='PARLOG_01',
+   CODE='PSAR_01',
+   NULL_VALUE=  -99.00000000,
+   PRINT_FIELD_WIDTH=    14,
+   PRINT_DECIMAL_PLACES=     8,
+   ANGLE_OF_SECTION= 0.00000000000000E+00,
+   MAGNETIC_VARIATION= 0.00000000000000E+00,
+   DEPTH= 0.00000000000000E+00,
+   MINIMUM_VALUE= 1.01440000000000E-01,
+   MAXIMUM_VALUE= 6.15350000000000E+01,
+   NUMBER_VALID=         260,
+   NUMBER_NULL=           0
+   UNITS='umol photons/m2/s',
+ PARAMETER_HEADER,
+   TYPE='DOUB',
+   NAME='OXYV_01',
+   CODE='OXYV_01',
+   NULL_VALUE=  -99.00000000,
+   PRINT_FIELD_WIDTH=    11,
+   PRINT_DECIMAL_PLACES=     4,
+   ANGLE_OF_SECTION= 0.00000000000000E+00,
+   MAGNETIC_VARIATION= 0.00000000000000E+00,
+   DEPTH= 0.00000000000000E+00,
+   MINIMUM_VALUE= 1.76550000000000E+00,
+   MAXIMUM_VALUE= 2.40790000000000E+00,
+   NUMBER_VALID=         260,
+   NUMBER_NULL=           0
+   UNITS='V',
+ PARAMETER_HEADER,
+   TYPE='DOUB',
+   NAME='OXYV_02',
+   CODE='OXYV_02',
+   NULL_VALUE=  -99.00000000,
+   PRINT_FIELD_WIDTH=    11,
+   PRINT_DECIMAL_PLACES=     4,
+   ANGLE_OF_SECTION= 0.00000000000000E+00,
+   MAGNETIC_VARIATION= 0.00000000000000E+00,
+   DEPTH= 0.00000000000000E+00,
+   MINIMUM_VALUE= 1.79680000000000E+00,
+   MAXIMUM_VALUE= 2.44820000000000E+00,
+   NUMBER_VALID=         260,
+   NUMBER_NULL=           0
+   UNITS='V',
+ PARAMETER_HEADER,
+   TYPE='DOUB',
+   NAME='FSPUV_01',
+   CODE='FLOR_01',
+   NULL_VALUE=  -99.00000000,
+   PRINT_FIELD_WIDTH=    11,
+   PRINT_DECIMAL_PLACES=     4,
+   ANGLE_OF_SECTION= 0.00000000000000E+00,
+   MAGNETIC_VARIATION= 0.00000000000000E+00,
+   DEPTH= 0.00000000000000E+00,
+   MINIMUM_VALUE= 1.86510000000000E+00,
+   MAXIMUM_VALUE= 2.07150000000000E+00,
+   NUMBER_VALID=         260,
+   NUMBER_NULL=           0
+   UNITS='ug/l',
+ PARAMETER_HEADER,
+   TYPE='DOUB',
+   NAME='FSP_01',
+   CODE='FLOR_02',
+   NULL_VALUE=  -99.00000000,
+   PRINT_FIELD_WIDTH=    14,
+   PRINT_DECIMAL_PLACES=     8,
+   ANGLE_OF_SECTION= 0.00000000000000E+00,
+   MAGNETIC_VARIATION= 0.00000000000000E+00,
+   DEPTH= 0.00000000000000E+00,
+   MINIMUM_VALUE= 9.77060000000000E-02,
+   MAXIMUM_VALUE= 7.87460000000000E-01,
+   NUMBER_VALID=         260,
+   NUMBER_NULL=           0
+   UNITS='ug/l',
+ PARAMETER_HEADER,
+   TYPE='DOUB',
+   NAME='PHPH_01',
+   CODE='PHPH_01',
+   NULL_VALUE=  -99.00000000,
+   PRINT_FIELD_WIDTH=    11,
+   PRINT_DECIMAL_PLACES=     4,
+   ANGLE_OF_SECTION= 0.00000000000000E+00,
+   MAGNETIC_VARIATION= 0.00000000000000E+00,
+   DEPTH= 0.00000000000000E+00,
+   MINIMUM_VALUE= 7.89800000000000E+00,
+   MAXIMUM_VALUE= 8.05100000000000E+00,
+   NUMBER_VALID=         260,
+   NUMBER_NULL=           0
+   UNITS='',
+ PARAMETER_HEADER,
+   TYPE='DOUB',
+   NAME='TURW_01',
+   CODE='TURB_01',
+   NULL_VALUE=  -99.00000000,
+   PRINT_FIELD_WIDTH=    14,
+   PRINT_DECIMAL_PLACES=     8,
+   ANGLE_OF_SECTION= 0.00000000000000E+00,
+   MAGNETIC_VARIATION= 0.00000000000000E+00,
+   DEPTH= 0.00000000000000E+00,
+   MINIMUM_VALUE= 1.48450000000000E-03,
+   MAXIMUM_VALUE= 4.19880000000000E-03,
+   NUMBER_VALID=         260,
+   NUMBER_NULL=           0
+   UNITS='m^-1/sr',
+ PARAMETER_HEADER,
+   TYPE='DOUB',
+   NAME='SPAR',
+   CODE='SPAR_01',
+   NULL_VALUE=  -99.00000000,
+   PRINT_FIELD_WIDTH=    14,
+   PRINT_DECIMAL_PLACES=     8,
+   ANGLE_OF_SECTION= 0.00000000000000E+00,
+   MAGNETIC_VARIATION= 0.00000000000000E+00,
+   DEPTH= 0.00000000000000E+00,
+   MINIMUM_VALUE= 2.64830000000000E+00,
+   MAXIMUM_VALUE= 2.66800000000000E+00,
+   NUMBER_VALID=         260,
+   NUMBER_NULL=           0
+   UNITS='',
+ PARAMETER_HEADER,
+   TYPE='DOUB',
+   NAME='LATD_01',
+   CODE='LATD_01',
+   NULL_VALUE=  -99.00000000,
+   PRINT_FIELD_WIDTH=    13,
+   PRINT_DECIMAL_PLACES=     5,
+   ANGLE_OF_SECTION= 0.00000000000000E+00,
+   MAGNETIC_VARIATION= 0.00000000000000E+00,
+   DEPTH= 0.00000000000000E+00,
+   MINIMUM_VALUE= 4.30278500000000E+01,
+   MAXIMUM_VALUE= 4.30279600000000E+01,
+   NUMBER_VALID=         260,
+   NUMBER_NULL=           0
+   UNITS='deg',
+ PARAMETER_HEADER,
+   TYPE='DOUB',
+   NAME='LOND_01',
+   CODE='LOND_01',
+   NULL_VALUE=  -99.00000000,
+   PRINT_FIELD_WIDTH=    14,
+   PRINT_DECIMAL_PLACES=     5,
+   ANGLE_OF_SECTION= 0.00000000000000E+00,
+   MAGNETIC_VARIATION= 0.00000000000000E+00,
+   DEPTH= 0.00000000000000E+00,
+   MINIMUM_VALUE=-7.00089600000000E+01,
+   MAXIMUM_VALUE=-7.00082900000000E+01,
+   NUMBER_VALID=         260,
+   NUMBER_NULL=           0
+   UNITS='deg',
+ PARAMETER_HEADER,
+   TYPE='DOUB',
+   NAME='PSAL_01',
+   CODE='PSAL_01',
+   NULL_VALUE=  -99.00000000,
+   PRINT_FIELD_WIDTH=    11,
+   PRINT_DECIMAL_PLACES=     4,
+   ANGLE_OF_SECTION= 0.00000000000000E+00,
+   MAGNETIC_VARIATION= 0.00000000000000E+00,
+   DEPTH= 0.00000000000000E+00,
+   MINIMUM_VALUE= 3.11542000000000E+01,
+   MAXIMUM_VALUE= 3.29846000000000E+01,
+   NUMBER_VALID=         260,
+   NUMBER_NULL=           0
+   UNITS='PSU',
+ PARAMETER_HEADER,
+   TYPE='DOUB',
+   NAME='PSAL_02',
+   CODE='PSAL_02',
+   NULL_VALUE=  -99.00000000,
+   PRINT_FIELD_WIDTH=    11,
+   PRINT_DECIMAL_PLACES=     4,
+   ANGLE_OF_SECTION= 0.00000000000000E+00,
+   MAGNETIC_VARIATION= 0.00000000000000E+00,
+   DEPTH= 0.00000000000000E+00,
+   MINIMUM_VALUE= 3.11736000000000E+01,
+   MAXIMUM_VALUE= 3.30009000000000E+01,
+   NUMBER_VALID=         260,
+   NUMBER_NULL=           0
+   UNITS='PSU',
+ PARAMETER_HEADER,
+   TYPE='DOUB',
+   NAME='POTM_01',
+   CODE='POTM_01',
+   NULL_VALUE=  -99.00000000,
+   PRINT_FIELD_WIDTH=    11,
+   PRINT_DECIMAL_PLACES=     4,
+   ANGLE_OF_SECTION= 0.00000000000000E+00,
+   MAGNETIC_VARIATION= 0.00000000000000E+00,
+   DEPTH= 0.00000000000000E+00,
+   MINIMUM_VALUE= 4.83580000000000E+00,
+   MAXIMUM_VALUE= 7.32050000000000E+00,
+   NUMBER_VALID=         260,
+   NUMBER_NULL=           0
+   UNITS='ITS-90, deg C',
+ PARAMETER_HEADER,
+   TYPE='DOUB',
+   NAME='POTM_02',
+   CODE='POTM_02',
+   NULL_VALUE=  -99.00000000,
+   PRINT_FIELD_WIDTH=    11,
+   PRINT_DECIMAL_PLACES=     4,
+   ANGLE_OF_SECTION= 0.00000000000000E+00,
+   MAGNETIC_VARIATION= 0.00000000000000E+00,
+   DEPTH= 0.00000000000000E+00,
+   MINIMUM_VALUE= 4.83510000000000E+00,
+   MAXIMUM_VALUE= 7.31780000000000E+00,
+   NUMBER_VALID=         260,
+   NUMBER_NULL=           0
+   UNITS='ITS-90, deg C',
+ PARAMETER_HEADER,
+   TYPE='DOUB',
+   NAME='SIGP_01',
+   CODE='SIGP_01',
+   NULL_VALUE=  -99.00000000,
+   PRINT_FIELD_WIDTH=    11,
+   PRINT_DECIMAL_PLACES=     4,
+   ANGLE_OF_SECTION= 0.00000000000000E+00,
+   MAGNETIC_VARIATION= 0.00000000000000E+00,
+   DEPTH= 0.00000000000000E+00,
+   MINIMUM_VALUE= 2.46041000000000E+01,
+   MAXIMUM_VALUE= 2.57877000000000E+01,
+   NUMBER_VALID=         260,
+   NUMBER_NULL=           0
+   UNITS='sigma-theta, kg/m^3',
+ PARAMETER_HEADER,
+   TYPE='DOUB',
+   NAME='SIGP_02',
+   CODE='SIGP_02',
+   NULL_VALUE=  -99.00000000,
+   PRINT_FIELD_WIDTH=    11,
+   PRINT_DECIMAL_PLACES=     4,
+   ANGLE_OF_SECTION= 0.00000000000000E+00,
+   MAGNETIC_VARIATION= 0.00000000000000E+00,
+   DEPTH= 0.00000000000000E+00,
+   MINIMUM_VALUE= 2.46195000000000E+01,
+   MAXIMUM_VALUE= 2.58009000000000E+01,
+   NUMBER_VALID=         260,
+   NUMBER_NULL=           0
+   UNITS='sigma-theta, kg/m^3',
+ PARAMETER_HEADER,
+   TYPE='DOUB',
+   NAME='DOXY_01',
+   CODE='DOXY_01',
+   NULL_VALUE=  -99.00000000,
+   PRINT_FIELD_WIDTH=    11,
+   PRINT_DECIMAL_PLACES=     4,
+   ANGLE_OF_SECTION= 0.00000000000000E+00,
+   MAGNETIC_VARIATION= 0.00000000000000E+00,
+   DEPTH= 0.00000000000000E+00,
+   MINIMUM_VALUE= 4.50890000000000E+00,
+   MAXIMUM_VALUE= 7.18250000000000E+00,
+   NUMBER_VALID=         260,
+   NUMBER_NULL=           0
+   UNITS='ml/l',
+ PARAMETER_HEADER,
+   TYPE='DOUB',
+   NAME='DOXY_02',
+   CODE='DOXY_02',
+   NULL_VALUE=  -99.00000000,
+   PRINT_FIELD_WIDTH=    11,
+   PRINT_DECIMAL_PLACES=     4,
+   ANGLE_OF_SECTION= 0.00000000000000E+00,
+   MAGNETIC_VARIATION= 0.00000000000000E+00,
+   DEPTH= 0.00000000000000E+00,
+   MINIMUM_VALUE= 4.43330000000000E+00,
+   MAXIMUM_VALUE= 7.02130000000000E+00,
+   NUMBER_VALID=         260,
+   NUMBER_NULL=           0
+   UNITS='ml/l',
+ PARAMETER_HEADER,
+   TYPE='INTE',
+   NAME='SNCNTR_01',
+   CODE='CNTR_02',
+   NULL_VALUE=  -99.00000000,
+   PRINT_FIELD_WIDTH=    11,
+   PRINT_DECIMAL_PLACES=     0,
+   ANGLE_OF_SECTION= 0.00000000000000E+00,
+   MAGNETIC_VARIATION= 0.00000000000000E+00,
+   DEPTH= 0.00000000000000E+00,
+   MINIMUM_VALUE= 1.10000000000000E+01,
+   MAXIMUM_VALUE= 7.80000000000000E+01,
+   NUMBER_VALID=         260,
+   NUMBER_NULL=           0
+   UNITS='',
+ RECORD_HEADER,
+   NUM_HISTORY=     1,
+   NUM_CYCLE=   260,
+   NUM_PARAM=    27
+-- DATA --
+       3851   '15-APR-2024 11:09:01.43'      1.500     5.2023   3.033832     5.2007   3.035501      92.38   61.53500000     2.4074     2.4465     2.0402    0.68209000     8.0510    0.00162260    2.64940000     43.02796     -70.00894    31.2161    31.2365     5.2021     5.2006    24.6547    24.6711     7.1666     7.0092         78
+       3997   '15-APR-2024 11:09:07.51'      2.000     5.2056   3.032851     5.2033   3.034811      71.87   45.19800000     2.4044     2.4482     2.0546    0.69360000     8.0510    0.00156530    2.65040000     43.02796     -70.00894    31.2016    31.2257     5.2054     5.2031    24.6429    24.6623     7.1578     7.0137         28
+       4031   '15-APR-2024 11:09:08.91'      2.500     5.2048   3.032976     5.2042   3.034572      77.04   43.00000000     2.4055     2.4475     2.0353    0.72436000     8.0510    0.00183370    2.64960000     43.02796     -70.00896    31.2034    31.2221     5.2047     5.2041    24.6444    24.6593     7.1814     7.0052         19
+       4068   '15-APR-2024 11:09:10.46'      3.000     5.2054   3.032972     5.2043   3.034600      90.56   37.08000000     2.4065     2.4466     2.0443    0.77324000     8.0510    0.00188570    2.64960000     43.02796     -70.00894    31.2026    31.2222     5.2052     5.2041    24.6437    24.6594     7.1724     7.0061         47
+       4101   '15-APR-2024 11:09:11.81'      3.500     5.2042   3.033231     5.2034   3.034846      90.15   32.60800000     2.4066     2.4466     2.0401    0.70191000     8.0510    0.00153830    2.64960000     43.02796     -70.00894    31.2064    31.2256     5.2040     5.2031    24.6469    24.6622     7.1698     7.0101         21
+       4122   '15-APR-2024 11:09:12.71'      4.000     5.2030   3.033431     5.2027   3.034893      90.21   27.81300000     2.4063     2.4464     2.0465    0.69647000     8.0510    0.00184110    2.64980000     43.02796     -70.00893    31.2095    31.2265     5.2027     5.2024    24.6495    24.6630     7.1691     7.0086         23
+       4145   '15-APR-2024 11:09:13.67'      4.500     5.2075   3.032258     5.2073   3.033826      89.79   22.49500000     2.4064     2.4465     2.0473    0.67828000     8.0500    0.00174090    2.65080000     43.02796     -70.00892    31.1918    31.2098     5.2072     5.2069    24.6350    24.6493     7.1825     7.0127         22
+       4165   '15-APR-2024 11:09:14.48'      5.000     5.2154   3.030700     5.2136   3.032562      87.04   18.95700000     2.4079     2.4466     2.0472    0.67901000     8.0510    0.00174620    2.65080000     43.02796     -70.00892    31.1664    31.1893     5.2151     5.2133    24.6141    24.6323     7.1786     7.0158         18
+       4181   '15-APR-2024 11:09:15.18'      5.500     5.2152   3.030764     5.2146   3.032291      88.50   17.38800000     2.4066     2.4472     2.0580    0.68747000     8.0510    0.00179530    2.65110000     43.02796     -70.00892    31.1672    31.1850     5.2148     5.2142    24.6147    24.6289     7.1632     7.0213         16
+       4198   '15-APR-2024 11:09:15.89'      6.000     5.2176   3.029852     5.2168   3.031483      91.87   16.15100000     2.4066     2.4476     2.0715    0.66903000     8.0510    0.00182140    2.65200000     43.02796     -70.00891    31.1543    31.1736     5.2172     5.2164    24.6042    24.6195     7.1730     7.0208         18
+       4219   '15-APR-2024 11:09:16.76'      6.500     5.2174   3.029843     5.2156   3.031688      91.83   15.05600000     2.4067     2.4478     2.0642    0.66439000     8.0510    0.00197670    2.65190000     43.02796     -70.00890    31.1542    31.1768     5.2169     5.2151    24.6041    24.6223     7.1743     7.0182         25
+       4250   '15-APR-2024 11:09:18.03'      7.000     5.2167   3.030111     5.2154   3.031837      85.18   13.85200000     2.4067     2.4476     2.0595    0.73858000     8.0510    0.00217670    2.65050000     43.02796     -70.00891    31.1576    31.1784     5.2162     5.2149    24.6070    24.6236     7.1760     7.0158         35
+       4286   '15-APR-2024 11:09:19.54'      7.500     5.2165   3.030314     5.2159   3.031938      60.96   12.67200000     2.4067     2.4471     2.0661    0.69579000     8.0510    0.00211610    2.64910000     43.02796     -70.00894    31.1598    31.1789     5.2160     5.2153    24.6087    24.6239     7.1710     7.0071         39
+       4331   '15-APR-2024 11:09:21.41'      8.000     5.2152   3.030557     5.2150   3.032128      91.87   10.36000000     2.4042     2.4454     2.0615    0.70487000     8.0510    0.00180680    2.64860000     43.02796     -70.00894    31.1636    31.1815     5.2147     5.2144    24.6118    24.6260     7.1471     6.9987         43
+       4364   '15-APR-2024 11:09:22.77'      8.500     5.2111   3.031314     5.2112   3.032821      84.98    8.67090000     2.4031     2.4442     2.0671    0.68849000     8.0510    0.00187210    2.64960000     43.02796     -70.00894    31.1758    31.1928     5.2105     5.2106    24.6220    24.6354     7.1595     6.9989         27
+       4387   '15-APR-2024 11:09:23.74'      9.000     5.2139   3.030947     5.2135   3.032518      90.54    7.56960000     2.4028     2.4439     2.0563    0.75205000     8.0500    0.00199260    2.65060000     43.02796     -70.00893    31.1687    31.1869     5.2133     5.2129    24.6161    24.6305     7.1563     7.0058         20
+       4406   '15-APR-2024 11:09:24.55'      9.500     5.2143   3.030906     5.2141   3.032463      90.12    6.73970000     2.4021     2.4439     2.0594    0.68528000     8.0500    0.00208350    2.65080000     43.02796     -70.00892    31.1677    31.1856     5.2136     5.2134    24.6152    24.6294     7.1604     7.0073         19
+       4424   '15-APR-2024 11:09:25.28'     10.000     5.2139   3.030998     5.2137   3.032537      89.98    6.15470000     2.4028     2.4442     2.0607    0.67813000     8.0500    0.00220230    2.65080000     43.02796     -70.00892    31.1689    31.1865     5.2132     5.2130    24.6162    24.6301     7.1645     7.0104         17
+       4441   '15-APR-2024 11:09:26.02'     10.500     5.2152   3.030811     5.2129   3.032691      87.61    5.64530000     2.4025     2.4443     2.0647    0.66986000     8.0500    0.00222420    2.65080000     43.02796     -70.00890    31.1653    31.1888     5.2145     5.2121    24.6132    24.6321     7.1509     7.0055         19
+       4464   '15-APR-2024 11:09:26.96'     11.000     5.2040   3.032745     5.1971   3.035237      78.92    5.32110000     2.4007     2.4436     2.0563    0.70633000     8.0490    0.00222860    2.65080000     43.02796     -70.00889    31.1975    31.2322     5.2032     5.1963    24.6399    24.6681     7.1398     6.9954         28
+       4499   '15-APR-2024 11:09:28.44'     11.500     5.1971   3.033936     5.1973   3.035227      83.51    5.05200000     2.4004     2.4424     2.0398    0.78337000     8.0490    0.00207740    2.64960000     43.02796     -70.00890    31.2174    31.2317     5.1961     5.1965    24.6564    24.6677     7.1593     7.0034         39
+       4534   '15-APR-2024 11:09:29.89'     12.000     5.1927   3.034641     5.1925   3.036196      93.31    4.58810000     2.4008     2.4433     2.0411    0.71496000     8.0470    0.00196640    2.64830000     43.02796     -70.00890    31.2291    31.2472     5.1919     5.1916    24.6662    24.6806     7.1622     7.0122         31
+       4564   '15-APR-2024 11:09:31.12'     12.500     5.1928   3.034708     5.1931   3.036624      89.89    3.97870000     2.4002     2.4435     2.0404    0.72326000     8.0460    0.00195550    2.64950000     43.02796     -70.00889    31.2296    31.2510     5.1919     5.1922    24.6665    24.6835     7.1550     7.0016         31
+       4597   '15-APR-2024 11:09:32.48'     13.000     5.1945   3.035224     5.1944   3.036937      89.68    3.41830000     2.4013     2.4423     2.0268    0.73725000     8.0460    0.00185010    2.65080000     43.02796     -70.00888    31.2335    31.2532     5.1936     5.1934    24.6695    24.6851     7.1609     6.9941         33
+       4629   '15-APR-2024 11:09:33.83'     13.500     5.1966   3.035615     5.1963   3.037373      87.95    2.99980000     2.3999     2.4404     2.0380    0.72811000     8.0460    0.00188240    2.65190000     43.02796     -70.00887    31.2358    31.2561     5.1956     5.1953    24.6711    24.6871     7.1442     6.9717         29
+       4653   '15-APR-2024 11:09:34.84'     14.000     5.1977   3.035930     5.1973   3.037631      92.91    2.70330000     2.3991     2.4382     2.0303    0.76265000     8.0460    0.00193790    2.65200000     43.02796     -70.00886    31.2382    31.2578     5.1966     5.1963    24.6728    24.6884     7.1390     6.9727         21
+       4672   '15-APR-2024 11:09:35.63'     14.500     5.2017   3.036449     5.1995   3.037966      99.79    2.46050000     2.3979     2.4376     2.0262    0.78746000     8.0460    0.00205350    2.65220000     43.02796     -70.00886    31.2400    31.2593     5.2007     5.1985    24.6738    24.6894     7.1354     6.9835         17
+       4689   '15-APR-2024 11:09:36.34'     15.000     5.2051   3.036928     5.2052   3.038672      89.92    2.23750000     2.3977     2.4376     2.0250    0.76050000     8.0460    0.00210690    2.65320000     43.02796     -70.00886    31.2420    31.2618     5.2040     5.2041    24.6751    24.6907     7.1269     6.9887         17
+       4706   '15-APR-2024 11:09:37.05'     15.500     5.2055   3.037076     5.2044   3.038716      91.59    2.03840000     2.3955     2.4380     2.0236    0.71508000     8.0460    0.00213370    2.65320000     43.02796     -70.00886    31.2431    31.2628     5.2044     5.2033    24.6759    24.6916     7.1112     6.9790         18
+       4729   '15-APR-2024 11:09:37.99'     16.000     5.2021   3.037038     5.2012   3.038693      69.38    1.91600000     2.3940     2.4360     2.0273    0.72167000     8.0460    0.00216310    2.65270000     43.02796     -70.00885    31.2457    31.2653     5.2009     5.2001    24.6783    24.6939     7.1160     6.9566         29
+       4777   '15-APR-2024 11:09:39.98'     16.500     5.1952   3.036651     5.1929   3.038212      81.17    1.82180000     2.3896     2.4320     2.0302    0.78464000     8.0460    0.00182480    2.65030000     43.02796     -70.00884    31.2472    31.2673     5.1943     5.1917    24.6803    24.6965     7.0930     6.9487         64
+       4827   '15-APR-2024 11:09:42.09'     17.000     5.1804   3.035921     5.1794   3.037574      87.67    1.60970000     2.3859     2.4283     2.0293    0.69845000     8.0460    0.00161910    2.64950000     43.02796     -70.00883    31.2528    31.2724     5.1791     5.1782    24.6863    24.7020     7.0940     6.9391         33
+       4853   '15-APR-2024 11:09:43.17'     17.500     5.1683   3.036497     5.1653   3.038142      90.98    1.42040000     2.3842     2.4267     2.0210    0.70418000     8.0460    0.00190950    2.65020000     43.02796     -70.00882    31.2703    31.2919     5.1671     5.1641    24.7015    24.7189     7.0792     6.9320         21
+       4871   '15-APR-2024 11:09:43.91'     18.000     5.1364   3.035971     5.1438   3.037964      92.02    1.30540000     2.3824     2.4249     2.0130    0.68238000     8.0450    0.00201460    2.65080000     43.02796     -70.00882    31.2941    31.3091     5.1351     5.1426    24.7238    24.7348     7.0656     6.9220         17
+       4888   '15-APR-2024 11:09:44.61'     18.500     5.0983   3.034340     5.1075   3.036412      90.57    1.21980000     2.3797     2.4229     2.0114    0.63739000     8.0430    0.00202570    2.65160000     43.02796     -70.00882    31.3109    31.3260     5.0970     5.1061    24.7413    24.7522     7.0638     6.9199         16
+       4904   '15-APR-2024 11:09:45.29'     19.000     5.0804   3.033400     5.0820   3.035179      91.75    1.11940000     2.3782     2.4212     2.0138    0.59467000     8.0430    0.00204440    2.65200000     43.02796     -70.00882    31.3167    31.3356     5.0791     5.0806    24.7478    24.7626     7.0758     6.9215         17
+       4921   '15-APR-2024 11:09:46.01'     19.500     5.0646   3.032725     5.0671   3.034508      87.41    1.05040000     2.3771     2.4197     2.0154    0.60360000     8.0420    0.00205660    2.65210000     43.02796     -70.00882    31.3237    31.3417     5.0632     5.0657    24.7550    24.7690     7.0798     6.9259         18
+       4940   '15-APR-2024 11:09:46.80'     20.000     5.0523   3.032187     5.0516   3.033849      85.63    1.00030000     2.3758     2.4187     2.0053    0.63922000     8.0420    0.00207090    2.65200000     43.02796     -70.00882    31.3289    31.3485     5.0508     5.0502    24.7605    24.7761     7.0747     6.9305         20
+       4964   '15-APR-2024 11:09:47.77'     20.500     5.0490   3.032054     5.0473   3.033667      89.05    0.92466000     2.3740     2.4173     2.0094    0.62658000     8.0420    0.00204500    2.65090000     43.02796     -70.00882    31.3302    31.3502     5.0476     5.0458    24.7618    24.7779     7.0665     6.9215         27
+       4995   '15-APR-2024 11:09:49.08'     21.000     5.0432   3.031848     5.0396   3.033353      90.26    0.85255000     2.3719     2.4148     2.0103    0.66989000     8.0420    0.00199680    2.64980000     43.02796     -70.00882    31.3330    31.3538     5.0417     5.0381    24.7647    24.7816     7.0649     6.9170         35
+       5029   '15-APR-2024 11:09:50.48'     21.500     4.9868   3.029767     4.9861   3.031357      86.61    0.77027000     2.3692     2.4135     1.9981    0.65995000     8.0420    0.00185030    2.64960000     43.02796     -70.00880    31.3621    31.3809     4.9853     4.9846    24.7938    24.8088     7.0499     6.9296         31
+       5057   '15-APR-2024 11:09:51.65'     22.000     4.9532   3.028746     4.9541   3.030455      68.07    0.67707000     2.3661     2.4127     2.0034    0.61739000     8.0420    0.00178870    2.64960000     43.02796     -70.00880    31.3818    31.4005     4.9517     4.9526    24.8130    24.8277     7.0678     6.9324         26
+       5083   '15-APR-2024 11:09:52.73'     22.500     4.9460   3.028548     4.9458   3.030219      91.91    0.63953000     2.3665     2.4117     1.9951    0.61184000     8.0410    0.00178920    2.65080000     43.02796     -70.00880    31.3861    31.4054     4.9444     4.9442    24.8172    24.8325     7.0757     6.9264         25
+       5107   '15-APR-2024 11:09:53.73'     23.000     4.9329   3.028189     4.9324   3.029834      91.86    0.61015000     2.3657     2.4111     1.9978    0.61101000     8.0400    0.00175140    2.65130000     43.02796     -70.00879    31.3939    31.4134     4.9313     4.9308    24.8248    24.8402     7.0687     6.9292         23
+       5127   '15-APR-2024 11:09:54.59'     23.500     4.9210   3.027847     4.9206   3.029530      86.73    0.57725000     2.3648     2.4102     1.9926    0.62349000     8.0390    0.00179050    2.65230000     43.02796     -70.00878    31.4011    31.4208     4.9194     4.9190    24.8318    24.8474     7.0592     6.9231         19
+       5146   '15-APR-2024 11:09:55.36'     24.000     4.9155   3.027783     4.9152   3.029467      85.54    0.53922000     2.3631     2.4090     1.9955    0.54287000     8.0380    0.00181660    2.65320000     43.02796     -70.00878    31.4053    31.4250     4.9138     4.9135    24.8357    24.8513     7.0535     6.9148         18
+       5162   '15-APR-2024 11:09:56.06'     24.500     4.9113   3.027721     4.9106   3.029401      87.54    0.48281000     2.3624     2.4078     1.9953    0.52981000     8.0380    0.00184620    2.65310000     43.02796     -70.00878    31.4083    31.4283     4.9096     4.9089    24.8385    24.8544     7.0490     6.9064         17
+       5181   '15-APR-2024 11:09:56.81'     25.000     4.9084   3.027647     4.9077   3.029326      81.03    0.43441000     2.3602     2.4059     1.9897    0.54890000     8.0380    0.00188700    2.65200000     43.02796     -70.00878    31.4101    31.4299     4.9066     4.9060    24.8402    24.8560     7.0213     6.8976         19
+       5203   '15-APR-2024 11:09:57.74'     25.500     4.9086   3.027803     4.9078   3.029465      74.06    0.39525000     2.3567     2.4040     1.9974    0.54516000     8.0370    0.00191680    2.65130000     43.02796     -70.00878    31.4114    31.4312     4.9068     4.9060    24.8412    24.8570     7.0216     6.8952         27
+       5236   '15-APR-2024 11:09:59.13'     26.000     4.9032   3.027680     4.9020   3.029380      95.81    0.36438000     2.3546     2.4014     1.9829    0.56667000     8.0370    0.00164040    2.65080000     43.02796     -70.00878    31.4148    31.4355     4.9014     4.9002    24.8445    24.8610     7.0220     6.8851         37
+       5270   '15-APR-2024 11:10:00.53'     26.500     4.8990   3.027846     4.8987   3.029635      90.90    0.33442000     2.3504     2.3979     1.9814    0.53524000     8.0370    0.00149680    2.65080000     43.02796     -70.00878    31.4204    31.4411     4.8972     4.8968    24.8494    24.8658     6.9971     6.8704         28
+       5294   '15-APR-2024 11:10:01.54'     27.000     4.8850   3.028144     4.8856   3.029814      92.92    0.30304000     2.3489     2.3958     1.9912    0.52707000     8.0370    0.00176150    2.65090000     43.02796     -70.00878    31.4369    31.4555     4.8831     4.8837    24.8640    24.8786     7.0064     6.8694         22
+       5314   '15-APR-2024 11:10:02.39'     27.500     4.8511   3.028119     4.8518   3.029798      89.79    0.27608000     2.3469     2.3941     1.9786    0.49631000     8.0380    0.00187240    2.65190000     43.02796     -70.00878    31.4684    31.4870     4.8492     4.8499    24.8925    24.9072     6.9840     6.8579         19
+       5333   '15-APR-2024 11:10:03.16'     28.000     4.8401   3.028395     4.8397   3.030051      92.30    0.25325000     2.3436     2.3914     1.9704    0.48210000     8.0370    0.00192800    2.65200000     43.02796     -70.00878    31.4817    31.5011     4.8382     4.8378    24.9042    24.9196     6.9553     6.8361         19
+       5352   '15-APR-2024 11:10:03.95'     28.500     4.8384   3.028567     4.8379   3.030208      90.86    0.22651000     2.3393     2.3876     1.9684    0.45015000     8.0370    0.00194850    2.65200000     43.02796     -70.00878    31.4851    31.5044     4.8364     4.8359    24.9071    24.9224     6.9322     6.8136         19
+       5374   '15-APR-2024 11:10:04.86'     29.000     4.8379   3.028664     4.8371   3.030324      92.39    0.19914000     2.3340     2.3831     1.9646    0.46567000     8.0350    0.00197950    2.65100000     43.02796     -70.00878    31.4865    31.5063     4.8358     4.8351    24.9082    24.9240     6.9034     6.7876         25
+       5400   '15-APR-2024 11:10:05.97'     29.500     4.8388   3.029111     4.8381   3.030790      96.29    0.16269000     2.3263     2.3759     1.9740    0.47527000     8.0340    0.00184060    2.65080000     43.02796     -70.00878    31.4905    31.5104     4.8368     4.8361    24.9113    24.9272     6.8658     6.7491         28
+       5428   '15-APR-2024 11:10:07.14'     30.000     4.8394   3.029377     4.8387   3.031033      91.04    0.13609000     2.3186     2.3679     1.9694    0.48686000     8.0330    0.00172030    2.65080000     43.02796     -70.00878    31.4928    31.5124     4.8373     4.8366    24.9131    24.9287     6.8519     6.7271         26
+       5453   '15-APR-2024 11:10:08.16'     30.500     4.8467   3.033183     4.8408   3.032277      96.46    0.11580000     2.3134     2.3624     1.9685    0.47507000     8.0330    0.00179090    2.65080000     43.02796     -70.00878    31.5293    31.5244     4.8446     4.8388    24.9412    24.9380     6.8447     6.7251         24
+       5476   '15-APR-2024 11:10:09.13'     31.000     4.8535   3.036396     4.8511   3.037386      99.94    0.10735000     2.3098     2.3586     1.9586    0.38976000     8.0330    0.00183480    2.65080000     43.02796     -70.00878    31.5595    31.5732     4.8513     4.8489    24.9645    24.9755     6.8427     6.7179         24
+       5501   '15-APR-2024 11:10:10.16'     31.500     4.8600   3.038043     4.8578   3.039435      99.99    0.10291000     2.3068     2.3551     1.9476    0.38146000     8.0310    0.00189430    2.65080000     43.02796     -70.00878    31.5720    31.5901     4.8578     4.8555    24.9737    24.9883     6.8401     6.7117         25
+       5525   '15-APR-2024 11:10:11.17'     32.000     4.8793   3.043118     4.8770   3.044365      99.99    0.10222000     2.3048     2.3527     1.9525    0.32910000     8.0280    0.00204030    2.65080000     43.02796     -70.00878    31.6117    31.6282     4.8770     4.8748    25.0031    25.0164     6.8339     6.7060         22
+       5546   '15-APR-2024 11:10:12.04'     32.500     4.8869   3.044794     4.8864   3.046468      99.99    0.10195000     2.3032     2.3506     1.9349    0.30048000     8.0280    0.00224540    2.65100000     43.02796     -70.00878    31.6234    31.6432     4.8847     4.8841    25.0116    25.0273     6.8328     6.7020         20
+       5564   '15-APR-2024 11:10:12.81'     33.000     4.8912   3.045555     4.8901   3.047153      99.99    0.10182000     2.3025     2.3495     1.9316    0.32009000     8.0260    0.00215170    2.65190000     43.02796     -70.00878    31.6279    31.6473     4.8888     4.8877    25.0147    25.0302     6.8384     6.7063         18
+       5582   '15-APR-2024 11:10:13.55'     33.500     4.8937   3.046009     4.8932   3.047689      99.99    0.10180000     2.3022     2.3490     1.9523    0.29429000     8.0240    0.00215030    2.65200000     43.02796     -70.00877    31.6305    31.6502     4.8913     4.8909    25.0164    25.0321     6.8300     6.7044         18
+       5601   '15-APR-2024 11:10:14.33'     34.000     4.8949   3.046215     4.8944   3.047878      99.99    0.10181000     2.3007     2.3479     1.9510    0.32401000     8.0230    0.00215590    2.65200000     43.02796     -70.00876    31.6314    31.6510     4.8926     4.8920    25.0171    25.0327     6.8211     6.6960         20
+       5625   '15-APR-2024 11:10:15.32'     34.500     4.8956   3.046315     4.8955   3.048055      99.99    0.10181000     2.2994     2.3464     1.9387    0.29583000     8.0230    0.00220550    2.65090000     43.02796     -70.00876    31.6317    31.6517     4.8931     4.8931    25.0172    25.0331     6.8155     6.6916         29
+       5666   '15-APR-2024 11:10:17.04'     35.000     4.8955   3.046131     4.8960   3.048119      99.97    0.10181000     2.2971     2.3446     1.9481    0.29091000     8.0230    0.00206440    2.65060000     43.02796     -70.00876    31.6295    31.6518     4.8930     4.8935    25.0155    25.0331     6.8149     6.6925         54
+       5712   '15-APR-2024 11:10:18.97'     35.500     4.8974   3.046608     4.8969   3.048285      99.94    0.10182000     2.2963     2.3432     1.9373    0.27093000     8.0230    0.00162660    2.65060000     43.02796     -70.00876    31.6329    31.6526     4.8949     4.8944    25.0180    25.0337     6.8264     6.6851         29
+       5732   '15-APR-2024 11:10:19.81'     36.000     4.9004   3.047194     4.9001   3.048912      99.69    0.10180000     2.2967     2.3422     1.9482    0.28746000     8.0230    0.00199380    2.65110000     43.02796     -70.00876    31.6364    31.6565     4.8979     4.8976    25.0205    25.0364     6.8262     6.6835         16
+       5747   '15-APR-2024 11:10:20.41'     36.500     4.9107   3.049149     4.9093   3.050751      99.07    0.10180000     2.2967     2.3419     1.9408    0.28074000     8.0230    0.00205540    2.65210000     43.02796     -70.00876    31.6489    31.6686     4.9081     4.9068    25.0293    25.0450     6.8204     6.6890         14
+       5759   '15-APR-2024 11:10:20.92'     37.000     4.9159   3.050182     4.9149   3.051812      98.69    0.10180000     2.2967     2.3420     1.9414    0.28642000     8.0230    0.00214390    2.65310000     43.02796     -70.00876    31.6555    31.6751     4.9132     4.9123    25.0340    25.0496     6.8159     6.6912         11
+       5771   '15-APR-2024 11:10:21.42'     37.500     4.9171   3.050396     4.9164   3.052056      98.10    0.10180000     2.2962     2.3422     1.9487    0.29118000     8.0220    0.00216140    2.65320000     43.02796     -70.00876    31.6566    31.6763     4.9144     4.9138    25.0347    25.0504     6.8107     6.6905         13
+       5784   '15-APR-2024 11:10:21.95'     38.000     4.9174   3.050493     4.9167   3.052162      97.64    0.10180000     2.2958     2.3421     1.9426    0.28003000     8.0230    0.00221850    2.65320000     43.02796     -70.00876    31.6571    31.6770     4.9147     4.9140    25.0351    25.0509     6.8105     6.6826         13
+       5799   '15-APR-2024 11:10:22.57'     38.500     4.9178   3.050608     4.9172   3.052273      97.15    0.10180000     2.2955     2.3414     1.9309    0.27729000     8.0220    0.00222160    2.65280000     43.02796     -70.00876    31.6578    31.6776     4.9151     4.9145    25.0356    25.0513     6.8110     6.6722         17
+       5824   '15-APR-2024 11:10:23.64'     39.000     4.9165   3.050289     4.9171   3.052246      96.13    0.10180000     2.2946     2.3394     1.9324    0.29342000     8.0230    0.00220900    2.65170000     43.02796     -70.00875    31.6552    31.6771     4.9138     4.9143    25.0336    25.0509     6.8029     6.6584         40
+       5883   '15-APR-2024 11:10:26.07'     39.500     4.9119   3.049243     4.9130   3.051319      95.44    0.10180000     2.2924     2.3346     1.9349    0.31648000     8.0220    0.00163410    2.65050000     43.02796     -70.00874    31.6474    31.6702     4.9091     4.9102    25.0280    25.0459     6.8020     6.6519         53
+       5917   '15-APR-2024 11:10:27.52'     40.000     4.9180   3.050747     4.9172   3.052371      95.15    0.10180000     2.2921     2.3343     1.9343    0.28205000     8.0220    0.00183050    2.65080000     43.02796     -70.00874    31.6585    31.6779     4.9152     4.9144    25.0361    25.0516     6.8026     6.6670         26
+       5940   '15-APR-2024 11:10:28.45'     40.500     4.9189   3.050928     4.9179   3.052528      94.82    0.10180000     2.2917     2.3349     1.9400    0.28389000     8.0220    0.00201690    2.65170000     43.02796     -70.00874    31.6595    31.6788     4.9161     4.9150    25.0368    25.0522     6.8009     6.6741         20
+       5959   '15-APR-2024 11:10:29.23'     41.000     4.9204   3.051292     4.9195   3.052929      94.35    0.10180000     2.2916     2.3355     1.9377    0.27604000     8.0210    0.00209070    2.65200000     43.02796     -70.00874    31.6618    31.6816     4.9175     4.9166    25.0385    25.0543     6.8022     6.6776         18
+       5976   '15-APR-2024 11:10:29.94'     41.500     4.9217   3.051582     4.9209   3.053233      93.95    0.10180000     2.2915     2.3361     1.9350    0.26700000     8.0210    0.00212080    2.65260000     43.02796     -70.00874    31.6639    31.6836     4.9187     4.9179    25.0400    25.0557     6.8051     6.6762         16
+       5991   '15-APR-2024 11:10:30.59'     42.000     4.9217   3.051612     4.9210   3.053270      93.58    0.10180000     2.2917     2.3362     1.9470    0.28441000     8.0210    0.00212930    2.65240000     43.02796     -70.00874    31.6640    31.6837     4.9187     4.9180    25.0401    25.0557     6.8008     6.6718         15
+       6006   '15-APR-2024 11:10:31.22'     42.500     4.9216   3.051647     4.9209   3.053291      92.94    0.10180000     2.2911     2.3362     1.9304    0.27583000     8.0190    0.00214350    2.65210000     43.02796     -70.00876    31.6642    31.6838     4.9186     4.9178    25.0402    25.0558     6.7965     6.6716         15
+       6021   '15-APR-2024 11:10:31.82'     43.000     4.9215   3.051677     4.9207   3.053308      92.59    0.10180000     2.2910     2.3361     1.9354    0.28307000     8.0200    0.00218590    2.65200000     43.02796     -70.00876    31.6644    31.6839     4.9184     4.9176    25.0404    25.0560     6.7984     6.6639         15
+       6036   '15-APR-2024 11:10:32.45'     43.500     4.9212   3.051657     4.9205   3.053310      91.87    0.10177000     2.2906     2.3355     1.9278    0.27846000     8.0190    0.00221870    2.65200000     43.02796     -70.00876    31.6642    31.6838     4.9181     4.9174    25.0403    25.0559     6.7994     6.6550         15
+       6053   '15-APR-2024 11:10:33.16'     44.000     4.9209   3.051643     4.9202   3.053295      91.29    0.10180000     2.2906     2.3343     1.9385    0.28650000     8.0190    0.00227040    2.65150000     43.02796     -70.00876    31.6641    31.6837     4.9178     4.9171    25.0403    25.0558     6.8021     6.6534         19
+       6075   '15-APR-2024 11:10:34.07'     44.500     4.9208   3.051651     4.9198   3.053274      90.73    0.10178000     2.2906     2.3336     1.9399    0.29236000     8.0190    0.00222510    2.65080000     43.02796     -70.00876    31.6640    31.6836     4.9176     4.9166    25.0402    25.0558     6.8046     6.6523         26
+       6110   '15-APR-2024 11:10:35.54'     45.000     4.9209   3.051643     4.9201   3.053316      90.04    0.10178000     2.2907     2.3321     1.9412    0.30063000     8.0190    0.00227410    2.65080000     43.02796     -70.00874    31.6636    31.6835     4.9177     4.9170    25.0399    25.0557     6.8035     6.6517         47
+       6158   '15-APR-2024 11:10:37.55'     45.500     4.9211   3.051669     4.9204   3.053356      89.76    0.10177000     2.2905     2.3321     1.9398    0.29109000     8.0190    0.00192280    2.65210000     43.02796     -70.00874    31.6635    31.6834     4.9178     4.9172    25.0398    25.0557     6.8029     6.6661         39
+       6187   '15-APR-2024 11:10:38.74'     46.000     4.9210   3.051733     4.9201   3.053348      89.49    0.10178000     2.2907     2.3329     1.9359    0.28673000     8.0180    0.00195280    2.65320000     43.02796     -70.00874    31.6641    31.6835     4.9177     4.9168    25.0402    25.0557     6.8073     6.6668         22
+       6205   '15-APR-2024 11:10:39.51'     46.500     4.9198   3.051645     4.9188   3.053259      89.14    0.10180000     2.2907     2.3327     1.9362    0.28511000     8.0180    0.00201840    2.65350000     43.02796     -70.00872    31.6639    31.6834     4.9165     4.9155    25.0403    25.0558     6.8075     6.6590         17
+       6221   '15-APR-2024 11:10:40.17'     47.000     4.9199   3.051665     4.9190   3.053300      88.43    0.10170000     2.2910     2.3324     1.9301    0.28898000     8.0180    0.00217430    2.65450000     43.02796     -70.00872    31.6638    31.6835     4.9165     4.9156    25.0402    25.0558     6.8065     6.6620         15
+       6235   '15-APR-2024 11:10:40.76'     47.500     4.9202   3.051732     4.9195   3.053380      88.14    0.10177000     2.2907     2.3329     1.9443    0.27243000     8.0180    0.00219550    2.65450000     43.02796     -70.00872    31.6640    31.6836     4.9168     4.9162    25.0403    25.0559     6.8044     6.6669         14
+       6249   '15-APR-2024 11:10:41.33'     48.000     4.9204   3.051771     4.9200   3.053439      87.42    0.10175000     2.2907     2.3328     1.9319    0.28558000     8.0190    0.00224040    2.65350000     43.02796     -70.00872    31.6641    31.6836     4.9170     4.9166    25.0403    25.0559     6.8060     6.6649         14
+       6263   '15-APR-2024 11:10:41.92'     48.500     4.9203   3.051781     4.9198   3.053452      87.00    0.10167000     2.2906     2.3327     1.9304    0.29625000     8.0180    0.00225830    2.65320000     43.02796     -70.00872    31.6641    31.6837     4.9168     4.9163    25.0403    25.0560     6.8065     6.6700         14
+       6278   '15-APR-2024 11:10:42.55'     49.000     4.9201   3.051786     4.9195   3.053445      86.48    0.10177000     2.2906     2.3333     1.9431    0.28179000     8.0180    0.00228710    2.65320000     43.02796     -70.00872    31.6640    31.6836     4.9166     4.9160    25.0403    25.0559     6.8065     6.6757         16
+       6296   '15-APR-2024 11:10:43.31'     49.500     4.9201   3.051801     4.9197   3.053475      85.89    0.10160000     2.2906     2.3339     1.9387    0.29272000     8.0180    0.00232160    2.65220000     43.02796     -70.00872    31.6640    31.6836     4.9166     4.9161    25.0403    25.0559     6.8078     6.6735         21
+       6322   '15-APR-2024 11:10:44.38'     50.000     4.9200   3.051815     4.9195   3.053475      85.21    0.10167000     2.2907     2.3339     1.9406    0.30348000     8.0180    0.00222320    2.65200000     43.02796     -70.00872    31.6640    31.6835     4.9164     4.9160    25.0403    25.0558     6.8121     6.6733         32
+       6367   '15-APR-2024 11:10:46.23'     50.500     4.9205   3.051863     4.9199   3.053524      84.62    0.10165000     2.2911     2.3348     1.9380    0.30639000     8.0180    0.00205610    2.65120000     43.02796     -70.00871    31.6638    31.6834     4.9169     4.9163    25.0401    25.0557     6.8060     6.6738         54
+       6412   '15-APR-2024 11:10:48.13'     51.000     4.9193   3.051808     4.9191   3.053495      84.17    0.10162000     2.2890     2.3328     1.9363    0.29291000     8.0180    0.00193320    2.65190000     43.02796     -70.00870    31.6640    31.6836     4.9157     4.9155    25.0405    25.0559     6.7870     6.6427         31
+       6435   '15-APR-2024 11:10:49.08'     51.500     4.9168   3.051657     4.9162   3.053306      83.84    0.10163000     2.2884     2.3315     1.9456    0.32172000     8.0180    0.00198470    2.65260000     43.02796     -70.00870    31.6644    31.6838     4.9132     4.9129    25.0410    25.0564     6.7988     6.6555         19
+       6451   '15-APR-2024 11:10:49.76'     52.000     4.9127   3.051418     4.9123   3.053073      83.56    0.10163000     2.2883     2.3309     1.9512    0.28533000     8.0180    0.00203580    2.65320000     43.02796     -70.00870    31.6654    31.6847     4.9090     4.9086    25.0422    25.0576     6.8003     6.6601         15
+       6465   '15-APR-2024 11:10:50.33'     52.500     4.9127   3.051525     4.9123   3.053224      82.91    0.10155000     2.2882     2.3314     1.9459    0.30054000     8.0180    0.00220030    2.65430000     43.02796     -70.00870    31.6664    31.6862     4.9090     4.9086    25.0430    25.0588     6.7962     6.6600         13
+       6478   '15-APR-2024 11:10:50.86'     53.000     4.9170   3.052243     4.9169   3.054003      82.69    0.10159000     2.2880     2.3306     1.9401    0.29913000     8.0180    0.00220280    2.65450000     43.02796     -70.00870    31.6703    31.6906     4.9132     4.9131    25.0456    25.0617     6.7912     6.6455         12
+       6490   '15-APR-2024 11:10:51.38'     53.500     4.9329   3.054551     4.9307   3.056116      82.07    0.10161000     2.2871     2.3301     1.9260    0.29676000     8.0180    0.00231100    2.65450000     43.02796     -70.00870    31.6814    31.7014     4.9291     4.9269    25.0527    25.0688     6.7803     6.6321         13
+       6504   '15-APR-2024 11:10:51.96'     54.000     4.9465   3.056518     4.9443   3.058096      81.55    0.10151000     2.2866     2.3283     1.9292    0.29062000     8.0180    0.00231160    2.65420000     43.02796     -70.00868    31.6907    31.7109     4.9426     4.9404    25.0587    25.0749     6.7813     6.6244         15
+       6520   '15-APR-2024 11:10:52.63'     54.500     4.9603   3.058318     4.9590   3.059923      80.97    0.10152000     2.2862     2.3274     1.9205    0.28639000     8.0180    0.00234350    2.65330000     43.02796     -70.00869    31.6979    31.7176     4.9565     4.9551    25.0629    25.0786     6.7895     6.6309         18
+       6545   '15-APR-2024 11:10:53.65'     55.000     4.9741   3.060191     4.9791   3.062376      80.29    0.10151000     2.2868     2.3268     1.9207    0.29190000     8.0180    0.00222170    2.65170000     43.02796     -70.00870    31.7060    31.7263     4.9702     4.9752    25.0678    25.0834     6.7760     6.6192         34
+       6588   '15-APR-2024 11:10:55.47'     55.500     4.9652   3.058733     4.9634   3.060443      79.54    0.10146000     2.2802     2.3196     1.9230    0.28781000     8.0180    0.00199700    2.65080000     43.02796     -70.00869    31.6975    31.7189     4.9613     4.9594    25.0621    25.0792     6.6949     6.5458         46
+       6624   '15-APR-2024 11:10:56.95'     56.000     4.9927   3.062718     4.9919   3.064320      79.20    0.10147000     2.2712     2.3111     1.9052    0.28807000     8.0180    0.00202680    2.65150000     43.02796     -70.00868    31.7168    31.7359     4.9887     4.9879    25.0744    25.0896     6.6634     6.5279         27
+       6647   '15-APR-2024 11:10:57.91'     56.500     5.0002   3.063664     5.0002   3.065367      78.88    0.10153000     2.2672     2.3079     1.9096    0.26706000     8.0180    0.00201680    2.65300000     43.02796     -70.00868    31.7202    31.7397     4.9962     4.9961    25.0763    25.0918     6.6624     6.5309         21
+       6667   '15-APR-2024 11:10:58.75'     57.000     5.0064   3.064434     5.0048   3.065977      78.51    0.10146000     2.2642     2.3059     1.9140    0.25519000     8.0180    0.00198700    2.65380000     43.02796     -70.00868    31.7229    31.7421     5.0023     5.0007    25.0777    25.0931     6.6509     6.5265         19
+       6686   '15-APR-2024 11:10:59.56'     57.500     5.0324   3.067488     5.0301   3.069030      78.13    0.10146000     2.2611     2.3035     1.9128    0.24974000     8.0180    0.00207040    2.65450000     43.02796     -70.00867    31.7329    31.7526     5.0282     5.0260    25.0829    25.0987     6.6479     6.5213         20
+       6706   '15-APR-2024 11:11:00.39'     58.000     5.1077   3.075833     5.1022   3.076960      77.39    0.10148000     2.2602     2.3028     1.8964    0.26006000     8.0170    0.00189350    2.65440000     43.02796     -70.00866    31.7563    31.7744     5.1035     5.0980    25.0932    25.1082     6.6580     6.5306         20
+       6726   '15-APR-2024 11:11:01.22'     58.500     5.1372   3.079159     5.1359   3.080684      76.73    0.10146000     2.2605     2.3037     1.8967    0.22859000     8.0150    0.00177320    2.65330000     43.02796     -70.00866    31.7660    31.7846     5.1329     5.1316    25.0976    25.1125     6.6451     6.5152         20
+       6745   '15-APR-2024 11:11:02.01'     59.000     5.1442   3.080020     5.1432   3.081595      76.24    0.10146000     2.2586     2.3014     1.8826    0.22549000     8.0130    0.00167140    2.65360000     43.02796     -70.00866    31.7689    31.7878     5.1399     5.1389    25.0992    25.1143     6.6111     6.4708         17
+       6762   '15-APR-2024 11:11:02.69'     59.500     5.1466   3.080422     5.1457   3.082027      75.90    0.10144000     2.2561     2.2981     1.8962    0.22589000     8.0130    0.00163740    2.65450000     43.02796     -70.00866    31.7710    31.7901     5.1423     5.1414    25.1006    25.1158     6.5902     6.4482         16
+       6778   '15-APR-2024 11:11:03.37'     60.000     5.1482   3.080703     5.1472   3.082320      75.24    0.10146000     2.2530     2.2947     1.8804    0.22837000     8.0120    0.00165070    2.65450000     43.02796     -70.00866    31.7724    31.7918     5.1438     5.1428    25.1015    25.1170     6.5745     6.4391         17
+       6796   '15-APR-2024 11:11:04.12'     60.500     5.1524   3.081283     5.1512   3.082859      74.76    0.10144000     2.2498     2.2913     1.8778    0.22774000     8.0120    0.00172640    2.65450000     43.02796     -70.00866    31.7748    31.7939     5.1480     5.1468    25.1029    25.1182     6.5623     6.4299         20
+       6829   '15-APR-2024 11:11:05.51'     61.000     5.1548   3.081403     5.1463   3.082262      74.22    0.10145000     2.2445     2.2864     1.8901    0.22776000     8.0120    0.00166880    2.65330000     43.02796     -70.00866    31.7736    31.7909     5.1503     5.1418    25.1018    25.1164     6.5569     6.4294         52
+       6879   '15-APR-2024 11:11:07.59'     61.500     5.1860   3.085681     5.1659   3.085459      73.65    0.10144000     2.2389     2.2814     1.8882    0.22949000     8.0120    0.00148450    2.65200000     43.02796     -70.00866    31.7924    31.8091     5.1815     5.1614    25.1132    25.1286     6.5392     6.4107         32
+       6900   '15-APR-2024 11:11:08.48'     62.000     5.2375   3.092261     5.2369   3.093864      73.28    0.10148000     2.2369     2.2784     1.8952    0.22364000     8.0110    0.00200650    2.65330000     43.02796     -70.00866    31.8182    31.8370     5.2329     5.2323    25.1279    25.1429     6.5245     6.3818         18
+       6916   '15-APR-2024 11:11:09.14'     62.500     5.2419   3.092941     5.2394   3.094374      72.73    0.10144000     2.2356     2.2763     1.8910    0.23049000     8.0080    0.00199770    2.65410000     43.02796     -70.00866    31.8215    31.8402     5.2373     5.2348    25.1300    25.1451     6.5167     6.3770         15
+       6931   '15-APR-2024 11:11:09.75'     63.000     5.2512   3.094232     5.2480   3.095624      72.45    0.10144000     2.2341     2.2747     1.8921    0.22630000     8.0070    0.00187780    2.65490000     43.02796     -70.00866    31.8271    31.8459     5.2466     5.2434    25.1334    25.1487     6.5062     6.3738         15
+       6946   '15-APR-2024 11:11:10.37'     63.500     5.2591   3.095269     5.2580   3.096923      71.81    0.10144000     2.2324     2.2731     1.9027    0.20459000     8.0070    0.00186410    2.65570000     43.02796     -70.00866    31.8311    31.8510     5.2544     5.2533    25.1358    25.1516     6.4998     6.3681         15
+       6963   '15-APR-2024 11:11:11.08'     64.000     5.2639   3.095884     5.2629   3.097489      71.36    0.10144000     2.2306     2.2714     1.8932    0.21209000     8.0070    0.00184710    2.65570000     43.02796     -70.00864    31.8333    31.8525     5.2592     5.2582    25.1369    25.1523     6.4981     6.3623         19
+       6985   '15-APR-2024 11:11:11.98'     64.500     5.2666   3.096264     5.2657   3.097858      70.88    0.10144000     2.2290     2.2692     1.8953    0.20815000     8.0070    0.00179270    2.65500000     43.02796     -70.00864    31.8348    31.8538     5.2619     5.2609    25.1378    25.1530     6.4928     6.3493         25
+       7011   '15-APR-2024 11:11:13.08'     65.000     5.2810   3.098260     5.2778   3.099596      70.25    0.10144000     2.2267     2.2658     1.9001    0.21926000     8.0070    0.00173800    2.65370000     43.02796     -70.00864    31.8436    31.8618     5.2762     5.2730    25.1432    25.1580     6.4820     6.3383         27
+       7038   '15-APR-2024 11:11:14.22'     65.500     5.3028   3.101255     5.3017   3.102823      69.59    0.10144000     2.2246     2.2636     1.8806    0.20726000     8.0070    0.00173260    2.65320000     43.02796     -70.00864    31.8567    31.8755     5.2979     5.2969    25.1511    25.1661     6.4683     6.3369         26
+       7063   '15-APR-2024 11:11:15.25'     66.000     5.3120   3.102491     5.3109   3.104076      69.09    0.10147000     2.2222     2.2621     1.8860    0.19579000     8.0070    0.00164680    2.65300000     43.02796     -70.00864    31.8617    31.8807     5.3071     5.3060    25.1541    25.1693     6.4563     6.3328         25
+       7087   '15-APR-2024 11:11:16.27'     66.500     5.3235   3.104071     5.3227   3.105633      68.82    0.10144000     2.2202     2.2606     1.8825    0.20093000     8.0060    0.00159860    2.65320000     43.02796     -70.00864    31.8685    31.8870     5.3185     5.3177    25.1581    25.1729     6.4494     6.3239         24
+       7111   '15-APR-2024 11:11:17.25'     67.000     5.3252   3.104303     5.3253   3.105989      68.23    0.10144000     2.2182     2.2592     1.8806    0.20491000     8.0060    0.00160930    2.65320000     43.02796     -70.00864    31.8692    31.8883     5.3202     5.3203    25.1586    25.1736     6.4457     6.3228         23
+       7132   '15-APR-2024 11:11:18.12'     67.500     5.3362   3.105716     5.3344   3.107202      67.76    0.10144000     2.2170     2.2581     1.8651    0.19987000     8.0050    0.00163250    2.65320000     43.02796     -70.00864    31.8749    31.8932     5.3308     5.3293    25.1619    25.1765     6.4430     6.3190         19
+       7150   '15-APR-2024 11:11:18.88'     68.000     5.3469   3.107153     5.3457   3.108745      67.34    0.10144000     2.2158     2.2576     1.8865    0.19241000     8.0040    0.00164270    2.65350000     43.02796     -70.00863    31.8809    31.8997     5.3419     5.3406    25.1654    25.1804     6.4340     6.3170         17
+       7166   '15-APR-2024 11:11:19.56'     68.500     5.3501   3.107646     5.3501   3.109384      66.88    0.10144000     2.2148     2.2568     1.8755    0.19078000     8.0030    0.00160900    2.65440000     43.02796     -70.00862    31.8828    31.9025     5.3449     5.3450    25.1665    25.1821     6.4363     6.3172         16
+       7183   '15-APR-2024 11:11:20.26'     69.000     5.3611   3.109093     5.3595   3.110620      66.34    0.10144000     2.2143     2.2566     1.8876    0.19330000     8.0030    0.00159090    2.65450000     43.02796     -70.00862    31.8885    31.9072     5.3559     5.3545    25.1698    25.1848     6.4392     6.3174         18
+       7203   '15-APR-2024 11:11:21.09'     69.500     5.3645   3.109541     5.3632   3.111080      65.87    0.10144000     2.2138     2.2562     1.8876    0.19527000     8.0020    0.00176270    2.65450000     43.02796     -70.00862    31.8901    31.9088     5.3593     5.3580    25.1706    25.1856     6.4261     6.3048         23
+       7239   '15-APR-2024 11:11:22.60'     70.000     5.3643   3.109581     5.3643   3.111176      65.10    0.10144000     2.2087     2.2512     1.8785    0.19418000     8.0020    0.00179670    2.65360000     43.02796     -70.00862    31.8906    31.9088     5.3591     5.3591    25.1711    25.1855     6.3731     6.2538         50
+       7283   '15-APR-2024 11:11:24.41'     70.500     5.3705   3.110302     5.3689   3.111801      64.77    0.10146000     2.2001     2.2423     1.8944    0.19672000     8.0020    0.00152510    2.65320000     43.02796     -70.00862    31.8926    31.9111     5.3652     5.3636    25.1720    25.1868     6.3556     6.2307         30
+       7305   '15-APR-2024 11:11:25.32'     71.000     5.3734   3.110696     5.3731   3.112345      64.23    0.10144000     2.1987     2.2409     1.8831    0.19331000     8.0020    0.00154310    2.65360000     43.02796     -70.00862    31.8940    31.9130     5.3680     5.3678    25.1728    25.1878     6.3658     6.2516         18
+       7321   '15-APR-2024 11:11:26.00'     71.500     5.3785   3.111359     5.3784   3.113090      63.95    0.10144000     2.1975     2.2404     1.8779    0.18801000     8.0020    0.00161210    2.65450000     43.02796     -70.00862    31.8964    31.9162     5.3731     5.3730    25.1741    25.1898     6.3528     6.2428         15
+       7335   '15-APR-2024 11:11:26.59'     72.000     5.3847   3.112193     5.3835   3.113792      63.73    0.10144000     2.1957     2.2387     1.9028    0.17357000     8.0020    0.00186340    2.65510000     43.02796     -70.00862    31.8997    31.9190     5.3793     5.3781    25.1760    25.1914     6.3384     6.2214         13
+       7348   '15-APR-2024 11:11:27.13'     72.500     5.4005   3.114313     5.3964   3.115716      63.05    0.10144000     2.1939     2.2370     1.8820    0.17471000     8.0020    0.00186240    2.65570000     43.02796     -70.00862    31.9085    31.9284     5.3951     5.3909    25.1812    25.1974     6.3219     6.2018         13
+       7361   '15-APR-2024 11:11:27.68'     73.000     5.4381   3.119373     5.4334   3.120798      62.83    0.10144000     2.1919     2.2342     1.8932    0.17789000     8.0000    0.00183170    2.65570000     43.02796     -70.00862    31.9298    31.9505     5.4326     5.4279    25.1938    25.2107     6.3048     6.1828         14
+       7376   '15-APR-2024 11:11:28.29'     73.500     5.4568   3.121929     5.4547   3.123438      61.97    0.10144000     2.1894     2.2319     1.9105    0.17928000     7.9970    0.00182700    2.65570000     43.02796     -70.00862    31.9408    31.9599     5.4512     5.4491    25.2003    25.2157     6.2921     6.1767         16
+       7397   '15-APR-2024 11:11:29.18'     74.000     5.4722   3.123950     5.4691   3.125255      61.36    0.10144000     2.1864     2.2289     1.8887    0.17068000     7.9970    0.00186730    2.65470000     43.02796     -70.00862    31.9488    31.9664     5.4666     5.4635    25.2049    25.2192     6.2856     6.1708         30
+       7455   '15-APR-2024 11:11:31.56'     74.500     5.4728   3.123825     5.4421   3.121761      60.44    0.10144000     2.1790     2.2218     1.8929    0.18933000     7.9970    0.00170210    2.65440000     43.02796     -70.00862    31.9465    31.9530     5.4672     5.4364    25.2030    25.2117     6.2551     6.1521         62
+       7489   '15-APR-2024 11:11:33.00'     75.000     5.5319   3.132030     5.5288   3.133237      60.17    0.10144000     2.1737     2.2171     1.8976    0.17387000     7.9960    0.00151600    2.65490000     43.02796     -70.00861    31.9829    31.9995     5.5262     5.5230    25.2250    25.2385     6.2257     6.1138         23
+       7508   '15-APR-2024 11:11:33.79'     75.500     5.5494   3.134376     5.5490   3.135991      59.90    0.10144000     2.1709     2.2142     1.8815    0.16159000     7.9950    0.00182090    2.65570000     43.02796     -70.00860    31.9925    32.0111     5.5436     5.5432    25.2306    25.2454     6.2136     6.0968         17
+       7525   '15-APR-2024 11:11:34.52'     76.000     5.5541   3.135045     5.5536   3.136635      59.38    0.10144000     2.1689     2.2112     1.8860    0.15401000     7.9930    0.00170580    2.65620000     43.02796     -70.00860    31.9953    32.0138     5.5483     5.5478    25.2323    25.2470     6.2083     6.0849         18
+       7543   '15-APR-2024 11:11:35.27'     76.500     5.5599   3.135904     5.5595   3.137534      58.70    0.10144000     2.1667     2.2083     1.8743    0.15735000     7.9920    0.00173780    2.65690000     43.02796     -70.00860    31.9993    32.0180     5.5540     5.5537    25.2348    25.2497     6.1995     6.0744         18
+       7562   '15-APR-2024 11:11:36.06'     77.000     5.5696   3.137262     5.5692   3.138881      58.24    0.10144000     2.1642     2.2053     1.8846    0.15507000     7.9910    0.00184710    2.65640000     43.02796     -70.00860    32.0051    32.0238     5.5637     5.5633    25.2383    25.2531     6.1942     6.0725         20
+       7583   '15-APR-2024 11:11:36.91'     77.500     5.5873   3.139594     5.5865   3.141155      57.71    0.10146000     2.1626     2.2035     1.8783    0.15524000     7.9910    0.00183310    2.65570000     43.02796     -70.00860    32.0144    32.0327     5.5813     5.5806    25.2436    25.2582     6.1911     6.0715         21
+       7605   '15-APR-2024 11:11:37.82'     78.000     5.6181   3.143525     5.6163   3.144960      57.16    0.10144000     2.1609     2.2014     1.8902    0.15038000     7.9910    0.00184950    2.65570000     43.02796     -70.00860    32.0292    32.0471     5.6120     5.6102    25.2518    25.2661     6.1854     6.0657         22
+       7628   '15-APR-2024 11:11:38.77'     78.500     5.6323   3.145304     5.6325   3.146979      56.64    0.10144000     2.1597     2.2003     1.8723    0.14855000     7.9910    0.00177380    2.65570000     43.02796     -70.00860    32.0355    32.0542     5.6263     5.6265    25.2550    25.2698     6.1806     6.0687         24
+       7653   '15-APR-2024 11:11:39.82'     79.000     5.6487   3.147438     5.6473   3.148957      56.13    0.10144000     2.1584     2.1996     1.8724    0.15642000     7.9890    0.00165460    2.65570000     43.02796     -70.00860    32.0438    32.0621     5.6425     5.6412    25.2597    25.2744     6.1719     6.0602         26
+       7679   '15-APR-2024 11:11:40.90'     79.500     5.6563   3.148440     5.6555   3.149997      55.60    0.10144000     2.1569     2.1978     1.8813    0.14535000     7.9880    0.00162180    2.65570000     43.02796     -70.00860    32.0474    32.0659     5.6502     5.6493    25.2617    25.2764     6.1672     6.0468         27
+       7707   '15-APR-2024 11:11:42.10'     80.000     5.6629   3.149274     5.6617   3.150804      55.08    0.10145000     2.1557     2.1961     1.8807    0.14764000     7.9870    0.00159860    2.65570000     43.02796     -70.00860    32.0505    32.0688     5.6566     5.6554    25.2633    25.2780     6.1655     6.0478         31
+       7741   '15-APR-2024 11:11:43.52'     80.500     5.6648   3.149537     5.6644   3.151164      54.53    0.10144000     2.1540     2.1945     1.8738    0.14889000     7.9870    0.00156840    2.65570000     43.02796     -70.00858    32.0513    32.0700     5.6586     5.6582    25.2638    25.2786     6.1434     6.0356         36
+       7773   '15-APR-2024 11:11:44.83'     81.000     5.6711   3.150351     5.6709   3.152017      54.12    0.10144000     2.1497     2.1920     1.8812    0.15077000     7.9860    0.00188510    2.65680000     43.02796     -70.00858    32.0543    32.0732     5.6648     5.6646    25.2654    25.2804     6.1048     6.0150         26
+       7795   '15-APR-2024 11:11:45.74'     81.500     5.6786   3.151365     5.6784   3.152991      53.84    0.10144000     2.1454     2.1890     1.8762    0.14027000     7.9870    0.00172580    2.65780000     43.02796     -70.00858    32.0583    32.0768     5.6723     5.6721    25.2677    25.2824     6.0895     5.9908         18
+       7811   '15-APR-2024 11:11:46.41'     82.000     5.6796   3.151621     5.6791   3.153211      53.32    0.10147000     2.1432     2.1863     1.8696    0.13596000     7.9860    0.00160000    2.65810000     43.02796     -70.00858    32.0600    32.0784     5.6732     5.6727    25.2690    25.2835     6.0894     5.9783         15
+       7826   '15-APR-2024 11:11:47.02'     82.500     5.6760   3.151498     5.6756   3.153100      52.81    0.10144000     2.1411     2.1840     1.8833    0.14043000     7.9860    0.00167980    2.65810000     43.02796     -70.00856    32.0618    32.0802     5.6695     5.6692    25.2708    25.2854     6.0838     5.9714         14
+       7840   '15-APR-2024 11:11:47.62'     83.000     5.6766   3.151711     5.6761   3.153350      52.48    0.10144000     2.1393     2.1814     1.8911    0.14407000     7.9860    0.00168370    2.65800000     43.02796     -70.00856    32.0633    32.0823     5.6702     5.6696    25.2719    25.2870     6.0754     5.9695         15
+       7857   '15-APR-2024 11:11:48.33'     83.500     5.6848   3.152918     5.6837   3.154467      51.76    0.10144000     2.1367     2.1798     1.8859    0.13760000     7.9860    0.00168030    2.65690000     43.02796     -70.00856    32.0690    32.0875     5.6782     5.6771    25.2754    25.2902     6.0629     5.9673         20
+       7882   '15-APR-2024 11:11:49.36'     84.000     5.7152   3.157091     5.7122   3.158443      51.18    0.10145000     2.1333     2.1766     1.8813    0.13630000     7.9860    0.00170030    2.65640000     43.02796     -70.00856    32.0868    32.1048     5.7087     5.7056    25.2860    25.3006     6.0594     5.9578         32
+       7922   '15-APR-2024 11:11:51.05'     84.500     5.7476   3.161823     5.7455   3.163104      50.51    0.10144000     2.1331     2.1755     1.8934    0.14682000     7.9850    0.00169160    2.65570000     43.02795     -70.00856    32.1089    32.1253     5.7409     5.7389    25.2997    25.3128     6.0898     5.9729         43
+       7958   '15-APR-2024 11:11:52.53'     85.000     5.7527   3.162694     5.7521   3.164278      50.12    0.10144000     2.1338     2.1740     1.9011    0.12625000     7.9830    0.00170300    2.65570000     43.02794     -70.00856    32.1136    32.1320     5.7460     5.7454    25.3027    25.3174     6.0628     5.9380         28
+       7981   '15-APR-2024 11:11:53.51'     85.500     5.7608   3.163634     5.7600   3.165190      49.75    0.10144000     2.1306     2.1704     1.8981    0.12440000     7.9810    0.00173230    2.65610000     43.02794     -70.00856    32.1165    32.1344     5.7541     5.7533    25.3041    25.3184     6.0127     5.9053         21
+       8002   '15-APR-2024 11:11:54.39'     86.000     5.7618   3.163970     5.7622   3.165629      49.19    0.10144000     2.1252     2.1660     1.8948    0.12818000     7.9810    0.00175750    2.65690000     43.02794     -70.00856    32.1188    32.1371     5.7551     5.7554    25.3058    25.3202     5.9723     5.8700         22
+       8024   '15-APR-2024 11:11:55.28'     86.500     5.7430   3.162472     5.7459   3.164357      48.82    0.10144000     2.1189     2.1597     1.8991    0.12792000     7.9810    0.00184580    2.65700000     43.02794     -70.00856    32.1196    32.1380     5.7362     5.7391    25.3087    25.3229     5.9517     5.8446         21
+       8045   '15-APR-2024 11:11:56.16'     87.000     5.6854   3.157217     5.6890   3.159180      48.28    0.10146000     2.1135     2.1543     1.8967    0.13253000     7.9810    0.00196450    2.65810000     43.02794     -70.00856    32.1151    32.1337     5.6786     5.6822    25.3118    25.3262     5.9539     5.8490         20
+       8064   '15-APR-2024 11:11:56.95'     87.500     5.6647   3.155785     5.6690   3.157900      47.81    0.10148000     2.1095     2.1507     1.8917    0.13502000     7.9810    0.00198950    2.65810000     43.02794     -70.00856    32.1184    32.1382     5.6579     5.6622    25.3169    25.3320     5.9500     5.8438         18
+       8082   '15-APR-2024 11:11:57.70'     88.000     5.7115   3.161533     5.7123   3.163317      47.36    0.10144000     2.1059     2.1468     1.8959    0.13568000     7.9820    0.00199750    2.65810000     43.02793     -70.00856    32.1383    32.1576     5.7046     5.7054    25.3272    25.3423     5.9344     5.8272         18
+       8101   '15-APR-2024 11:11:58.49'     88.500     5.7388   3.164783     5.7382   3.166369      46.77    0.10151000     2.1027     2.1438     1.8971    0.13433000     7.9810    0.00198050    2.65810000     43.02792     -70.00856    32.1486    32.1670     5.7318     5.7313    25.3321    25.3467     5.9292     5.8279         21
+       8124   '15-APR-2024 11:11:59.47'     89.000     5.8102   3.173047     5.8105   3.174763      46.12    0.10146000     2.0999     2.1413     1.9066    0.13058000     7.9770    0.00198120    2.65800000     43.02792     -70.00856    32.1732    32.1922     5.8031     5.8034    25.3431    25.3581     5.9134     5.8090         28
+       8159   '15-APR-2024 11:12:00.92'     89.500     5.8681   3.179430     5.8678   3.181058      45.55    0.10147000     2.0958     2.1368     1.9050    0.13396000     7.9760    0.00187060    2.65690000     43.02792     -70.00856    32.1895    32.2080     5.8610     5.8606    25.3491    25.3638     5.8885     5.7831         40
+       8196   '15-APR-2024 11:12:02.45'     90.000     5.8935   3.182141     5.8920   3.183648      45.14    0.10148000     2.0911     2.1314     1.9161    0.12425000     7.9740    0.00180950    2.65690000     43.02792     -70.00856    32.1955    32.2136     5.8863     5.8850    25.3508    25.3652     5.8582     5.7545         31
+       8222   '15-APR-2024 11:12:03.56'     90.500     5.9091   3.183866     5.9075   3.185321      44.75    0.10150000     2.0866     2.1274     1.9098    0.12260000     7.9710    0.00191940    2.65780000     43.02792     -70.00856    32.1997    32.2175     5.9018     5.9003    25.3522    25.3665     5.8313     5.7387         23
+       8244   '15-APR-2024 11:12:04.45'     91.000     5.9144   3.184460     5.9144   3.186079      44.26    0.10149000     2.0826     2.1242     1.9086    0.12441000     7.9710    0.00195270    2.65870000     43.02792     -70.00856    32.2010    32.2191     5.9071     5.9071    25.3527    25.3670     5.8210     5.7284         21
+       8264   '15-APR-2024 11:12:05.30'     91.500     5.9211   3.185189     5.9191   3.186628      43.72    0.10150000     2.0796     2.1213     1.9176    0.12532000     7.9710    0.00197000    2.65930000     43.02792     -70.00856    32.2026    32.2206     5.9137     5.9118    25.3531    25.3675     5.8158     5.7199         19
+       8283   '15-APR-2024 11:12:06.10'     92.000     5.9577   3.189069     5.9541   3.190352      43.28    0.10148000     2.0770     2.1188     1.9120    0.11617000     7.9710    0.00193170    2.65930000     43.02792     -70.00856    32.2110    32.2288     5.9503     5.9467    25.3553    25.3698     5.8121     5.7084         19
+       8302   '15-APR-2024 11:12:06.88'     92.500     5.9753   3.190936     5.9742   3.192479      42.88    0.10150000     2.0760     2.1164     1.9092    0.11878000     7.9710    0.00189920    2.65980000     43.02792     -70.00856    32.2149    32.2331     5.9678     5.9668    25.3563    25.3708     5.8115     5.6999         18
+       8320   '15-APR-2024 11:12:07.62'     93.000     6.0046   3.194023     6.0038   3.195619      42.49    0.10154000     2.0743     2.1146     1.9082    0.11889000     7.9700    0.00201910    2.66040000     43.02792     -70.00855    32.2212    32.2399     5.9971     5.9963    25.3578    25.3726     5.7999     5.6940         19
+       8339   '15-APR-2024 11:12:08.40'     93.500     6.0288   3.196628     6.0285   3.198216      41.76    0.10148000     2.0729     2.1127     1.9098    0.11129000     7.9680    0.00208240    2.65940000     43.02792     -70.00854    32.2271    32.2452     6.0212     6.0209    25.3595    25.3738     5.7875     5.6756         19
+       8361   '15-APR-2024 11:12:09.33'     94.000     6.0522   3.199274     6.0504   3.200715      41.29    0.10154000     2.0707     2.1091     1.9151    0.11726000     7.9660    0.00209110    2.65890000     43.02792     -70.00854    32.2341    32.2519     6.0446     6.0428    25.3622    25.3764     5.7720     5.6555         26
+       8398   '15-APR-2024 11:12:10.86'     94.500     6.0621   3.200436     6.0610   3.201954      40.62    0.10152000     2.0662     2.1053     1.9083    0.11617000     7.9660    0.00199300    2.65810000     43.02792     -70.00854    32.2375    32.2554     6.0544     6.0534    25.3636    25.3779     5.7502     5.6563         49
+       8442   '15-APR-2024 11:12:12.73'     95.000     6.0676   3.201102     6.0672   3.202678      40.09    0.10151000     2.0609     2.1008     1.9058    0.11967000     7.9660    0.00183820    2.65840000     43.02792     -70.00852    32.2395    32.2576     6.0598     6.0596    25.3646    25.3789     5.7320     5.6306         32
+       8467   '15-APR-2024 11:12:13.74'     95.500     6.0807   3.202791     6.0805   3.204394      39.81    0.10154000     2.0583     2.0977     1.9123    0.11680000     7.9660    0.00188490    2.65940000     43.02792     -70.00852    32.2456    32.2637     6.0730     6.0727    25.3677    25.3821     5.7243     5.6173         21
+       8486   '15-APR-2024 11:12:14.52'     96.000     6.0966   3.204829     6.0954   3.206332      39.45    0.10148000     2.0564     2.0954     1.9063    0.11855000     7.9650    0.00209220    2.66040000     43.02792     -70.00852    32.2530    32.2709     6.0887     6.0875    25.3717    25.3860     5.7140     5.6069         17
+       8502   '15-APR-2024 11:12:15.21'     96.500     6.1110   3.206666     6.1098   3.208231      38.87    0.10155000     2.0547     2.0934     1.9152    0.11129000     7.9630    0.00215530    2.66060000     43.02792     -70.00850    32.2595    32.2781     6.1031     6.1019    25.3751    25.3899     5.7074     5.5950         17
+       8519   '15-APR-2024 11:12:15.92'     97.000     6.1230   3.208210     6.1228   3.209837      38.47    0.10151000     2.0531     2.0906     1.9129    0.11133000     7.9630    0.00220800    2.66130000     43.02792     -70.00850    32.2651    32.2834     6.1150     6.1148    25.3780    25.3925     5.7031     5.5842         17
+       8538   '15-APR-2024 11:12:16.69'     97.500     6.1272   3.208826     6.1261   3.210321      37.91    0.10163000     2.0518     2.0887     1.9135    0.10935000     7.9610    0.00259190    2.66140000     43.02792     -70.00850    32.2677    32.2856     6.1192     6.1186    25.3796    25.3938     5.7019     5.5868         21
+       8561   '15-APR-2024 11:12:17.66'     98.000     6.1413   3.210833     6.1398   3.212320      37.25    0.10153000     2.0503     2.0868     1.9099    0.11125000     7.9610    0.00247900    2.66050000     43.02792     -70.00850    32.2764    32.2944     6.1333     6.1318    25.3847    25.3991     5.6984     5.5880         26
+       8591   '15-APR-2024 11:12:18.91'     98.500     6.1500   3.211978     6.1497   3.213591      36.69    0.10165000     2.0490     2.0859     1.9177    0.11147000     7.9600    0.00220810    2.65940000     43.02792     -70.00850    32.2807    32.2989     6.1419     6.1416    25.3870    25.4014     5.6941     5.5992         31
+       8620   '15-APR-2024 11:12:20.12'     99.000     6.1633   3.213535     6.1621   3.215016      36.30    0.10165000     2.0476     2.0860     1.9095    0.11080000     7.9600    0.00217880    2.65930000     43.02792     -70.00848    32.2851    32.3028     6.1552     6.1539    25.3889    25.4030     5.6929     5.5934         26
+       8642   '15-APR-2024 11:12:21.05'     99.500     6.1716   3.214525     6.1710   3.216082      35.78    0.10163000     2.0475     2.0854     1.9072    0.11281000     7.9600    0.00232030    2.65930000     43.02792     -70.00848    32.2880    32.3060     6.1634     6.1628    25.3902    25.4044     5.6944     5.5833         21
+       8663   '15-APR-2024 11:12:21.90'    100.000     6.1725   3.214651     6.1722   3.216235      35.32    0.10166000     2.0469     2.0841     1.9129    0.10987000     7.9600    0.00230870    2.65930000     43.02792     -70.00849    32.2883    32.3063     6.1643     6.1640    25.3903    25.4045     5.6858     5.5813         20
+       8685   '15-APR-2024 11:12:22.85'    100.500     6.1721   3.214626     6.1718   3.216227      34.79    0.10161000     2.0457     2.0839     1.9145    0.11296000     7.9600    0.00218060    2.65990000     43.02792     -70.00848    32.2882    32.3063     6.1638     6.1636    25.3902    25.4045     5.6792     5.5868         27
+       8719   '15-APR-2024 11:12:24.24'    101.000     6.1732   3.214818     6.1727   3.216415      34.20    0.10168000     2.0441     2.0831     1.9080    0.11364000     7.9600    0.00217030    2.66060000     43.02792     -70.00848    32.2890    32.3073     6.1649     6.1644    25.3908    25.4052     5.6721     5.5790         39
+       8754   '15-APR-2024 11:12:25.70'    101.500     6.1757   3.215183     6.1752   3.216750      33.68    0.10160000     2.0421     2.0819     1.9122    0.11246000     7.9600    0.00210210    2.66060000     43.02792     -70.00850    32.2905    32.3084     6.1673     6.1668    25.3916    25.4058     5.6692     5.5754         28
+       8776   '15-APR-2024 11:12:26.63'    102.000     6.1763   3.215284     6.1760   3.216889      33.43    0.10155000     2.0417     2.0812     1.9187    0.11441000     7.9590    0.00206440    2.66150000     43.02792     -70.00850    32.2909    32.3089     6.1679     6.1676    25.3918    25.4061     5.6739     5.5745         19
+       8794   '15-APR-2024 11:12:27.38'    102.500     6.1794   3.215739     6.1788   3.217336      33.00    0.10159000     2.0414     2.0809     1.9168    0.11347000     7.9580    0.00209880    2.66150000     43.02792     -70.00850    32.2927    32.3110     6.1709     6.1704    25.3929    25.4074     5.6697     5.5716         17
+       8811   '15-APR-2024 11:12:28.08'    103.000     6.1877   3.216844     6.1867   3.218415      32.54    0.10173000     2.0408     2.0803     1.9031    0.11062000     7.9580    0.00227170    2.66090000     43.02792     -70.00850    32.2968    32.3153     6.1792     6.1782    25.3952    25.4098     5.6668     5.5671         17
+       8828   '15-APR-2024 11:12:28.80'    103.500     6.1933   3.217574     6.1928   3.219150      32.07    0.10162000     2.0405     2.0796     1.9158    0.11177000     7.9560    0.00220940    2.66060000     43.02791     -70.00850    32.2994    32.3175     6.1848     6.1842    25.3965    25.4108     5.6682     5.5675         19
+       8849   '15-APR-2024 11:12:29.65'    104.000     6.1951   3.217806     6.1947   3.219396      31.41    0.10167000     2.0403     2.0793     1.9202    0.11050000     7.9560    0.00215420    2.66060000     43.02790     -70.00850    32.3001    32.3181     6.1865     6.1861    25.3968    25.4111     5.6691     5.5671         22
+       8873   '15-APR-2024 11:12:30.69'    104.500     6.1960   3.217959     6.1957   3.219541      30.87    0.10170000     2.0402     2.0785     1.9125    0.11167000     7.9560    0.00225720    2.66060000     43.02790     -70.00850    32.3006    32.3186     6.1874     6.1870    25.3971    25.4113     5.6644     5.5595         27
+       8903   '15-APR-2024 11:12:31.91'    105.000     6.1970   3.218088     6.1965   3.219672      30.37    0.10171000     2.0386     2.0775     1.9189    0.12009000     7.9560    0.00256110    2.66060000     43.02790     -70.00848    32.3009    32.3190     6.1884     6.1878    25.3972    25.4116     5.6483     5.5581         31
+       8934   '15-APR-2024 11:12:33.19'    105.500     6.1986   3.218282     6.1980   3.219863      29.82    0.10164000     2.0366     2.0759     1.9050    0.11109000     7.9560    0.00215090    2.66060000     43.02790     -70.00850    32.3013    32.3194     6.1898     6.1893    25.3974    25.4117     5.6362     5.5419         30
+       8963   '15-APR-2024 11:12:34.40'    106.000     6.2006   3.218548     6.2000   3.220127      29.42    0.10170000     2.0337     2.0729     1.9066    0.11208000     7.9560    0.00224060    2.66060000     43.02790     -70.00852    32.3021    32.3202     6.1919     6.1913    25.3977    25.4121     5.6198     5.5151         28
+       8990   '15-APR-2024 11:12:35.56'    106.500     6.2040   3.218961     6.2038   3.220578      28.91    0.10172000     2.0308     2.0689     1.9089    0.11399000     7.9560    0.00216610    2.66060000     43.02790     -70.00854    32.3032    32.3214     6.1952     6.1950    25.3982    25.4126     5.6096     5.5049         27
+       9015   '15-APR-2024 11:12:36.57'    107.000     6.2088   3.219601     6.2100   3.221353      28.47    0.10167000     2.0283     2.0663     1.9195    0.11433000     7.9550    0.00221400    2.66080000     43.02790     -70.00855    32.3053    32.3239     6.2000     6.2012    25.3992    25.4138     5.5816     5.4812         22
+       9034   '15-APR-2024 11:12:37.39'    107.500     6.2250   3.221658     6.2255   3.223371      27.94    0.10168000     2.0233     2.0614     1.9093    0.11868000     7.9550    0.00214000    2.66180000     43.02790     -70.00852    32.3128    32.3313     6.2161     6.2166    25.4032    25.4177     5.5190     5.4269         18
+       9051   '15-APR-2024 11:12:38.08'    108.000     6.2380   3.223428     6.2354   3.224765      27.57    0.10170000     2.0168     2.0554     1.9253    0.11315000     7.9550    0.00225260    2.66250000     43.02790     -70.00850    32.3199    32.3372     6.2290     6.2265    25.4072    25.4211     5.4653     5.3808         15
+       9067   '15-APR-2024 11:12:38.77'    108.500     6.2425   3.224058     6.2414   3.225556      27.20    0.10168000     2.0090     2.0481     1.9186    0.11328000     7.9550    0.00231070    2.66300000     43.02790     -70.00849    32.3224    32.3401     6.2335     6.2324    25.4086    25.4227     5.4286     5.3480         18
+       9087   '15-APR-2024 11:12:39.60'    109.000     6.2548   3.225696     6.2485   3.226572      26.55    0.10170000     1.9998     2.0399     1.9154    0.11308000     7.9550    0.00246790    2.66280000     43.02790     -70.00847    32.3286    32.3443     6.2458     6.2395    25.4120    25.4251     5.4059     5.3273         23
+       9123   '15-APR-2024 11:12:41.09'    109.500     6.2907   3.230356     6.2837   3.230950      25.80    0.10173000     1.9878     2.0278     1.9189    0.12909000     7.9540    0.00235730    2.66060000     43.02790     -70.00846    32.3460    32.3593     6.2816     6.2745    25.4212    25.4326     5.3917     5.3075         48
+       9163   '15-APR-2024 11:12:42.73'    110.000     6.3600   3.239417     6.3506   3.240060      25.36    0.10173000     1.9787     2.0184     1.9284    0.11278000     7.9510    0.00217560    2.65980000     43.02790     -70.00846    32.3804    32.3965     6.3508     6.3413    25.4397    25.4536     5.3788     5.2858         26
+       9182   '15-APR-2024 11:12:43.54'    110.500     6.4515   3.251833     6.4473   3.253032      25.14    0.10175000     1.9761     2.0148     1.9263    0.10849000     7.9500    0.00234470    2.66080000     43.02790     -70.00845    32.4306    32.4479     6.4422     6.4380    25.4678    25.4819     5.3637     5.2754         17
+       9198   '15-APR-2024 11:12:44.19'    111.000     6.4809   3.256367     6.4786   3.257829      24.55    0.10172000     1.9742     2.0135     1.9309    0.11251000     7.9460    0.00256840    2.66190000     43.02790     -70.00844    32.4526    32.4710     6.4714     6.4691    25.4814    25.4962     5.3590     5.2770         14
+       9212   '15-APR-2024 11:12:44.80'    111.500     6.4953   3.258663     6.4937   3.260091      24.23    0.10171000     1.9730     2.0120     1.9223    0.10769000     7.9450    0.00275260    2.66300000     43.02790     -70.00844    32.4640    32.4813     6.4858     6.4842    25.4886    25.5024     5.3555     5.2697         16
+       9230   '15-APR-2024 11:12:45.52'    112.000     6.4999   3.259459     6.4996   3.261050      23.61    0.10167000     1.9713     2.0103     1.9266    0.10858000     7.9440    0.00285510    2.66310000     43.02790     -70.00844    32.4683    32.4861     6.4903     6.4900    25.4913    25.5054     5.3477     5.2601         19
+       9263   '15-APR-2024 11:12:46.90'    112.500     6.5055   3.260386     6.5046   3.261875      22.82    0.10170000     1.9674     2.0061     1.9171    0.11207000     7.9410    0.00290310    2.66270000     43.02790     -70.00844    32.4729    32.4902     6.4959     6.4950    25.4943    25.5080     5.3239     5.2370         53
+       9316   '15-APR-2024 11:12:49.11'    113.000     6.5116   3.261245     6.5106   3.262738      22.33    0.10172000     1.9605     1.9978     1.9203    0.10921000     7.9400    0.00257800    2.66050000     43.02788     -70.00844    32.4763    32.4938     6.5020     6.5009    25.4962    25.5101     5.3044     5.2010         36
+       9338   '15-APR-2024 11:12:50.05'    113.500     6.5151   3.261751     6.5146   3.263304      22.05    0.10176000     1.9583     1.9947     1.9175    0.10925000     7.9400    0.00275610    2.66060000     43.02788     -70.00844    32.4784    32.4959     6.5054     6.5049    25.4974    25.5113     5.2978     5.2031         19
+       9354   '15-APR-2024 11:12:50.72'    114.000     6.5190   3.262302     6.5185   3.263889      21.77    0.10175000     1.9567     1.9930     1.9137    0.10988000     7.9400    0.00312740    2.66180000     43.02788     -70.00844    32.4805    32.4985     6.5092     6.5087    25.4986    25.5128     5.2953     5.2036         14
+       9368   '15-APR-2024 11:12:51.27'    114.500     6.5223   3.262809     6.5227   3.264536      21.07    0.10169000     1.9560     1.9922     1.9176    0.11261000     7.9400    0.00313850    2.66280000     43.02788     -70.00844    32.4827    32.5013     6.5125     6.5133    25.4999    25.5145     5.2947     5.2027         13
+       9381   '15-APR-2024 11:12:51.82'    115.000     6.5338   3.264455     6.5312   3.265828      20.81    0.10171000     1.9547     1.9910     1.9183    0.10634000     7.9400    0.00322280    2.66380000     43.02788     -70.00843    32.4897    32.5074     6.5240     6.5213    25.5039    25.5182     5.2883     5.1965         13
+       9395   '15-APR-2024 11:12:52.40'    115.500     6.5475   3.266516     6.5464   3.268110      20.14    0.10166000     1.9538     1.9901     1.9236    0.10741000     7.9390    0.00324430    2.66480000     43.02788     -70.00842    32.4992    32.5178     6.5376     6.5365    25.5097    25.5245     5.2819     5.1841         15
+       9413   '15-APR-2024 11:12:53.17'    116.000     6.5554   3.267802     6.5550   3.269397      19.50    0.10172000     1.9521     1.9875     1.9181    0.10978000     7.9390    0.00337140    2.66540000     43.02788     -70.00842    32.5056    32.5236     6.5455     6.5451    25.5137    25.5280     5.2758     5.1678         23
+       9455   '15-APR-2024 11:12:54.92'    116.500     6.5638   3.269189     6.5635   3.270692      18.81    0.10169000     1.9494     1.9831     1.9093    0.10913000     7.9370    0.00295710    2.66390000     43.02788     -70.00841    32.5126    32.5296     6.5539     6.5535    25.5182    25.5316     5.2628     5.1604         62
+       9506   '15-APR-2024 11:12:57.02'    117.000     6.5726   3.270398     6.5725   3.271976      18.35    0.10166000     1.9428     1.9772     1.9180    0.11367000     7.9370    0.00245070    2.66170000     43.02788     -70.00840    32.5175    32.5350     6.5625     6.5624    25.5209    25.5347     5.1990     5.1096         31
+       9530   '15-APR-2024 11:12:58.04'    117.500     6.5805   3.271611     6.5798   3.273169      17.96    0.10170000     1.9353     1.9703     1.9166    0.10735000     7.9350    0.00303390    2.66230000     43.02788     -70.00840    32.5231    32.5408     6.5703     6.5697    25.5243    25.5384     5.1409     5.0488         21
+       9549   '15-APR-2024 11:12:58.84'    118.000     6.5845   3.272209     6.5834   3.273708      17.57    0.10167000     1.9279     1.9621     1.9279    0.11054000     7.9350    0.00351980    2.66370000     43.02788     -70.00838    32.5256    32.5431     6.5743     6.5733    25.5258    25.5397     5.0888     4.9958         19
+       9567   '15-APR-2024 11:12:59.58'    118.500     6.5891   3.272892     6.5897   3.274611      17.19    0.10165000     1.9187     1.9536     1.9224    0.10989000     7.9350    0.00372070    2.66460000     43.02788     -70.00838    32.5286    32.5469     6.5789     6.5795    25.5275    25.5419     5.0352     4.9566         17
+       9585   '15-APR-2024 11:13:00.32'    119.000     6.5917   3.273281     6.5924   3.275059      16.46    0.10166000     1.9093     1.9449     1.9128    0.10647000     7.9350    0.00382740    2.66550000     43.02788     -70.00838    32.5301    32.5491     6.5815     6.5825    25.5284    25.5433     4.9983     4.9268         18
+       9603   '15-APR-2024 11:13:01.08'    119.500     6.6148   3.276559     6.6145   3.278217      16.04    0.10168000     1.8994     1.9363     1.9163    0.11053000     7.9350    0.00386810    2.66540000     43.02788     -70.00838    32.5440    32.5626     6.6045     6.6041    25.5364    25.5511     4.9729     4.9089         19
+       9622   '15-APR-2024 11:13:01.89'    120.000     6.6614   3.282935     6.6587   3.284280      15.57    0.10170000     1.8911     1.9290     1.9187    0.11119000     7.9340    0.00375410    2.66540000     43.02788     -70.00838    32.5696    32.5870     6.6510     6.6483    25.5506    25.5646     4.9575     4.8946         19
+       9642   '15-APR-2024 11:13:02.70'    120.500     6.6958   3.287570     6.6941   3.289111      15.10    0.10163000     1.8842     1.9227     1.9290    0.10474000     7.9320    0.00370340    2.66420000     43.02788     -70.00838    32.5877    32.6062     6.6853     6.6836    25.5604    25.5752     4.9512     4.8870         21
+       9663   '15-APR-2024 11:13:03.59'    121.000     6.7738   3.297973     6.7714   3.299726      14.53    0.10170000     1.8786     1.9178     1.9186    0.10763000     7.9300    0.00370350    2.66410000     43.02787     -70.00837    32.6275    32.6491     6.7632     6.7608    25.5816    25.5989     4.9333     4.8677         22
+       9689   '15-APR-2024 11:13:04.68'    121.500     6.8386   3.307488     6.8471   3.310210      13.92    0.10169000     1.8716     1.9104     1.9206    0.10383000     7.9270    0.00371850    2.66300000     43.02786     -70.00835    32.6700    32.6918     6.8279     6.8363    25.6066    25.6226     4.8870     4.8167         30
+       9725   '15-APR-2024 11:13:06.16'    122.000     6.9263   3.319957     6.9246   3.321550      13.40    0.10168000     1.8595     1.8988     1.9157    0.10750000     7.9240    0.00361620    2.66300000     43.02786     -70.00834    32.7228    32.7419     6.9155     6.9138    25.6366    25.6518     4.8079     4.7519         41
+       9765   '15-APR-2024 11:13:07.83'    122.500     6.9463   3.323210     6.9459   3.324687      12.89    0.10168000     1.8405     1.8808     1.9185    0.10818000     7.9200    0.00343070    2.66390000     43.02786     -70.00835    32.7392    32.7557     6.9354     6.9350    25.6468    25.6598     4.6959     4.6467         35
+       9794   '15-APR-2024 11:13:09.05'    123.000     6.9566   3.324773     6.9576   3.326617      12.49    0.10166000     1.8241     1.8652     1.9255    0.10368000     7.9190    0.00378100    2.66420000     43.02787     -70.00836    32.7463    32.7654     6.9456     6.9466    25.6510    25.6660     4.6517     4.5970         26
+       9816   '15-APR-2024 11:13:09.97'    123.500     6.9788   3.328242     6.9796   3.330007      12.06    0.10169000     1.8146     1.8543     1.9311    0.09954000     7.9190    0.00389630    2.66420000     43.02788     -70.00836    32.7628    32.7813     6.9677     6.9685    25.6610    25.6755     4.6406     4.5776         20
+       9835   '15-APR-2024 11:13:10.77'    124.000     7.0494   3.337864     7.0508   3.339734      11.67    0.10166000     1.8079     1.8476     1.9296    0.10443000     7.9150    0.00393540    2.66420000     43.02788     -70.00836    32.8004    32.8194     7.0382     7.0397    25.6812    25.6960     4.6429     4.5945         18
+       9853   '15-APR-2024 11:13:11.49'    124.500     7.0613   3.339743     7.0571   3.340812      11.18    0.10166000     1.8052     1.8460     1.9221    0.10686000     7.9140    0.00396570    2.66480000     43.02788     -70.00836    32.8093    32.8250     7.0500     7.0458    25.6867    25.6995     4.6678     4.6320         16
+       9869   '15-APR-2024 11:13:12.17'    125.000     7.1095   3.346356     7.1013   3.347357      10.63    0.10169000     1.8047     1.8463     1.9246    0.10199000     7.9130    0.00407300    2.66540000     43.02788     -70.00836    32.8352    32.8540     7.0982     7.0900    25.7005    25.7164     4.6724     4.6525         17
+       9885   '15-APR-2024 11:13:12.84'    125.500     7.1789   3.356480     7.1751   3.357784      10.22    0.10171000     1.8039     1.8484     1.9173    0.09851400     7.9100    0.00409960    2.66540000     43.02788     -70.00837    32.8791    32.8969     7.1675     7.1637    25.7257    25.7402     4.6555     4.6400         16
+       9904   '15-APR-2024 11:13:13.62'    126.000     7.2177   3.362460     7.2114   3.363383       9.63    0.10175000     1.8023     1.8467     1.9138    0.10463000     7.9080    0.00408690    2.66540000     43.02788     -70.00838    32.9070    32.9229     7.2061     7.1999    25.7423    25.7557     4.6278     4.5828         21
+       9930   '15-APR-2024 11:13:14.71'    126.500     7.2494   3.367079     7.2483   3.368604       8.96    0.10174000     1.7969     1.8391     1.9212    0.10015000     7.9050    0.00415090    2.66510000     43.02788     -70.00838    32.9267    32.9443     7.2377     7.2367    25.7535    25.7675     4.5789     4.5203         36
+      10051   '15-APR-2024 11:13:19.74'    127.000     7.2693   3.370143     7.2587   3.370539       8.47    0.10170000     1.7741     1.8110     1.9173    0.10598000     7.9040    0.00274300    2.66470000     43.02788     -70.00836    32.9408    32.9552     7.2576     7.2470    25.7619    25.7747     4.5330     4.4713         23
+      10068   '15-APR-2024 11:13:20.46'    127.500     7.3023   3.375047     7.3009   3.376477       8.15    0.10165000     1.7733     1.8100     1.9250    0.09981300     7.9040    0.00286900    2.66580000     43.02788     -70.00836    32.9623    32.9791     7.2905     7.2891    25.7743    25.7877     4.5322     4.4646         17
+      10086   '15-APR-2024 11:13:21.20'    128.000     7.3174   3.377433     7.3169   3.379062       7.56    0.10167000     1.7724     1.8082     1.9115    0.09770600     7.9020    0.00355100    2.66680000     43.02788     -70.00836    32.9736    32.9917     7.3055     7.3050    25.7811    25.7954     4.5284     4.4577         19
+      10108   '15-APR-2024 11:13:22.11'    128.500     7.3288   3.379299     7.3294   3.381037       7.01    0.10170000     1.7714     1.8066     1.9148    0.10263000     7.8990    0.00419880    2.66780000     43.02788     -70.00836    32.9826    33.0009     7.3169     7.3175    25.7866    25.8009     4.5261     4.4552         26
+      10161   '15-APR-2024 11:13:24.32'    129.000     7.3270   3.379066     7.3274   3.380785       6.26    0.10173000     1.7698     1.8045     1.9177    0.10878000     7.8990    0.00379040    2.66540000     43.02788     -70.00836    32.9816    32.9999     7.3151     7.3154    25.7861    25.8004     4.5252     4.4566         74
+      10225   '15-APR-2024 11:13:26.99'    129.500     7.3284   3.379234     7.3272   3.380642       5.83    0.10172000     1.7683     1.8021     1.9265    0.09949000     7.8990    0.00306860    2.66520000     43.02788     -70.00836    32.9819    32.9983     7.3164     7.3152    25.7861    25.7992     4.5206     4.4536         41
+      10261   '15-APR-2024 11:13:28.51'    130.000     7.3278   3.379161     7.3257   3.380429       5.41    0.10168000     1.7683     1.8022     1.9158    0.09836600     7.8980    0.00397730    2.66670000     43.02788     -70.00834    32.9814    32.9971     7.3158     7.3137    25.7858    25.7985     4.5345     4.4633         36
+      10310   '15-APR-2024 11:13:30.56'    130.500     7.3292   3.379406     7.3279   3.380849       4.86    0.10173000     1.7706     1.8031     1.9156    0.10236000     7.8980    0.00391520    2.66760000     43.02787     -70.00834    32.9824    32.9993     7.3171     7.3160    25.7864    25.7999     4.5416     4.4641         67
+      10722   '15-APR-2024 11:13:47.71'    131.000     7.3327   3.379925     7.3298   3.381148       4.25    0.10169000     1.7655     1.7968     1.9212    0.10208000     7.8980    0.00301340    2.66800000     43.02785     -70.00829    32.9846    33.0006     7.3205     7.3178    25.7877    25.8007     4.5089     4.4333         60

@@ -1,0 +1,1149 @@
+ ODF_HEADER,
+   FILE_SPECIFICATION ='C:\CTD_PROCESSING\2024880TEL\CTDDATA\D880A009.ODF'
+ CRUISE_HEADER,
+   COUNTRY_INSTITUTE_CODE=1810,
+   CRUISE_NUMBER='TEL2024880',
+   ORGANIZATION='BIO',
+   CHIEF_SCIENTIST='LINDSAY BEAZLEY',
+   START_DATE='17-NOV-1858 00:00:00.00',
+   END_DATE='17-NOV-1858 00:00:00.00',
+   PLATFORM='CCGS TELEOST',
+   CRUISE_NAME='SCOTIAN SHELF',
+   CRUISE_DESCRIPTION='ATLANTIC ZONE MONITORING PROGRAM (AZMP)'
+ EVENT_HEADER,
+   DATA_TYPE='CTD',
+   EVENT_NUMBER='009',
+   EVENT_QUALIFIER1='1',
+   EVENT_QUALIFIER2='DN',
+   CREATION_DATE='14-APR-2024 16:25:40.00',
+   ORIG_CREATION_DATE='14-APR-2024 16:25:40.00',
+   START_DATE_TIME='11-APR-2024 16:09:54.00',
+   END_DATE_TIME='17-NOV-1858 00:00:00.00',
+   INITIAL_LATITUDE= 44.2587,
+   INITIAL_LONGITUDE= -63.3327,
+   END_LATITUDE=-99.9000,
+   END_LONGITUDE=-999.9000,
+   MIN_DEPTH=   1.5,
+   MAX_DEPTH= 142.5,
+   SAMPLING_INTERVAL=    0.00000000,
+   SOUNDING= 155.0,
+   DEPTH_OFF_BOTTOM=  12.5,
+   STATION_NAME='HL_02',
+   SET_NUMBER='',
+   EVENT_COMMENTS='HL_02,503046'
+ INSTRUMENT_HEADER,
+   INST_TYPE='Sea-Bird',
+   MODEL='SBE 9 ',
+   SERIAL_NUMBER=' ',
+   DESCRIPTION='C:\CTD_PROCESSING\2024880TEL\CTDDATA\880a009.hex C:\CTD_PROCESSING\2024880TEL\CTDDATA\880a009.XMLCON'
+ HISTORY_HEADER,
+   CREATION_DATE='14-APR-2024 16:25:40.00',
+   PROCESS='* Sea-Bird SBE 9 Data File:',
+   PROCESS='* FileName = C:\CTD_ACQUISITION\2024880TEL\ctddata\880a009.hdr',
+   PROCESS='* Software Version Seasave V 7.26.7.121',
+   PROCESS='* Temperature SN = 4807',
+   PROCESS='* Conductivity SN = 4361',
+   PROCESS='* Number of Bytes Per Scan = 44',
+   PROCESS='* Number of Voltage Words = 5',
+   PROCESS='* Number of Scans Averaged by the Deck Unit = 1',
+   PROCESS='* System UpLoad Time = Apr 11 2024 13:10:10',
+   PROCESS='* NMEA Latitude = 44 15.52 N',
+   PROCESS='* NMEA Longitude = 063 19.96 W',
+   PROCESS='* NMEA UTC (Time) = Apr 11 2024 16:09:54',
+   PROCESS='* Store Lat/Lon Data = Append to Every Scan',
+   PROCESS='* SBE 11plus V 5.2',
+   PROCESS='* number of scans to average = 1',
+   PROCESS='* pressure baud rate = 9600',
+   PROCESS='* NMEA baud rate = 4800',
+   PROCESS='* surface PAR voltage added to scan',
+   PROCESS='* A/D offset = 2',
+   PROCESS='* GPIB address = 1',
+   PROCESS='* advance primary conductivity  0.073 seconds',
+   PROCESS='* advance secondary conductivity  0.073 seconds',
+   PROCESS='* autorun on power up is disabled',
+   PROCESS='* S>',
+   PROCESS='** Ship: CCGS TELEOST',
+   PROCESS='** Cruise: TEL2024880',
+   PROCESS='** Chief_Scientist: LINDSAY BEAZLEY',
+   PROCESS='** Organization: BIO',
+   PROCESS='** Area_of_Operation: SCOTIAN SHELF',
+   PROCESS='** Cruise_Description: ATLANTIC ZONE MONITORING PROGRAM (AZMP)',
+   PROCESS='** Station_Name: HL_02',
+   PROCESS='** Event_Number:  009',
+   PROCESS='** Sounding:  155',
+   PROCESS='** Event_Comments: HL_02,503046',
+   PROCESS='* System UTC = Apr 11 2024 17:10:10',
+   PROCESS='* Surface_Pressure_Offset =  0.133, Temperature = 2.4047, Scan = 3100.0',
+   PROCESS='* Near_Surface_Scan = 3124.0, P = 0.074, T = 2.3775, S = 30.0385',
+   PROCESS='# nquan = 28',
+   PROCESS='# nvalues = 283',
+   PROCESS='# units = specified',
+   PROCESS='# name 0 = scan: Scan Count',
+   PROCESS='# name 1 = timeS: Time, Elapsed [seconds]',
+   PROCESS='# name 2 = prDM: Pressure, Digiquartz [db]',
+   PROCESS='# name 3 = t090C: Temperature [ITS-90, deg C]',
+   PROCESS='# name 4 = c0S/m: Conductivity [S/m]',
+   PROCESS='# name 5 = t190C: Temperature, 2 [ITS-90, deg C]',
+   PROCESS='# name 6 = c1S/m: Conductivity, 2 [S/m]',
+   PROCESS='# name 7 = altM: Altimeter [m]',
+   PROCESS='# name 8 = par/log: PAR/Logarithmic, Satlantic [umol photons/m2/s]',
+   PROCESS='# name 9 = sbeox0V: Oxygen raw, SBE 43 [V]',
+   PROCESS='# name 10 = sbeox1V: Oxygen raw, SBE 43, 2 [V]',
+   PROCESS='# name 11 = flSPuv0: Fluorescence, Seapoint Ultraviolet',
+   PROCESS='# name 12 = flSP: Fluorescence, Seapoint',
+   PROCESS='# name 13 = ph: pH',
+   PROCESS='# name 14 = turbWETbb0: Turbidity, WET Labs ECO BB [m^-1/sr]',
+   PROCESS='# name 15 = spar: SPAR/Surface Irradiance',
+   PROCESS='# name 16 = latitude: Latitude [deg]',
+   PROCESS='# name 17 = longitude: Longitude [deg]',
+   PROCESS='# name 18 = sal00: Salinity, Practical [PSU]',
+   PROCESS='# name 19 = sal11: Salinity, Practical, 2 [PSU]',
+   PROCESS='# name 20 = potemp090C: Potential Temperature [ITS-90, deg C]',
+   PROCESS='# name 21 = potemp190C: Potential Temperature, 2 [ITS-90, deg C]',
+   PROCESS='# name 22 = sigma-é00: Density [sigma-theta, kg/m^3]',
+   PROCESS='# name 23 = sigma-é11: Density, 2 [sigma-theta, kg/m^3]',
+   PROCESS='# name 24 = sbeox0ML/L: Oxygen, SBE 43 [ml/l], WS = 2',
+   PROCESS='# name 25 = sbeox1ML/L: Oxygen, SBE 43, 2 [ml/l], WS = 2',
+   PROCESS='# name 26 = nbin: number of scans per bin',
+   PROCESS='# name 27 = flag: flag',
+   PROCESS='# span 0 =       6786,      14071',
+   PROCESS='# span 1 =    282.698,    586.229',
+   PROCESS='# span 2 =      1.500,    142.500',
+   PROCESS='# span 3 =     2.1726,     5.4162',
+   PROCESS='# span 4 =   2.777092,   3.241161',
+   PROCESS='# span 5 =     2.1718,     5.4154',
+   PROCESS='# span 6 =   2.778831,   3.242548',
+   PROCESS='# span 7 =       4.46,      99.99',
+   PROCESS='# span 8 = 1.0144e-01, 7.5343e+02',
+   PROCESS='# span 9 =     1.9284,     2.6415',
+   PROCESS='# span 10 =     1.9524,     2.6793',
+   PROCESS='# span 11 =     1.6490,     3.7587',
+   PROCESS='# span 12 = 2.9258e-01, 8.1300e+00',
+   PROCESS='# span 13 =      8.021,      8.255',
+   PROCESS='# span 14 = 4.0085e-04, 1.3236e-03',
+   PROCESS='# span 15 = 3.4005e+00, 3.4127e+00',
+   PROCESS='# span 16 =   44.25730,   44.25803',
+   PROCESS='# span 17 =  -63.33589,  -63.33423',
+   PROCESS='# span 18 =    30.9311,    33.3001',
+   PROCESS='# span 19 =    30.9524,    33.3170',
+   PROCESS='# span 20 =     2.1690,     5.4051',
+   PROCESS='# span 21 =     2.1681,     5.4042',
+   PROCESS='# span 22 =    24.6798,    26.2812',
+   PROCESS='# span 23 =    24.6968,    26.2947',
+   PROCESS='# span 24 =     5.3600,     8.7853',
+   PROCESS='# span 25 =     5.2145,     8.4874',
+   PROCESS='# span 26 =         14,        111',
+   PROCESS='# span 27 = 0.0000e+00, 0.0000e+00',
+   PROCESS='# interval = decibars: 0.5',
+   PROCESS='# start_time = Jan 01 2000 16:09:54 [NMEA time, first data scan]',
+   PROCESS='# bad_flag = -9.990e-29',
+   PROCESS='# <Sensors count="15" >',
+   PROCESS='#   <sensor Channel="1" >',
+   PROCESS='#     <!-- Frequency 0, Temperature -->',
+   PROCESS='#     <TemperatureSensor SensorID="55" >',
+   PROCESS='#       <SerialNumber>4807</SerialNumber>',
+   PROCESS='#       <CalibrationDate>08-Dec-23</CalibrationDate>',
+   PROCESS='#       <!-- t0pcor = -2.0600e-007 specified on DatCnv command line -->',
+   PROCESS='#       <UseG_J>1</UseG_J>',
+   PROCESS='#       <A>0.00000000e+000</A>',
+   PROCESS='#       <B>0.00000000e+000</B>',
+   PROCESS='#       <C>0.00000000e+000</C>',
+   PROCESS='#       <D>0.00000000e+000</D>',
+   PROCESS='#       <F0_Old>0.000</F0_Old>',
+   PROCESS='#       <G>4.33903194e-003</G>',
+   PROCESS='#       <H>6.40144058e-004</H>',
+   PROCESS='#       <I>2.17259458e-005</I>',
+   PROCESS='#       <J>1.93300739e-006</J>',
+   PROCESS='#       <F0>1000.000</F0>',
+   PROCESS='#       <Slope>1.00000000</Slope>',
+   PROCESS='#       <Offset>0.0000</Offset>',
+   PROCESS='#     </TemperatureSensor>',
+   PROCESS='#   </sensor>',
+   PROCESS='#   <sensor Channel="2" >',
+   PROCESS='#     <!-- Frequency 1, Conductivity -->',
+   PROCESS='#     <ConductivitySensor SensorID="3" >',
+   PROCESS='#       <SerialNumber>4361</SerialNumber>',
+   PROCESS='#       <CalibrationDate>22-Dec-23</CalibrationDate>',
+   PROCESS='#       <UseG_J>1</UseG_J>',
+   PROCESS='#       <!-- Cell const and series R are applicable only for wide range sensors. -->',
+   PROCESS='#       <SeriesR>0.0000</SeriesR>',
+   PROCESS='#       <CellConst>2000.0000</CellConst>',
+   PROCESS='#       <ConductivityType>0</ConductivityType>',
+   PROCESS='#       <Coefficients equation="0" >',
+   PROCESS='#         <A>0.00000000e+000</A>',
+   PROCESS='#         <B>0.00000000e+000</B>',
+   PROCESS='#         <C>0.00000000e+000</C>',
+   PROCESS='#         <D>0.00000000e+000</D>',
+   PROCESS='#         <M>0.0</M>',
+   PROCESS='#         <CPcor>-9.57000000e-008</CPcor>',
+   PROCESS='#       </Coefficients>',
+   PROCESS='#       <Coefficients equation="1" >',
+   PROCESS='#         <G>-9.88308832e+000</G>',
+   PROCESS='#         <H>1.35799438e+000</H>',
+   PROCESS='#         <I>-4.65225314e-004</I>',
+   PROCESS='#         <J>1.25875177e-004</J>',
+   PROCESS='#         <CPcor>-9.57000000e-008</CPcor>',
+   PROCESS='#         <CTcor>3.2500e-006</CTcor>',
+   PROCESS='#         <!-- WBOTC not applicable unless ConductivityType = 1. -->',
+   PROCESS='#         <WBOTC>0.00000000e+000</WBOTC>',
+   PROCESS='#       </Coefficients>',
+   PROCESS='#       <Slope>1.00000000</Slope>',
+   PROCESS='#       <Offset>0.00000</Offset>',
+   PROCESS='#     </ConductivitySensor>',
+   PROCESS='#   </sensor>',
+   PROCESS='#   <sensor Channel="3" >',
+   PROCESS='#     <!-- Frequency 2, Pressure, Digiquartz with TC -->',
+   PROCESS='#     <PressureSensor SensorID="45" >',
+   PROCESS='#       <SerialNumber>1214</SerialNumber>',
+   PROCESS='#       <CalibrationDate>24-Mar-23</CalibrationDate>',
+   PROCESS='#       <C1>-4.470905e+004</C1>',
+   PROCESS='#       <C2>3.840789e-001</C2>',
+   PROCESS='#       <C3>1.367850e-002</C3>',
+   PROCESS='#       <D1>3.661600e-002</D1>',
+   PROCESS='#       <D2>0.000000e+000</D2>',
+   PROCESS='#       <T1>3.015271e+001</T1>',
+   PROCESS='#       <T2>-1.367200e-004</T2>',
+   PROCESS='#       <T3>3.926620e-006</T3>',
+   PROCESS='#       <T4>3.761680e-009</T4>',
+   PROCESS='#       <Slope>0.99999135</Slope>',
+   PROCESS='#       <Offset>-1.00729</Offset>',
+   PROCESS='#       <T5>0.000000e+000</T5>',
+   PROCESS='#       <AD590M>1.280000e-002</AD590M>',
+   PROCESS='#       <AD590B>-9.348400e+000</AD590B>',
+   PROCESS='#     </PressureSensor>',
+   PROCESS='#   </sensor>',
+   PROCESS='#   <sensor Channel="4" >',
+   PROCESS='#     <!-- Frequency 3, Temperature, 2 -->',
+   PROCESS='#     <TemperatureSensor SensorID="55" >',
+   PROCESS='#       <SerialNumber>5081</SerialNumber>',
+   PROCESS='#       <CalibrationDate>29-Feb-24</CalibrationDate>',
+   PROCESS='#       <!-- t1pcor = -2.0600e-007 specified on DatCnv command line -->',
+   PROCESS='#       <UseG_J>1</UseG_J>',
+   PROCESS='#       <A>0.00000000e+000</A>',
+   PROCESS='#       <B>0.00000000e+000</B>',
+   PROCESS='#       <C>0.00000000e+000</C>',
+   PROCESS='#       <D>0.00000000e+000</D>',
+   PROCESS='#       <F0_Old>0.000</F0_Old>',
+   PROCESS='#       <G>4.36898939e-003</G>',
+   PROCESS='#       <H>6.44138655e-004</H>',
+   PROCESS='#       <I>2.30318963e-005</I>',
+   PROCESS='#       <J>2.17642856e-006</J>',
+   PROCESS='#       <F0>1000.000</F0>',
+   PROCESS='#       <Slope>1.00000000</Slope>',
+   PROCESS='#       <Offset>0.0000</Offset>',
+   PROCESS='#     </TemperatureSensor>',
+   PROCESS='#   </sensor>',
+   PROCESS='#   <sensor Channel="5" >',
+   PROCESS='#     <!-- Frequency 4, Conductivity, 2 -->',
+   PROCESS='#     <ConductivitySensor SensorID="3" >',
+   PROCESS='#       <SerialNumber>1874</SerialNumber>',
+   PROCESS='#       <CalibrationDate>14-Dec-23</CalibrationDate>',
+   PROCESS='#       <UseG_J>1</UseG_J>',
+   PROCESS='#       <!-- Cell const and series R are applicable only for wide range sensors. -->',
+   PROCESS='#       <SeriesR>0.0000</SeriesR>',
+   PROCESS='#       <CellConst>2000.0000</CellConst>',
+   PROCESS='#       <ConductivityType>0</ConductivityType>',
+   PROCESS='#       <Coefficients equation="0" >',
+   PROCESS='#         <A>0.00000000e+000</A>',
+   PROCESS='#         <B>0.00000000e+000</B>',
+   PROCESS='#         <C>0.00000000e+000</C>',
+   PROCESS='#         <D>0.00000000e+000</D>',
+   PROCESS='#         <M>0.0</M>',
+   PROCESS='#         <CPcor>-9.57000000e-008</CPcor>',
+   PROCESS='#       </Coefficients>',
+   PROCESS='#       <Coefficients equation="1" >',
+   PROCESS='#         <G>-4.01949586e+000</G>',
+   PROCESS='#         <H>5.07361345e-001</H>',
+   PROCESS='#         <I>-1.12882116e-003</I>',
+   PROCESS='#         <J>8.35645801e-005</J>',
+   PROCESS='#         <CPcor>-9.57000000e-008</CPcor>',
+   PROCESS='#         <CTcor>3.2500e-006</CTcor>',
+   PROCESS='#         <!-- WBOTC not applicable unless ConductivityType = 1. -->',
+   PROCESS='#         <WBOTC>0.00000000e+000</WBOTC>',
+   PROCESS='#       </Coefficients>',
+   PROCESS='#       <Slope>1.00000000</Slope>',
+   PROCESS='#       <Offset>0.00000</Offset>',
+   PROCESS='#     </ConductivitySensor>',
+   PROCESS='#   </sensor>',
+   PROCESS='#   <sensor Channel="6" >',
+   PROCESS='#     <!-- A/D voltage 0, Altimeter -->',
+   PROCESS='#     <AltimeterSensor SensorID="0" >',
+   PROCESS='#       <SerialNumber>62184</SerialNumber>',
+   PROCESS='#       <CalibrationDate>30-Nov-2018</CalibrationDate>',
+   PROCESS='#       <ScaleFactor>15.000</ScaleFactor>',
+   PROCESS='#       <Offset>0.000</Offset>',
+   PROCESS='#     </AltimeterSensor>',
+   PROCESS='#   </sensor>',
+   PROCESS='#   <sensor Channel="7" >',
+   PROCESS='#     <!-- A/D voltage 1, PAR/Logarithmic, Satlantic -->',
+   PROCESS='#     <PARLog_SatlanticSensor SensorID="76" >',
+   PROCESS='#       <SerialNumber>1043</SerialNumber>',
+   PROCESS='#       <CalibrationDate>01-Dec-2015</CalibrationDate>',
+   PROCESS='#       <a0>1.03320000</a0>',
+   PROCESS='#       <a1>0.80737000</a1>',
+   PROCESS='#       <Im>1.35890000</Im>',
+   PROCESS='#       <Multiplier>1.00000000</Multiplier>',
+   PROCESS='#     </PARLog_SatlanticSensor>',
+   PROCESS='#   </sensor>',
+   PROCESS='#   <sensor Channel="8" >',
+   PROCESS='#     <!-- A/D voltage 2, Oxygen, SBE 43 -->',
+   PROCESS='#     <OxygenSensor SensorID="38" >',
+   PROCESS='#       <SerialNumber>3026</SerialNumber>',
+   PROCESS='#       <CalibrationDate>03-Jan-2024</CalibrationDate>',
+   PROCESS='#       <Use2007Equation>1</Use2007Equation>',
+   PROCESS='#       <CalibrationCoefficients equation="0" >',
+   PROCESS='#         <!-- Coefficients for Owens-Millard equation. -->',
+   PROCESS='#         <Boc>0.0000</Boc>',
+   PROCESS='#         <Soc>0.0000e+000</Soc>',
+   PROCESS='#         <offset>0.0000</offset>',
+   PROCESS='#         <Pcor>0.00e+000</Pcor>',
+   PROCESS='#         <Tcor>0.0000</Tcor>',
+   PROCESS='#         <Tau>0.0</Tau>',
+   PROCESS='#       </CalibrationCoefficients>',
+   PROCESS='#       <CalibrationCoefficients equation="1" >',
+   PROCESS='#         <!-- Coefficients for Sea-Bird equation - SBE calibration in 2007 and later. -->',
+   PROCESS='#         <Soc>5.3355e-001</Soc>',
+   PROCESS='#         <offset>-0.5009</offset>',
+   PROCESS='#         <A>-5.4815e-003</A>',
+   PROCESS='#         <B> 1.9682e-004</B>',
+   PROCESS='#         <C>-2.4769e-006</C>',
+   PROCESS='#         <D0> 2.5826e+000</D0>',
+   PROCESS='#         <D1> 1.92634e-004</D1>',
+   PROCESS='#         <D2>-4.64803e-002</D2>',
+   PROCESS='#         <E> 3.6000e-002</E>',
+   PROCESS='#         <Tau20> 1.5400</Tau20>',
+   PROCESS='#         <H1>-3.3000e-002</H1>',
+   PROCESS='#         <H2> 5.0000e+003</H2>',
+   PROCESS='#         <H3> 1.4500e+003</H3>',
+   PROCESS='#       </CalibrationCoefficients>',
+   PROCESS='#     </OxygenSensor>',
+   PROCESS='#   </sensor>',
+   PROCESS='#   <sensor Channel="9" >',
+   PROCESS='#     <!-- A/D voltage 3, Oxygen, SBE 43, 2 -->',
+   PROCESS='#     <OxygenSensor SensorID="38" >',
+   PROCESS='#       <SerialNumber>4366</SerialNumber>',
+   PROCESS='#       <CalibrationDate>01-Mar-2024</CalibrationDate>',
+   PROCESS='#       <Use2007Equation>1</Use2007Equation>',
+   PROCESS='#       <CalibrationCoefficients equation="0" >',
+   PROCESS='#         <!-- Coefficients for Owens-Millard equation. -->',
+   PROCESS='#         <Boc>0.0000</Boc>',
+   PROCESS='#         <Soc>0.0000e+000</Soc>',
+   PROCESS='#         <offset>0.0000</offset>',
+   PROCESS='#         <Pcor>0.00e+000</Pcor>',
+   PROCESS='#         <Tcor>0.0000</Tcor>',
+   PROCESS='#         <Tau>0.0</Tau>',
+   PROCESS='#       </CalibrationCoefficients>',
+   PROCESS='#       <CalibrationCoefficients equation="1" >',
+   PROCESS='#         <!-- Coefficients for Sea-Bird equation - SBE calibration in 2007 and later. -->',
+   PROCESS='#         <Soc>5.0639e-001</Soc>',
+   PROCESS='#         <offset>-0.5090</offset>',
+   PROCESS='#         <A>-2.5828e-003</A>',
+   PROCESS='#         <B> 1.0873e-004</B>',
+   PROCESS='#         <C>-2.0052e-006</C>',
+   PROCESS='#         <D0> 2.5826e+000</D0>',
+   PROCESS='#         <D1> 1.92634e-004</D1>',
+   PROCESS='#         <D2>-4.64803e-002</D2>',
+   PROCESS='#         <E> 3.6000e-002</E>',
+   PROCESS='#         <Tau20> 1.5600</Tau20>',
+   PROCESS='#         <H1>-3.3000e-002</H1>',
+   PROCESS='#         <H2> 5.0000e+003</H2>',
+   PROCESS='#         <H3> 1.4500e+003</H3>',
+   PROCESS='#       </CalibrationCoefficients>',
+   PROCESS='#     </OxygenSensor>',
+   PROCESS='#   </sensor>',
+   PROCESS='#   <sensor Channel="10" >',
+   PROCESS='#     <!-- A/D voltage 4, Fluorometer, Seapoint Ultraviolet -->',
+   PROCESS='#     <Fluorometer SensorID="69" >',
+   PROCESS='#       <SerialNumber>6225</SerialNumber>',
+   PROCESS='#       <CalibrationDate>1-Feb-2024</CalibrationDate>',
+   PROCESS='#       <Range>30.0</Range>',
+   PROCESS='#       <Offset>0.0000</Offset>',
+   PROCESS='#     </Fluorometer>',
+   PROCESS='#   </sensor>',
+   PROCESS='#   <sensor Channel="11" >',
+   PROCESS='#     <!-- A/D voltage 5, Fluorometer, Seapoint -->',
+   PROCESS='#     <FluoroSeapointSensor SensorID="11" >',
+   PROCESS='#       <SerialNumber>3668</SerialNumber>',
+   PROCESS='#       <CalibrationDate>1-Feb-2024</CalibrationDate>',
+   PROCESS='#       <!-- The following is an array index, not the actual gain setting. -->',
+   PROCESS='#       <GainSetting>2</GainSetting>',
+   PROCESS='#       <Offset>0.000</Offset>',
+   PROCESS='#     </FluoroSeapointSensor>',
+   PROCESS='#   </sensor>',
+   PROCESS='#   <sensor Channel="12" >',
+   PROCESS='#     <!-- A/D voltage 6, pH -->',
+   PROCESS='#     <pH_Sensor SensorID="43" >',
+   PROCESS='#       <SerialNumber>1221</SerialNumber>',
+   PROCESS='#       <CalibrationDate>07-Mar-24</CalibrationDate>',
+   PROCESS='#       <Slope>4.6090</Slope>',
+   PROCESS='#       <Offset>2.5363</Offset>',
+   PROCESS='#     </pH_Sensor>',
+   PROCESS='#   </sensor>',
+   PROCESS='#   <sensor Channel="13" >',
+   PROCESS='#     <!-- A/D voltage 7, OBS, WET Labs, ECO-BB -->',
+   PROCESS='#     <TurbidityMeter SensorID="70" >',
+   PROCESS='#       <SerialNumber>1490</SerialNumber>',
+   PROCESS='#       <CalibrationDate>10-Feb-2024</CalibrationDate>',
+   PROCESS='#       <ScaleFactor>3.109e-003</ScaleFactor>',
+   PROCESS='#       <!-- Dark output -->',
+   PROCESS='#       <DarkVoltage>4.200e-002</DarkVoltage>',
+   PROCESS='#     </TurbidityMeter>',
+   PROCESS='#   </sensor>',
+   PROCESS='#   <sensor Channel="14" >',
+   PROCESS='#     <!-- SPAR voltage, Unavailable -->',
+   PROCESS='#   </sensor>',
+   PROCESS='#   <sensor Channel="15" >',
+   PROCESS='#     <!-- SPAR voltage, SPAR/Surface Irradiance -->',
+   PROCESS='#     <SPAR_Sensor SensorID="51" >',
+   PROCESS='#       <SerialNumber>1168</SerialNumber>',
+   PROCESS='#       <CalibrationDate>27-Nov-2018</CalibrationDate>',
+   PROCESS='#       <ConversionFactor>1.00000000</ConversionFactor>',
+   PROCESS='#       <RatioMultiplier>1.00000000</RatioMultiplier>',
+   PROCESS='#     </SPAR_Sensor>',
+   PROCESS='#   </sensor>',
+   PROCESS='# </Sensors>',
+   PROCESS='# datcnv_date = Apr 14 2024 16:25:31, 7.26.6.28 [datcnv_vars = 18]',
+   PROCESS='# datcnv_in = C:\CTD_PROCESSING\2024880TEL\CTDDATA\880a009.hex C:\CTD_PROCESSING\2024880TEL\CTDDATA\880a009.XMLCON',
+   PROCESS='# datcnv_skipover = 4539',
+   PROCESS='# datcnv_ox_hysteresis_correction = yes',
+   PROCESS='# wildedit_date = Apr 14 2024 16:25:32, 7.26.6.28',
+   PROCESS='# wildedit_in = C:\CTD_PROCESSING\2024880TEL\ctddata\880a009.cnv',
+   PROCESS='# wildedit_pass1_nstd = 2.0',
+   PROCESS='# wildedit_pass2_nstd = 4.0',
+   PROCESS='# wildedit_pass2_mindelta = 0.000e+000',
+   PROCESS='# wildedit_npoint = 19',
+   PROCESS='# wildedit_vars = prDM t090C c0S/m t190C c1S/m',
+   PROCESS='# wildedit_excl_bad_scans = yes',
+   PROCESS='# filter_date = Apr 14 2024 16:25:32, 7.26.6.28',
+   PROCESS='# filter_in = C:\CTD_PROCESSING\2024880TEL\ctddata\880a009.cnv',
+   PROCESS='# filter_low_pass_tc_A = 0.150',
+   PROCESS='# filter_low_pass_tc_B = 0.150',
+   PROCESS='# filter_low_pass_A_vars = prDM',
+   PROCESS='# filter_low_pass_B_vars = t090C c0S/m t190C c1S/m',
+   PROCESS='# alignctd_date = Apr 14 2024 16:25:32, 7.26.6.28',
+   PROCESS='# alignctd_in = C:\CTD_PROCESSING\2024880TEL\ctddata\880a009.cnv',
+   PROCESS='# alignctd_adv = c0S/m -0.010, c1S/m -0.010, sbeox0V 8.000, sbeox1V 8.000',
+   PROCESS='# celltm_date = Apr 14 2024 16:25:32, 7.26.6.28',
+   PROCESS='# celltm_in = C:\CTD_PROCESSING\2024880TEL\ctddata\880a009.cnv',
+   PROCESS='# celltm_alpha = 0.0300, 0.0300',
+   PROCESS='# celltm_tau = 7.0000, 7.0000',
+   PROCESS='# celltm_temp_sensor_use_for_cond = primary, secondary',
+   PROCESS='# loopedit_date = Apr 14 2024 16:25:32, 7.26.6.28',
+   PROCESS='# loopedit_in = C:\CTD_PROCESSING\2024880TEL\ctddata\880a009.cnv',
+   PROCESS='# loopedit_minVelocity = 0.050',
+   PROCESS='# loopedit_surfaceSoak: minDepth = 5.0, maxDepth = 20, useDeckPress = 1',
+   PROCESS='# loopedit_excl_bad_scans = yes',
+   PROCESS='# Derive_date = Apr 14 2024 16:25:32, 7.26.6.28 [derive_vars = 8]',
+   PROCESS='# Derive_in = C:\CTD_PROCESSING\2024880TEL\ctddata\880a009.cnv C:\CTD_PROCESSING\2024880TEL\CTDDATA\880a009.XMLCON',
+   PROCESS='# derive_time_window_docdt = seconds: 2',
+   PROCESS='# derive_ox_tau_correction = yes',
+   PROCESS='# binavg_date = Apr 14 2024 16:25:33, 7.26.6.28',
+   PROCESS='# binavg_in = C:\CTD_PROCESSING\2024880TEL\ctddata\880a009.cnv',
+   PROCESS='# binavg_bintype = decibars',
+   PROCESS='# binavg_binsize = 0.5',
+   PROCESS='# binavg_excl_bad_scans = yes',
+   PROCESS='# binavg_skipover = 0',
+   PROCESS='# binavg_surface_bin = no, min = 0.000, max = 0.000, value = 0.000',
+   PROCESS='# split_date = Apr 14 2024 16:25:33, 7.26.6.28',
+   PROCESS='# split_in = C:\CTD_PROCESSING\2024880TEL\ctddata\880a009.cnv',
+   PROCESS='# split_excl_bad_scans = yes',
+   PROCESS='# file_type = ascii',
+   PROCESS='*END*'
+ HISTORY_HEADER,
+   CREATION_DATE='14-APR-2024 16:25:40.00',
+   PROCESS='SEAODF.exe version 3.4   called from CTDDAP version 5.0'
+   PROCESS='During the creation of the ODF file, 0 records flagged bad have been removed.'
+   PROCESS='During the creation of the ODF file, [Elapsed Time, seconds] has been converted to 'DD-MON-YYYY HH:MM:SS.ss'. The Event start_date_time is used as the starting point for the calculation.' 
+ PARAMETER_HEADER,
+   TYPE='INTE',
+   NAME='CNTR_01',
+   CODE='CNTR_01',
+   NULL_VALUE=  -99.00000000,
+   PRINT_FIELD_WIDTH=    11,
+   PRINT_DECIMAL_PLACES=     0,
+   ANGLE_OF_SECTION= 0.00000000000000E+00,
+   MAGNETIC_VARIATION= 0.00000000000000E+00,
+   DEPTH= 0.00000000000000E+00,
+   MINIMUM_VALUE= 6.78600000000000E+03,
+   MAXIMUM_VALUE= 1.40710000000000E+04,
+   NUMBER_VALID=         283,
+   NUMBER_NULL=           0
+   UNITS='',
+ PARAMETER_HEADER,
+   TYPE='SYTM',
+   NAME='SYTM_01',
+   CODE='SYTM_01',
+   NULL_VALUE='17-NOV-1858 00:00:00.00',
+   PRINT_FIELD_WIDTH=    27,
+   PRINT_DECIMAL_PLACES=     0,
+   ANGLE_OF_SECTION= 0.00000000000000E+00,
+   MAGNETIC_VARIATION= 0.00000000000000E+00,
+   DEPTH= 0.00000000000000E+00,
+   MINIMUM_VALUE='01-JAN-2000 16:14:36.70',
+   MAXIMUM_VALUE='01-JAN-2000 16:19:40.23',
+   NUMBER_VALID=         283,
+   NUMBER_NULL=           0
+   UNITS='UTC',
+ PARAMETER_HEADER,
+   TYPE='DOUB',
+   NAME='PRES_01',
+   CODE='PRES_01',
+   NULL_VALUE=  -99.00000000,
+   PRINT_FIELD_WIDTH=    11,
+   PRINT_DECIMAL_PLACES=     3,
+   ANGLE_OF_SECTION= 0.00000000000000E+00,
+   MAGNETIC_VARIATION= 0.00000000000000E+00,
+   DEPTH= 0.00000000000000E+00,
+   MINIMUM_VALUE= 1.50000000000000E+00,
+   MAXIMUM_VALUE= 1.42500000000000E+02,
+   NUMBER_VALID=         283,
+   NUMBER_NULL=           0
+   UNITS='db',
+ PARAMETER_HEADER,
+   TYPE='DOUB',
+   NAME='TE90_01',
+   CODE='TE90_01',
+   NULL_VALUE=  -99.00000000,
+   PRINT_FIELD_WIDTH=    11,
+   PRINT_DECIMAL_PLACES=     4,
+   ANGLE_OF_SECTION= 0.00000000000000E+00,
+   MAGNETIC_VARIATION= 0.00000000000000E+00,
+   DEPTH= 0.00000000000000E+00,
+   MINIMUM_VALUE= 2.17260000000000E+00,
+   MAXIMUM_VALUE= 5.41620000000000E+00,
+   NUMBER_VALID=         283,
+   NUMBER_NULL=           0
+   UNITS='ITS-90, deg C',
+ PARAMETER_HEADER,
+   TYPE='DOUB',
+   NAME='CNDC_01',
+   CODE='CNDC_01',
+   NULL_VALUE=  -99.00000000,
+   PRINT_FIELD_WIDTH=    11,
+   PRINT_DECIMAL_PLACES=     6,
+   ANGLE_OF_SECTION= 0.00000000000000E+00,
+   MAGNETIC_VARIATION= 0.00000000000000E+00,
+   DEPTH= 0.00000000000000E+00,
+   MINIMUM_VALUE= 2.77709200000000E+00,
+   MAXIMUM_VALUE= 3.24116100000000E+00,
+   NUMBER_VALID=         283,
+   NUMBER_NULL=           0
+   UNITS='S/m',
+ PARAMETER_HEADER,
+   TYPE='DOUB',
+   NAME='TE90_02',
+   CODE='TE90_02',
+   NULL_VALUE=  -99.00000000,
+   PRINT_FIELD_WIDTH=    11,
+   PRINT_DECIMAL_PLACES=     4,
+   ANGLE_OF_SECTION= 0.00000000000000E+00,
+   MAGNETIC_VARIATION= 0.00000000000000E+00,
+   DEPTH= 0.00000000000000E+00,
+   MINIMUM_VALUE= 2.17180000000000E+00,
+   MAXIMUM_VALUE= 5.41540000000000E+00,
+   NUMBER_VALID=         283,
+   NUMBER_NULL=           0
+   UNITS='ITS-90, deg C',
+ PARAMETER_HEADER,
+   TYPE='DOUB',
+   NAME='CNDC_02',
+   CODE='CNDC_02',
+   NULL_VALUE=  -99.00000000,
+   PRINT_FIELD_WIDTH=    11,
+   PRINT_DECIMAL_PLACES=     6,
+   ANGLE_OF_SECTION= 0.00000000000000E+00,
+   MAGNETIC_VARIATION= 0.00000000000000E+00,
+   DEPTH= 0.00000000000000E+00,
+   MINIMUM_VALUE= 2.77883100000000E+00,
+   MAXIMUM_VALUE= 3.24254800000000E+00,
+   NUMBER_VALID=         283,
+   NUMBER_NULL=           0
+   UNITS='S/m',
+ PARAMETER_HEADER,
+   TYPE='DOUB',
+   NAME='ALT_01',
+   CODE='ALTB_01',
+   NULL_VALUE=  -99.00000000,
+   PRINT_FIELD_WIDTH=    11,
+   PRINT_DECIMAL_PLACES=     2,
+   ANGLE_OF_SECTION= 0.00000000000000E+00,
+   MAGNETIC_VARIATION= 0.00000000000000E+00,
+   DEPTH= 0.00000000000000E+00,
+   MINIMUM_VALUE= 4.46000000000000E+00,
+   MAXIMUM_VALUE= 9.99900000000000E+01,
+   NUMBER_VALID=         283,
+   NUMBER_NULL=           0
+   UNITS='m',
+ PARAMETER_HEADER,
+   TYPE='DOUB',
+   NAME='PARLOG_01',
+   CODE='PSAR_01',
+   NULL_VALUE=  -99.00000000,
+   PRINT_FIELD_WIDTH=    14,
+   PRINT_DECIMAL_PLACES=     8,
+   ANGLE_OF_SECTION= 0.00000000000000E+00,
+   MAGNETIC_VARIATION= 0.00000000000000E+00,
+   DEPTH= 0.00000000000000E+00,
+   MINIMUM_VALUE= 1.01440000000000E-01,
+   MAXIMUM_VALUE= 7.53430000000000E+02,
+   NUMBER_VALID=         283,
+   NUMBER_NULL=           0
+   UNITS='umol photons/m2/s',
+ PARAMETER_HEADER,
+   TYPE='DOUB',
+   NAME='OXYV_01',
+   CODE='OXYV_01',
+   NULL_VALUE=  -99.00000000,
+   PRINT_FIELD_WIDTH=    11,
+   PRINT_DECIMAL_PLACES=     4,
+   ANGLE_OF_SECTION= 0.00000000000000E+00,
+   MAGNETIC_VARIATION= 0.00000000000000E+00,
+   DEPTH= 0.00000000000000E+00,
+   MINIMUM_VALUE= 1.92840000000000E+00,
+   MAXIMUM_VALUE= 2.64150000000000E+00,
+   NUMBER_VALID=         283,
+   NUMBER_NULL=           0
+   UNITS='V',
+ PARAMETER_HEADER,
+   TYPE='DOUB',
+   NAME='OXYV_02',
+   CODE='OXYV_02',
+   NULL_VALUE=  -99.00000000,
+   PRINT_FIELD_WIDTH=    11,
+   PRINT_DECIMAL_PLACES=     4,
+   ANGLE_OF_SECTION= 0.00000000000000E+00,
+   MAGNETIC_VARIATION= 0.00000000000000E+00,
+   DEPTH= 0.00000000000000E+00,
+   MINIMUM_VALUE= 1.95240000000000E+00,
+   MAXIMUM_VALUE= 2.67930000000000E+00,
+   NUMBER_VALID=         283,
+   NUMBER_NULL=           0
+   UNITS='V',
+ PARAMETER_HEADER,
+   TYPE='DOUB',
+   NAME='FSPUV_01',
+   CODE='FLOR_01',
+   NULL_VALUE=  -99.00000000,
+   PRINT_FIELD_WIDTH=    11,
+   PRINT_DECIMAL_PLACES=     4,
+   ANGLE_OF_SECTION= 0.00000000000000E+00,
+   MAGNETIC_VARIATION= 0.00000000000000E+00,
+   DEPTH= 0.00000000000000E+00,
+   MINIMUM_VALUE= 1.64900000000000E+00,
+   MAXIMUM_VALUE= 3.75870000000000E+00,
+   NUMBER_VALID=         283,
+   NUMBER_NULL=           0
+   UNITS='ug/l',
+ PARAMETER_HEADER,
+   TYPE='DOUB',
+   NAME='FSP_01',
+   CODE='FLOR_02',
+   NULL_VALUE=  -99.00000000,
+   PRINT_FIELD_WIDTH=    14,
+   PRINT_DECIMAL_PLACES=     8,
+   ANGLE_OF_SECTION= 0.00000000000000E+00,
+   MAGNETIC_VARIATION= 0.00000000000000E+00,
+   DEPTH= 0.00000000000000E+00,
+   MINIMUM_VALUE= 2.92580000000000E-01,
+   MAXIMUM_VALUE= 8.13000000000000E+00,
+   NUMBER_VALID=         283,
+   NUMBER_NULL=           0
+   UNITS='ug/l',
+ PARAMETER_HEADER,
+   TYPE='DOUB',
+   NAME='PHPH_01',
+   CODE='PHPH_01',
+   NULL_VALUE=  -99.00000000,
+   PRINT_FIELD_WIDTH=    11,
+   PRINT_DECIMAL_PLACES=     4,
+   ANGLE_OF_SECTION= 0.00000000000000E+00,
+   MAGNETIC_VARIATION= 0.00000000000000E+00,
+   DEPTH= 0.00000000000000E+00,
+   MINIMUM_VALUE= 8.02100000000000E+00,
+   MAXIMUM_VALUE= 8.25500000000000E+00,
+   NUMBER_VALID=         283,
+   NUMBER_NULL=           0
+   UNITS='',
+ PARAMETER_HEADER,
+   TYPE='DOUB',
+   NAME='TURW_01',
+   CODE='TURB_01',
+   NULL_VALUE=  -99.00000000,
+   PRINT_FIELD_WIDTH=    14,
+   PRINT_DECIMAL_PLACES=     8,
+   ANGLE_OF_SECTION= 0.00000000000000E+00,
+   MAGNETIC_VARIATION= 0.00000000000000E+00,
+   DEPTH= 0.00000000000000E+00,
+   MINIMUM_VALUE= 4.00850000000000E-04,
+   MAXIMUM_VALUE= 1.32360000000000E-03,
+   NUMBER_VALID=         283,
+   NUMBER_NULL=           0
+   UNITS='m^-1/sr',
+ PARAMETER_HEADER,
+   TYPE='DOUB',
+   NAME='SPAR',
+   CODE='SPAR_01',
+   NULL_VALUE=  -99.00000000,
+   PRINT_FIELD_WIDTH=    14,
+   PRINT_DECIMAL_PLACES=     8,
+   ANGLE_OF_SECTION= 0.00000000000000E+00,
+   MAGNETIC_VARIATION= 0.00000000000000E+00,
+   DEPTH= 0.00000000000000E+00,
+   MINIMUM_VALUE= 3.40050000000000E+00,
+   MAXIMUM_VALUE= 3.41270000000000E+00,
+   NUMBER_VALID=         283,
+   NUMBER_NULL=           0
+   UNITS='',
+ PARAMETER_HEADER,
+   TYPE='DOUB',
+   NAME='LATD_01',
+   CODE='LATD_01',
+   NULL_VALUE=  -99.00000000,
+   PRINT_FIELD_WIDTH=    13,
+   PRINT_DECIMAL_PLACES=     5,
+   ANGLE_OF_SECTION= 0.00000000000000E+00,
+   MAGNETIC_VARIATION= 0.00000000000000E+00,
+   DEPTH= 0.00000000000000E+00,
+   MINIMUM_VALUE= 4.42573000000000E+01,
+   MAXIMUM_VALUE= 4.42580300000000E+01,
+   NUMBER_VALID=         283,
+   NUMBER_NULL=           0
+   UNITS='deg',
+ PARAMETER_HEADER,
+   TYPE='DOUB',
+   NAME='LOND_01',
+   CODE='LOND_01',
+   NULL_VALUE=  -99.00000000,
+   PRINT_FIELD_WIDTH=    14,
+   PRINT_DECIMAL_PLACES=     5,
+   ANGLE_OF_SECTION= 0.00000000000000E+00,
+   MAGNETIC_VARIATION= 0.00000000000000E+00,
+   DEPTH= 0.00000000000000E+00,
+   MINIMUM_VALUE=-6.33358900000000E+01,
+   MAXIMUM_VALUE=-6.33342300000000E+01,
+   NUMBER_VALID=         283,
+   NUMBER_NULL=           0
+   UNITS='deg',
+ PARAMETER_HEADER,
+   TYPE='DOUB',
+   NAME='PSAL_01',
+   CODE='PSAL_01',
+   NULL_VALUE=  -99.00000000,
+   PRINT_FIELD_WIDTH=    11,
+   PRINT_DECIMAL_PLACES=     4,
+   ANGLE_OF_SECTION= 0.00000000000000E+00,
+   MAGNETIC_VARIATION= 0.00000000000000E+00,
+   DEPTH= 0.00000000000000E+00,
+   MINIMUM_VALUE= 3.09311000000000E+01,
+   MAXIMUM_VALUE= 3.33001000000000E+01,
+   NUMBER_VALID=         283,
+   NUMBER_NULL=           0
+   UNITS='PSU',
+ PARAMETER_HEADER,
+   TYPE='DOUB',
+   NAME='PSAL_02',
+   CODE='PSAL_02',
+   NULL_VALUE=  -99.00000000,
+   PRINT_FIELD_WIDTH=    11,
+   PRINT_DECIMAL_PLACES=     4,
+   ANGLE_OF_SECTION= 0.00000000000000E+00,
+   MAGNETIC_VARIATION= 0.00000000000000E+00,
+   DEPTH= 0.00000000000000E+00,
+   MINIMUM_VALUE= 3.09524000000000E+01,
+   MAXIMUM_VALUE= 3.33170000000000E+01,
+   NUMBER_VALID=         283,
+   NUMBER_NULL=           0
+   UNITS='PSU',
+ PARAMETER_HEADER,
+   TYPE='DOUB',
+   NAME='POTM_01',
+   CODE='POTM_01',
+   NULL_VALUE=  -99.00000000,
+   PRINT_FIELD_WIDTH=    11,
+   PRINT_DECIMAL_PLACES=     4,
+   ANGLE_OF_SECTION= 0.00000000000000E+00,
+   MAGNETIC_VARIATION= 0.00000000000000E+00,
+   DEPTH= 0.00000000000000E+00,
+   MINIMUM_VALUE= 2.16900000000000E+00,
+   MAXIMUM_VALUE= 5.40510000000000E+00,
+   NUMBER_VALID=         283,
+   NUMBER_NULL=           0
+   UNITS='ITS-90, deg C',
+ PARAMETER_HEADER,
+   TYPE='DOUB',
+   NAME='POTM_02',
+   CODE='POTM_02',
+   NULL_VALUE=  -99.00000000,
+   PRINT_FIELD_WIDTH=    11,
+   PRINT_DECIMAL_PLACES=     4,
+   ANGLE_OF_SECTION= 0.00000000000000E+00,
+   MAGNETIC_VARIATION= 0.00000000000000E+00,
+   DEPTH= 0.00000000000000E+00,
+   MINIMUM_VALUE= 2.16810000000000E+00,
+   MAXIMUM_VALUE= 5.40420000000000E+00,
+   NUMBER_VALID=         283,
+   NUMBER_NULL=           0
+   UNITS='ITS-90, deg C',
+ PARAMETER_HEADER,
+   TYPE='DOUB',
+   NAME='SIGP_01',
+   CODE='SIGP_01',
+   NULL_VALUE=  -99.00000000,
+   PRINT_FIELD_WIDTH=    11,
+   PRINT_DECIMAL_PLACES=     4,
+   ANGLE_OF_SECTION= 0.00000000000000E+00,
+   MAGNETIC_VARIATION= 0.00000000000000E+00,
+   DEPTH= 0.00000000000000E+00,
+   MINIMUM_VALUE= 2.46798000000000E+01,
+   MAXIMUM_VALUE= 2.62812000000000E+01,
+   NUMBER_VALID=         283,
+   NUMBER_NULL=           0
+   UNITS='sigma-theta, kg/m^3',
+ PARAMETER_HEADER,
+   TYPE='DOUB',
+   NAME='SIGP_02',
+   CODE='SIGP_02',
+   NULL_VALUE=  -99.00000000,
+   PRINT_FIELD_WIDTH=    11,
+   PRINT_DECIMAL_PLACES=     4,
+   ANGLE_OF_SECTION= 0.00000000000000E+00,
+   MAGNETIC_VARIATION= 0.00000000000000E+00,
+   DEPTH= 0.00000000000000E+00,
+   MINIMUM_VALUE= 2.46968000000000E+01,
+   MAXIMUM_VALUE= 2.62947000000000E+01,
+   NUMBER_VALID=         283,
+   NUMBER_NULL=           0
+   UNITS='sigma-theta, kg/m^3',
+ PARAMETER_HEADER,
+   TYPE='DOUB',
+   NAME='DOXY_01',
+   CODE='DOXY_01',
+   NULL_VALUE=  -99.00000000,
+   PRINT_FIELD_WIDTH=    11,
+   PRINT_DECIMAL_PLACES=     4,
+   ANGLE_OF_SECTION= 0.00000000000000E+00,
+   MAGNETIC_VARIATION= 0.00000000000000E+00,
+   DEPTH= 0.00000000000000E+00,
+   MINIMUM_VALUE= 5.36000000000000E+00,
+   MAXIMUM_VALUE= 8.78530000000000E+00,
+   NUMBER_VALID=         283,
+   NUMBER_NULL=           0
+   UNITS='ml/l',
+ PARAMETER_HEADER,
+   TYPE='DOUB',
+   NAME='DOXY_02',
+   CODE='DOXY_02',
+   NULL_VALUE=  -99.00000000,
+   PRINT_FIELD_WIDTH=    11,
+   PRINT_DECIMAL_PLACES=     4,
+   ANGLE_OF_SECTION= 0.00000000000000E+00,
+   MAGNETIC_VARIATION= 0.00000000000000E+00,
+   DEPTH= 0.00000000000000E+00,
+   MINIMUM_VALUE= 5.21450000000000E+00,
+   MAXIMUM_VALUE= 8.48740000000000E+00,
+   NUMBER_VALID=         283,
+   NUMBER_NULL=           0
+   UNITS='ml/l',
+ PARAMETER_HEADER,
+   TYPE='INTE',
+   NAME='SNCNTR_01',
+   CODE='CNTR_02',
+   NULL_VALUE=  -99.00000000,
+   PRINT_FIELD_WIDTH=    11,
+   PRINT_DECIMAL_PLACES=     0,
+   ANGLE_OF_SECTION= 0.00000000000000E+00,
+   MAGNETIC_VARIATION= 0.00000000000000E+00,
+   DEPTH= 0.00000000000000E+00,
+   MINIMUM_VALUE= 1.40000000000000E+01,
+   MAXIMUM_VALUE= 1.11000000000000E+02,
+   NUMBER_VALID=         283,
+   NUMBER_NULL=           0
+   UNITS='',
+ RECORD_HEADER,
+   NUM_HISTORY=     1,
+   NUM_CYCLE=   283,
+   NUM_PARAM=    27
+-- DATA --
+       6786   '01-JAN-2000 16:14:36.70'      1.500     2.3607   2.783551     2.3592   2.785030      89.82  753.43000000     2.6246     2.6627     2.9341    1.35610000     8.2450    0.00076386    3.41190000     44.25803     -63.33423    30.9705    30.9900     2.3606     2.3592    24.7191    24.7348     8.6962     8.4241         83
+       6965   '01-JAN-2000 16:14:44.16'      2.000     2.3495   2.782479     2.3459   2.783731      90.41  590.62000000     2.6327     2.6700     2.9577    1.30440000     8.2500    0.00071442    3.41240000     44.25798     -63.33428    30.9679    30.9868     2.3494     2.3458    24.7179    24.7332     8.7853     8.4806         24
+       6972   '01-JAN-2000 16:14:44.47'      2.500     2.3535   2.783021     2.3497   2.784340      91.40  513.37000000     2.6358     2.6715     2.9216    1.28910000     8.2490    0.00083093    3.41170000     44.25798     -63.33430    30.9704    30.9903     2.3534     2.3496    24.7196    24.7357     8.7805     8.4825         15
+       6987   '01-JAN-2000 16:14:45.08'      3.000     2.3608   2.783786     2.3576   2.784964      90.77  428.98000000     2.6374     2.6728     2.8257    1.60570000     8.2490    0.00098215    3.41150000     44.25798     -63.33430    30.9725    30.9900     2.3606     2.3575    24.7207    24.7349     8.7673     8.4841         14
+       7001   '01-JAN-2000 16:14:45.65'      3.500     2.3569   2.783066     2.3554   2.784259      90.45  371.70000000     2.6385     2.6744     2.8458    2.01090000     8.2490    0.00104980    3.41150000     44.25796     -63.33430    30.9672    30.9832     2.3567     2.3553    24.7168    24.7297     8.7632     8.4874         14
+       7015   '01-JAN-2000 16:14:46.24'      4.000     2.3592   2.782385     2.3586   2.783804      90.17  322.34000000     2.6389     2.6753     2.8599    1.87150000     8.2500    0.00114900    3.41190000     44.25796     -63.33431    30.9563    30.9742     2.3590     2.3584    24.7079    24.7222     8.7625     8.4863         15
+       7032   '01-JAN-2000 16:14:46.95'      4.500     2.3610   2.781826     2.3627   2.783578      90.74  277.65000000     2.6399     2.6763     2.8409    2.63360000     8.2530    0.00111320    3.41270000     44.25796     -63.33432    30.9474    30.9673     2.3608     2.3625    24.7007    24.7164     8.7558     8.4836         19
+       7054   '01-JAN-2000 16:14:47.87'      5.000     2.3629   2.781864     2.3664   2.783696      90.23  242.57000000     2.6392     2.6770     2.8428    2.69520000     8.2540    0.00094352    3.41270000     44.25794     -63.33432    30.9458    30.9649     2.3626     2.3662    24.6992    24.7142     8.7393     8.4782         24
+       7076   '01-JAN-2000 16:14:48.81'      5.500     2.3884   2.783436     2.3848   2.784987      89.16  214.40000000     2.6398     2.6776     2.8286    2.48590000     8.2540    0.00076693    3.41270000     44.25794     -63.33432    30.9400    30.9625     2.3881     2.3846    24.6927    24.7110     8.7636     8.4763         21
+       7096   '01-JAN-2000 16:14:49.63'      6.000     2.4280   2.786235     2.4364   2.788617      88.76  191.25000000     2.6406     2.6780     2.8577    2.98390000     8.2540    0.00111020    3.41270000     44.25792     -63.33432    30.9356    30.9566     2.4277     2.4361    24.6863    24.7025     8.7456     8.4706         19
+       7116   '01-JAN-2000 16:14:50.44'      6.500     2.4313   2.786385     2.4561   2.789915      91.98  167.50000000     2.6409     2.6789     3.0099    2.44410000     8.2540    0.00101550    3.41270000     44.25792     -63.33433    30.9365    30.9533     2.4284     2.4558    24.6869    24.6984     8.7456     8.4696         21
+       7138   '01-JAN-2000 16:14:51.39'      7.000     2.4667   2.788973     2.4669   2.790743      97.22  146.22000000     2.6415     2.6793     3.0687    3.10220000     8.2540    0.00100720    3.41210000     44.25792     -63.33434    30.9311    30.9525     2.4663     2.4665    24.6798    24.6969     8.7348     8.4595         24
+       7164   '01-JAN-2000 16:14:52.45'      7.500     2.4699   2.789325     2.4676   2.790801      89.72  129.12000000     2.6404     2.6786     3.1145    2.91140000     8.2540    0.00090101    3.41150000     44.25792     -63.33434    30.9320    30.9524     2.4695     2.4672    24.6803    24.6968     8.7023     8.4319         29
+       7199   '01-JAN-2000 16:14:53.93'      8.000     2.4543   2.788213     2.4533   2.789790      88.82  113.89000000     2.6379     2.6755     3.1194    3.61870000     8.2540    0.00067005    3.41260000     44.25791     -63.33435    30.9333    30.9532     2.4539     2.4530    24.6825    24.6985     8.7118     8.4335         40
+       7236   '01-JAN-2000 16:14:55.46'      8.500     2.4113   2.785138     2.4202   2.787301      91.04   99.33100000     2.6374     2.6754     3.0277    3.90380000     8.2540    0.00079545    3.41270000     44.25792     -63.33436    30.9369    30.9549     2.4111     2.4198    24.6885    24.7023     8.7178     8.4561         32
+       7267   '01-JAN-2000 16:14:56.74'      9.000     2.4083   2.784831     2.4084   2.786528      92.55   87.51000000     2.6356     2.6748     3.0445    3.49530000     8.2540    0.00075201    3.41270000     44.25790     -63.33436    30.9359    30.9570     2.4079     2.4080    24.6880    24.7049     8.7030     8.4353         30
+       7294   '01-JAN-2000 16:14:57.88'      9.500     2.4170   2.785516     2.4184   2.787307      89.08   77.72200000     2.6329     2.6718     3.0343    2.81660000     8.2540    0.00085625    3.41270000     44.25790     -63.33436    30.9357    30.9562     2.4165     2.4180    24.6872    24.7034     8.6673     8.3988         24
+       7317   '01-JAN-2000 16:14:58.85'     10.000     2.4148   2.785434     2.4390   2.788691      89.84   71.28400000     2.6295     2.6683     2.9940    2.90470000     8.2540    0.00095700    3.41270000     44.25790     -63.33438    30.9365    30.9528     2.4144     2.4386    24.6880    24.6993     8.6565     8.3737         23
+       7339   '01-JAN-2000 16:14:59.76'     10.500     2.3460   2.780154     2.3534   2.782347      89.69   64.14000000     2.6269     2.6649     2.9233    2.90190000     8.2540    0.00090627    3.41270000     44.25790     -63.33438    30.9384    30.9580     2.3455     2.3529    24.6946    24.7097     8.6659     8.3836         21
+       7360   '01-JAN-2000 16:15:00.62'     11.000     2.3006   2.777092     2.3005   2.778831      89.44   57.59600000     2.6243     2.6621     2.8772    3.54840000     8.2550    0.00092897    3.41240000     44.25790     -63.33438    30.9447    30.9661     2.3001     2.3000    24.7029    24.7200     8.6613     8.3918         21
+       7381   '01-JAN-2000 16:15:01.49'     11.500     2.2997   2.777460     2.2986   2.779012      89.35   51.04900000     2.6212     2.6599     2.8401    3.80810000     8.2540    0.00095270    3.41150000     44.25792     -63.33438    30.9498    30.9700     2.2992     2.2981    24.7070    24.7232     8.6544     8.3870         21
+       7403   '01-JAN-2000 16:15:02.43'     12.000     2.3083   2.778823     2.3051   2.780081      90.04   45.34600000     2.6189     2.6572     2.8017    4.32330000     8.2540    0.00098136    3.41150000     44.25792     -63.33438    30.9580    30.9765     2.3077     2.3045    24.7129    24.7280     8.6437     8.3793         24
+       7430   '01-JAN-2000 16:15:03.54'     12.500     2.3168   2.780020     2.3152   2.781536      93.12   40.58300000     2.6154     2.6546     2.7563    4.88620000     8.2530    0.00101160    3.41180000     44.25792     -63.33438    30.9641    30.9842     2.3162     2.3146    24.7172    24.7334     8.6312     8.3701         30
+       7460   '01-JAN-2000 16:15:04.80'     13.000     2.3280   2.781374     2.3269   2.782973      92.35   36.68100000     2.6128     2.6523     2.3324    4.63380000     8.2500    0.00102820    3.41270000     44.25794     -63.33438    30.9695    30.9902     2.3274     2.3263    24.7208    24.7374     8.6304     8.3678         28
+       7486   '01-JAN-2000 16:15:05.88'     13.500     2.3443   2.783204     2.3438   2.784859      90.45   32.80800000     2.6109     2.6507     2.3612    4.11450000     8.2490    0.00102560    3.41270000     44.25794     -63.33440    30.9759    30.9966     2.3436     2.3432    24.7247    24.7413     8.6361     8.3769         24
+       7508   '01-JAN-2000 16:15:06.81'     14.000     2.3524   2.784139     2.3518   2.785764      89.59   29.32300000     2.6119     2.6519     2.4998    4.27390000     8.2470    0.00087970    3.41270000     44.25794     -63.33440    30.9793    30.9997     2.3517     2.3511    24.7268    24.7432     8.6661     8.4005         22
+       7530   '01-JAN-2000 16:15:07.70'     14.500     2.3617   2.785362     2.3611   2.787009      88.05   26.12100000     2.6129     2.6527     2.6309    3.77760000     8.2440    0.00085697    3.41240000     44.25796     -63.33442    30.9849    31.0057     2.3610     2.3604    24.7306    24.7473     8.6501     8.3812         21
+       7552   '01-JAN-2000 16:15:08.62'     15.000     2.3686   2.786571     2.3680   2.788196      89.21   23.61200000     2.6121     2.6516     2.6509    3.72550000     8.2440    0.00091889    3.41150000     44.25798     -63.33442    30.9928    31.0132     2.3679     2.3673    24.7364    24.7528     8.6349     8.3677         23
+       7575   '01-JAN-2000 16:15:09.60'     15.500     2.3692   2.787080     2.3686   2.788700      89.70   21.37000000     2.6120     2.6514     2.5320    4.17470000     8.2440    0.00098752    3.41190000     44.25798     -63.33442    30.9981    31.0185     2.3685     2.3679    24.7406    24.7570     8.6434     8.3726         24
+       7600   '01-JAN-2000 16:15:10.64'     16.000     2.3679   2.787239     2.3673   2.788835      88.91   19.14800000     2.6118     2.6506     2.6754    4.82210000     8.2440    0.00110130    3.41270000     44.25798     -63.33442    31.0010    31.0212     2.3672     2.3666    24.7430    24.7592     8.6304     8.3574         26
+       7626   '01-JAN-2000 16:15:11.71'     16.500     2.3717   2.788223     2.3711   2.789863      89.59   16.98600000     2.6101     2.6486     2.5155    4.22980000     8.2430    0.00106960    3.41270000     44.25798     -63.33444    31.0092    31.0299     2.3708     2.3703    24.7493    24.7659     8.6167     8.3440         26
+       7652   '01-JAN-2000 16:15:12.77'     17.000     2.3815   2.789856     2.3803   2.791487      83.74   15.04200000     2.6090     2.6476     2.4990    4.28840000     8.2420    0.00089915    3.41270000     44.25798     -63.33444    31.0194    31.0405     2.3807     2.3795    24.7567    24.7737     8.6131     8.3538         25
+       7677   '01-JAN-2000 16:15:13.82'     17.500     2.4601   2.800340     2.4681   2.803396      86.59   13.49900000     2.6080     2.6474     2.4872    4.00420000     8.2400    0.00092017    3.41270000     44.25798     -63.33444    31.0709    31.1005     2.4592     2.4673    24.7921    24.8151     8.5901     8.3313         25
+       7702   '01-JAN-2000 16:15:14.86'     18.000     2.5200   2.807881     2.5213   2.809615      89.44   12.31500000     2.6074     2.6467     2.5135    3.79050000     8.2390    0.00098869    3.41270000     44.25798     -63.33446    31.1045    31.1244     2.5191     2.5204    24.8144    24.8302     8.5821     8.3168         24
+       7725   '01-JAN-2000 16:15:15.85'     18.500     2.5459   2.810885     2.5368   2.811589      90.04   11.27500000     2.6078     2.6468     2.3842    4.80940000     8.2390    0.00101230    3.41270000     44.25798     -63.33446    31.1157    31.1331     2.5450     2.5359    24.8214    24.8360     8.5843     8.3225         23
+       7747   '01-JAN-2000 16:15:16.77'     19.000     2.5988   2.817122     2.5937   2.818144      91.92   10.25100000     2.6080     2.6471     2.3886    3.85540000     8.2400    0.00097291    3.41270000     44.25798     -63.33446    31.1400    31.1587     2.5978     2.5928    24.8368    24.8522     8.5635     8.3053         22
+       7768   '01-JAN-2000 16:15:17.63'     19.500     2.6173   2.819263     2.6148   2.820662      90.93    9.23610000     2.6082     2.6467     2.3333    3.70640000     8.2400    0.00082265    3.41270000     44.25796     -63.33446    31.1477    31.1672     2.6164     2.6138    24.8415    24.8573     8.5648     8.2948         20
+       7789   '01-JAN-2000 16:15:18.51'     20.000     2.6197   2.819595     2.6186   2.821077      89.14    8.30190000     2.6082     2.6466     2.3076    3.67270000     8.2410    0.00085134    3.41270000     44.25796     -63.33446    31.1492    31.1684     2.6187     2.6175    24.8425    24.8579     8.5549     8.2995         22
+       7813   '01-JAN-2000 16:15:19.50'     20.500     2.6251   2.820264     2.6199   2.821328      89.65    7.49330000     2.6078     2.6468     2.2583    3.74240000     8.2430    0.00097554    3.41270000     44.25795     -63.33446    31.1518    31.1699     2.6241     2.6189    24.8442    24.8590     8.5552     8.3011         25
+       7839   '01-JAN-2000 16:15:20.59'     21.000     2.6340   2.821363     2.6315   2.822705      90.62    6.81820000     2.6079     2.6469     2.2450    3.80380000     8.2430    0.00086066    3.41270000     44.25794     -63.33446    31.1563    31.1755     2.6329     2.6304    24.8471    24.8627     8.5586     8.2990         27
+       7867   '01-JAN-2000 16:15:21.74'     21.500     2.6392   2.822006     2.6377   2.823486      90.55    6.20500000     2.6079     2.6466     2.2530    3.15780000     8.2430    0.00097098    3.41270000     44.25794     -63.33446    31.1588    31.1783     2.6381     2.6366    24.8487    24.8644     8.5478     8.2861         28
+       7893   '01-JAN-2000 16:15:22.84'     22.000     2.6513   2.823666     2.6456   2.824628      90.53    5.56520000     2.6071     2.6455     2.2558    3.94210000     8.2430    0.00098156    3.41270000     44.25794     -63.33448    31.1666    31.1842     2.6505     2.6445    24.8540    24.8685     8.5379     8.2712         25
+       7918   '01-JAN-2000 16:15:23.88'     22.500     2.6691   2.825907     2.6697   2.827713      86.54    5.01470000     2.6064     2.6439     2.2690    3.59850000     8.2430    0.00084417    3.41270000     44.25792     -63.33448    31.1766    31.1980     2.6680     2.6685    24.8606    24.8777     8.5392     8.2590         25
+       7942   '01-JAN-2000 16:15:24.89'     23.000     2.6758   2.826752     2.6734   2.828134      90.05    4.60770000     2.6065     2.6426     2.2884    2.95330000     8.2430    0.00079578    3.41270000     44.25792     -63.33448    31.1802    31.1993     2.6746     2.6722    24.8629    24.8784     8.5383     8.2619         24
+       7966   '01-JAN-2000 16:15:25.88'     23.500     2.6873   2.828439     2.6856   2.829919      86.60    4.27240000     2.6063     2.6425     2.3453    2.82850000     8.2430    0.00098499    3.41270000     44.25792     -63.33448    31.1892    31.2089     2.6861     2.6844    24.8693    24.8851     8.5270     8.2596         23
+       7988   '01-JAN-2000 16:15:26.81'     24.000     2.7006   2.830673     2.6989   2.832078      88.71    3.96210000     2.6049     2.6411     2.2616    3.59720000     8.2430    0.00090664    3.41270000     44.25792     -63.33450    31.2027    31.2219     2.6998     2.6976    24.8790    24.8945     8.4949     8.2345         22
+       8009   '01-JAN-2000 16:15:27.68'     24.500     2.7092   2.832144     2.7090   2.833850      90.33    3.68620000     2.6023     2.6393     2.2437    3.62620000     8.2430    0.00083398    3.41220000     44.25792     -63.33450    31.2120    31.2333     2.7079     2.7078    24.8858    24.9028     8.4687     8.2201         20
+       8030   '01-JAN-2000 16:15:28.53'     25.000     2.7156   2.833408     2.7151   2.835001      89.61    3.37930000     2.5993     2.6370     2.2451    3.03890000     8.2430    0.00079358    3.41150000     44.25792     -63.33451    31.2212    31.2411     2.7143     2.7138    24.8926    24.9085     8.4554     8.2009         20
+       8050   '01-JAN-2000 16:15:29.39'     25.500     2.7169   2.833839     2.7162   2.835390      88.45    3.05790000     2.5966     2.6343     2.2365    3.14620000     8.2430    0.00089336    3.41150000     44.25792     -63.33452    31.2250    31.2445     2.7156     2.7149    24.8955    24.9111     8.4423     8.1895         22
+       8073   '01-JAN-2000 16:15:30.35'     26.000     2.7167   2.834048     2.7159   2.835616      89.49    2.75050000     2.5930     2.6313     2.2704    3.22810000     8.2430    0.00076559    3.41200000     44.25793     -63.33453    31.2274    31.2472     2.7153     2.7146    24.8975    24.9134     8.4172     8.1708         25
+       8102   '01-JAN-2000 16:15:31.53'     26.500     2.7171   2.835141     2.7157   2.836714      90.05    2.47560000     2.5875     2.6268     2.2995    3.57520000     8.2430    0.00086104    3.41270000     44.25792     -63.33455    31.2400    31.2605     2.7157     2.7144    24.9075    24.9240     8.3836     8.1484         32
+       8134   '01-JAN-2000 16:15:32.86'     27.000     2.7227   2.836922     2.7220   2.838455      87.24    2.28610000     2.5808     2.6211     2.2925    2.80700000     8.2430    0.00062992    3.41270000     44.25792     -63.33456    31.2560    31.2753     2.7213     2.7206    24.9198    24.9353     8.3557     8.1169         30
+       8161   '01-JAN-2000 16:15:33.98'     27.500     2.6757   2.834199     2.6769   2.835702      87.39    2.11590000     2.5751     2.6158     2.2856    2.80990000     8.2430    0.00059759    3.41270000     44.25790     -63.33458    31.2678    31.2850     2.6743     2.6755    24.9329    24.9465     8.3398     8.0952         23
+       8182   '01-JAN-2000 16:15:34.88'     28.000     2.6530   2.833547     2.6531   2.835119      86.14    1.94840000     2.5707     2.6108     2.2710    2.92600000     8.2430    0.00058808    3.41200000     44.25792     -63.33458    31.2824    31.3015     2.6516     2.6516    24.9464    24.9616     8.3261     8.0735         21
+       8202   '01-JAN-2000 16:15:35.71'     28.500     2.6401   2.833251     2.6399   2.834846      89.43    1.79520000     2.5656     2.6057     2.2480    3.14280000     8.2430    0.00062124    3.41150000     44.25792     -63.33458    31.2912    31.3108     2.6387     2.6385    24.9544    24.9700     8.2919     8.0479         20
+       8223   '01-JAN-2000 16:15:36.57'     29.000     2.6323   2.833393     2.6319   2.834980      90.96    1.63640000     2.5600     2.5997     2.1482    2.77120000     8.2430    0.00065287    3.41150000     44.25792     -63.33458    31.3003    31.3201     2.6308     2.6304    24.9622    24.9781     8.2601     8.0187         21
+       8246   '01-JAN-2000 16:15:37.54'     29.500     2.6264   2.834464     2.6254   2.836047      88.97    1.50290000     2.5522     2.5929     2.0898    2.65140000     8.2400    0.00065657    3.41150000     44.25792     -63.33459    31.3188    31.3391     2.6249     2.6239    24.9775    24.9938     8.2173     7.9850         25
+       8273   '01-JAN-2000 16:15:38.65'     30.000     2.6171   2.834194     2.6155   2.835741      88.80    1.42280000     2.5432     2.5839     2.0718    1.93080000     8.2380    0.00053711    3.41270000     44.25789     -63.33458    31.3244    31.3448     2.6156     2.6140    24.9827    24.9991     8.1866     7.9515         28
+       8298   '01-JAN-2000 16:15:39.73'     30.500     2.6147   2.834155     2.6135   2.835709      90.90    1.33470000     2.5355     2.5763     2.0529    2.36870000     8.2380    0.00053685    3.41270000     44.25788     -63.33458    31.3260    31.3461     2.6131     2.6120    24.9842    25.0003     8.1784     7.9410         23
+       8320   '01-JAN-2000 16:15:40.63'     31.000     2.6082   2.833685     2.6073   2.835210      90.68    1.24850000     2.5302     2.5708     2.0610    2.32950000     8.2360    0.00058639    3.41270000     44.25788     -63.33460    31.3265    31.3459     2.6066     2.6058    24.9850    25.0006     8.1695     7.9341         20
+       8339   '01-JAN-2000 16:15:41.43'     31.500     2.5795   2.831520     2.5815   2.833241      90.09    1.14110000     2.5259     2.5671     2.0641    2.15550000     8.2340    0.00059363    3.41170000     44.25789     -63.33460    31.3278    31.3469     2.5779     2.5799    24.9883    25.0034     8.1630     7.9349         19
+       8359   '01-JAN-2000 16:15:42.25'     32.000     2.5437   2.829110     2.5442   2.830730      90.58    1.05450000     2.5217     2.5630     2.0803    2.50820000     8.2320    0.00062281    3.41150000     44.25790     -63.33461    31.3332    31.3525     2.5421     2.5426    24.9954    25.0108     8.1482     7.9232         21
+       8383   '01-JAN-2000 16:15:43.25'     32.500     2.5280   2.828124     2.5274   2.829710      85.74    0.96559000     2.5158     2.5576     2.0647    2.15790000     8.2260    0.00065951    3.41130000     44.25790     -63.33462    31.3364    31.3563     2.5263     2.5257    24.9991    25.0151     8.1359     7.9012         28
+       8415   '01-JAN-2000 16:15:44.60'     33.000     2.5212   2.827723     2.5192   2.829231      88.69    0.87879000     2.5089     2.5508     2.0696    2.19380000     8.2200    0.00050723    3.41150000     44.25790     -63.33462    31.3378    31.3582     2.5196     2.5175    25.0008    25.0172     8.1046     7.8809         36
+       8448   '01-JAN-2000 16:15:45.98'     33.500     2.5168   2.827581     2.5154   2.829136      86.14    0.82121000     2.5012     2.5430     2.0669    2.81660000     8.2170    0.00052693    3.41150000     44.25790     -63.33464    31.3402    31.3606     2.5151     2.5137    25.0030    25.0194     8.0712     7.8399         29
+       8473   '01-JAN-2000 16:15:47.02'     34.000     2.5120   2.827410     2.5118   2.829021      91.61    0.76821000     2.4946     2.5368     2.0652    2.33380000     8.2150    0.00052890    3.41150000     44.25788     -63.33464    31.3425    31.3624     2.5103     2.5101    25.0052    25.0211     8.0456     7.8202         21
+       8494   '01-JAN-2000 16:15:47.86'     34.500     2.5027   2.827315     2.5024   2.828900      90.50    0.70722000     2.4903     2.5322     2.0778    2.59280000     8.2120    0.00057500    3.41150000     44.25788     -63.33466    31.3502    31.3700     2.5010     2.5006    25.0121    25.0279     8.0311     7.8008         20
+       8513   '01-JAN-2000 16:15:48.65'     35.000     2.5055   2.828084     2.5049   2.829715      89.43    0.65785000     2.4851     2.5269     2.0760    2.26020000     8.2090    0.00072130    3.41060000     44.25788     -63.33466    31.3566    31.3772     2.5038     2.5031    25.0170    25.0335     7.9960     7.7770         19
+       8532   '01-JAN-2000 16:15:49.45'     35.500     2.5139   2.829251     2.5131   2.830849      89.54    0.62455000     2.4798     2.5225     2.1019    3.75740000     8.2050    0.00064717    3.41030000     44.25788     -63.33466    31.3624    31.3828     2.5121     2.5113    25.0210    25.0373     7.9860     7.7674         19
+       8552   '01-JAN-2000 16:15:50.27'     36.000     2.5172   2.830003     2.5159   2.831499      91.18    0.57244000     2.4756     2.5181     2.1039    2.85710000     8.2020    0.00063560    3.41030000     44.25787     -63.33466    31.3681    31.3877     2.5154     2.5141    25.0253    25.0410     7.9670     7.7565         21
+       8573   '01-JAN-2000 16:15:51.18'     36.500     2.5271   2.832039     2.5258   2.833588      90.53    0.52904000     2.4699     2.5138     2.0943    3.53010000     8.2000    0.00069961    3.41040000     44.25786     -63.33467    31.3830    31.4039     2.5252     2.5239    25.0364    25.0532     7.9496     7.7454         23
+       8599   '01-JAN-2000 16:15:52.23'     37.000     2.5221   2.833712     2.5213   2.835347      84.13    0.47230000     2.4654     2.5093     2.0763    4.53560000     8.1960    0.00086228    3.41030000     44.25786     -63.33467    31.4081    31.4289     2.5202     2.5194    25.0569    25.0736     7.9536     7.7305         27
+       8626   '01-JAN-2000 16:15:53.39'     37.500     2.4937   2.833534     2.4927   2.835099      89.09    0.41675000     2.4612     2.5041     2.0696    4.38470000     8.1920    0.00077572    3.41030000     44.25785     -63.33466    31.4336    31.4538     2.4918     2.4908    25.0794    25.0956     7.9326     7.7101         28
+       8654   '01-JAN-2000 16:15:54.54'     38.000     2.4773   2.833153     2.4765   2.834729      88.33    0.37398000     2.4558     2.4984     2.0581    4.59270000     8.1880    0.00085704    3.41030000     44.25785     -63.33467    31.4448    31.4649     2.4754     2.4746    25.0897    25.1057     7.9132     7.6788         27
+       8680   '01-JAN-2000 16:15:55.61'     38.500     2.4701   2.833042     2.4692   2.834639      85.56    0.33008000     2.4509     2.4923     2.0828    4.36170000     8.1840    0.00086402    3.41020000     44.25786     -63.33468    31.4503    31.4707     2.4682     2.4673    25.0946    25.1110     7.8936     7.6617         24
+       8703   '01-JAN-2000 16:15:56.60'     39.000     2.4637   2.832928     2.4633   2.834519      84.60    0.29651000     2.4465     2.4875     2.0702    5.10290000     8.1810    0.00087931    3.40920000     44.25788     -63.33470    31.4549    31.4748     2.4618     2.4614    25.0987    25.1147     7.8780     7.6514         23
+       8726   '01-JAN-2000 16:15:57.54'     39.500     2.4586   2.832639     2.4584   2.834267      87.87    0.26474000     2.4421     2.4831     2.0777    3.51590000     8.1800    0.00082080    3.40900000     44.25788     -63.33470    31.4562    31.4761     2.4566     2.4564    25.1002    25.1161     7.8542     7.6376         22
+       8748   '01-JAN-2000 16:15:58.45'     40.000     2.4543   2.832853     2.4541   2.834455      86.62    0.23212000     2.4372     2.4791     2.0624    4.22070000     8.1760    0.00079158    3.40900000     44.25789     -63.33470    31.4628    31.4827     2.4523     2.4521    25.1058    25.1216     7.8363     7.6285         22
+       8770   '01-JAN-2000 16:15:59.38'     40.500     2.4478   2.834010     2.4472   2.835613      89.65    0.18294000     2.4329     2.4754     2.1132    6.35270000     8.1760    0.00080685    3.40900000     44.25790     -63.33471    31.4831    31.5033     2.4458     2.4452    25.1224    25.1387     7.8245     7.6183         23
+       8793   '01-JAN-2000 16:16:00.32'     41.000     2.4601   2.836851     2.4591   2.838447      88.38    0.14356000     2.4288     2.4719     2.0970    4.63860000     8.1720    0.00089560    3.40800000     44.25790     -63.33472    31.5055    31.5260     2.4581     2.4570    25.1394    25.1559     7.8321     7.6069         23
+       8816   '01-JAN-2000 16:16:01.29'     41.500     2.4597   2.838164     2.4594   2.839719      85.56    0.11690000     2.4273     2.4687     2.1184    6.15190000     8.1710    0.00110770    3.40780000     44.25790     -63.33472    31.5217    31.5411     2.4577     2.4573    25.1524    25.1679     7.8154     7.6033         23
+       8840   '01-JAN-2000 16:16:02.28'     42.000     2.4231   2.836493     2.4242   2.838071      91.73    0.10464000     2.4224     2.4662     2.0162    8.13000000     8.1680    0.00091370    3.40780000     44.25789     -63.33473    31.5378    31.5561     2.4203     2.4222    25.1681    25.1827     7.7987     7.5993         24
+       8864   '01-JAN-2000 16:16:03.30'     42.500     2.3958   2.834815     2.3949   2.836328      89.95    0.10188000     2.4196     2.4625     2.0388    7.56300000     8.1670    0.00093854    3.40780000     44.25788     -63.33474    31.5433    31.5627     2.3937     2.3928    25.1745    25.1901     7.8013     7.5782         25
+       8890   '01-JAN-2000 16:16:04.38'     43.000     2.3803   2.833628     2.3803   2.835256      87.51    0.10177000     2.4155     2.4583     2.0227    7.72420000     8.1630    0.00089687    3.40780000     44.25787     -63.33475    31.5438    31.5638     2.3781     2.3781    25.1761    25.1921     7.7777     7.5668         27
+       8918   '01-JAN-2000 16:16:05.52'     43.500     2.3660   2.832642     2.3633   2.834065      86.79    0.10174000     2.4109     2.4541     1.9995    5.38050000     8.1620    0.00102160    3.40700000     44.25786     -63.33476    31.5456    31.5658     2.3638     2.3611    25.1786    25.1949     7.7605     7.5522         27
+       8943   '01-JAN-2000 16:16:06.59'     44.000     2.3396   2.831305     2.3385   2.832842      86.85    0.10174000     2.4064     2.4496     1.9940    4.94010000     8.1590    0.00125440    3.40660000     44.25786     -63.33476    31.5550    31.5750     2.3375     2.3363    25.1881    25.2042     7.7489     7.5349         24
+       8966   '01-JAN-2000 16:16:07.53'     44.500     2.3267   2.831800     2.3266   2.833396      87.76    0.10173000     2.4027     2.4458     1.9718    4.62860000     8.1570    0.00108930    3.40660000     44.25786     -63.33478    31.5737    31.5934     2.3245     2.3244    25.2040    25.2198     7.7407     7.5236         22
+       8986   '01-JAN-2000 16:16:08.37'     45.000     2.3259   2.833400     2.3254   2.834969      87.45    0.10174000     2.3997     2.4423     1.9776    4.10510000     8.1570    0.00092413    3.40670000     44.25785     -63.33478    31.5939    31.6136     2.3237     2.3232    25.2202    25.2360     7.7307     7.5047         19
+       9005   '01-JAN-2000 16:16:09.15'     45.500     2.3195   2.834484     2.3192   2.836071      76.47    0.10150000     2.3968     2.4384     1.9776    3.42450000     8.1560    0.00100680    3.40660000     44.25784     -63.33478    31.6132    31.6331     2.3173     2.3170    25.2362    25.2521     7.7207     7.4958         19
+       9024   '01-JAN-2000 16:16:09.95'     46.000     2.3077   2.835146     2.3075   2.836735      97.37    0.10181000     2.3942     2.4359     1.9731    2.43170000     8.1530    0.00082981    3.40660000     44.25784     -63.33479    31.6329    31.6526     2.3054     2.3053    25.2527    25.2685     7.7143     7.4962         19
+       9045   '01-JAN-2000 16:16:10.82'     46.500     2.3008   2.835424     2.3005   2.837005      99.96    0.10181000     2.3912     2.4327     1.9625    2.80340000     8.1520    0.00076722    3.40660000     44.25784     -63.33480    31.6429    31.6627     2.2985     2.2982    25.2612    25.2771     7.7031     7.4837         23
+       9071   '01-JAN-2000 16:16:11.91'     47.000     2.2941   2.835519     2.2936   2.837119      99.98    0.10183000     2.3876     2.4287     1.9576    2.70020000     8.1480    0.00070535    3.40580000     44.25784     -63.33480    31.6505    31.6707     2.2918     2.2913    25.2678    25.2840     7.6907     7.4733         29
+       9103   '01-JAN-2000 16:16:13.26'     47.500     2.2863   2.835995     2.2843   2.837652      99.99    0.10183000     2.3835     2.4250     1.9655    3.33320000     8.1470    0.00072123    3.40540000     44.25784     -63.33480    31.6638    31.6863     2.2840     2.2819    25.2791    25.2972     7.6845     7.4705         35
+       9135   '01-JAN-2000 16:16:14.60'     48.000     2.2824   2.836401     2.2815   2.838020      99.98    0.10183000     2.3800     2.4220     1.9604    2.53290000     8.1430    0.00068940    3.40640000     44.25782     -63.33480    31.6725    31.6933     2.2800     2.2791    25.2863    25.3030     7.6740     7.4615         28
+       9160   '01-JAN-2000 16:16:15.63'     48.500     2.2774   2.836509     2.2767   2.838104      99.98    0.10181000     2.3774     2.4186     1.9648    2.51130000     8.1430    0.00063675    3.40660000     44.25782     -63.33482    31.6785    31.6989     2.2750     2.2743    25.2914    25.3078     7.6649     7.4440         22
+       9181   '01-JAN-2000 16:16:16.49'     49.000     2.2693   2.836406     2.2688   2.837998      99.99    0.10182000     2.3754     2.4171     1.9569    2.05840000     8.1400    0.00067980    3.40630000     44.25782     -63.33482    31.6851    31.7051     2.2669     2.2664    25.2973    25.3134     7.6633     7.4500         19
+       9199   '01-JAN-2000 16:16:17.24'     49.500     2.2633   2.836274     2.2629   2.837877      99.99    0.10184000     2.3739     2.4151     1.9461    1.71510000     8.1390    0.00075780    3.40540000     44.25782     -63.33482    31.6891    31.7093     2.2609     2.2605    25.3010    25.3171     7.6607     7.4396         18
+       9216   '01-JAN-2000 16:16:17.98'     50.000     2.2602   2.836786     2.2597   2.838389      99.99    0.10184000     2.3723     2.4135     1.9495    1.81470000     8.1380    0.00084703    3.40540000     44.25782     -63.33482    31.6983    31.7185     2.2577     2.2572    25.3086    25.3248     7.6545     7.4303         18
+       9235   '01-JAN-2000 16:16:18.76'     50.500     2.2595   2.837206     2.2589   2.838806      99.98    0.10183000     2.3707     2.4113     1.9473    2.06960000     8.1380    0.00089014    3.40480000     44.25782     -63.33482    31.7039    31.7241     2.2570     2.2565    25.3131    25.3293     7.6491     7.4297         20
+       9257   '01-JAN-2000 16:16:19.67'     51.000     2.2595   2.837561     2.2590   2.839154      99.68    0.10183000     2.3690     2.4099     1.9469    1.58260000     8.1350    0.00090418    3.40420000     44.25782     -63.33482    31.7080    31.7281     2.2570     2.2565    25.3164    25.3325     7.6439     7.4338         24
+       9284   '01-JAN-2000 16:16:20.81'     51.500     2.2611   2.838293     2.2608   2.839949      99.18    0.10180000     2.3669     2.4084     1.9353    2.10110000     8.1330    0.00075269    3.40430000     44.25782     -63.33482    31.7151    31.7359     2.2586     2.2582    25.3219    25.3386     7.6395     7.4272         30
+       9316   '01-JAN-2000 16:16:22.13'     52.000     2.2623   2.838982     2.2616   2.840638      98.54    0.10180000     2.3651     2.4063     1.9218    1.47150000     8.1330    0.00059608    3.40540000     44.25782     -63.33484    31.7222    31.7432     2.2597     2.2591    25.3276    25.3444     7.6427     7.4217         31
+       9344   '01-JAN-2000 16:16:23.30'     52.500     2.2611   2.839725     2.2604   2.841365      98.11    0.10180000     2.3645     2.4055     1.9153    3.10880000     8.1330    0.00058657    3.40540000     44.25782     -63.33484    31.7322    31.7531     2.2585     2.2579    25.3356    25.3524     7.6527     7.4319         26
+       9367   '01-JAN-2000 16:16:24.25'     53.000     2.2604   2.840213     2.2598   2.841786      97.64    0.10180000     2.3648     2.4053     1.9138    1.63920000     8.1310    0.00059140    3.40540000     44.25782     -63.33485    31.7387    31.7587     2.2578     2.2572    25.3409    25.3569     7.6595     7.4326         21
+       9388   '01-JAN-2000 16:16:25.12'     53.500     2.2607   2.840581     2.2601   2.842164      97.17    0.10180000     2.3651     2.4051     1.9187    2.00700000     8.1290    0.00061047    3.40520000     44.25782     -63.33486    31.7427    31.7628     2.2580     2.2574    25.3441    25.3602     7.6677     7.4350         20
+       9409   '01-JAN-2000 16:16:25.98'     54.000     2.2582   2.841222     2.2579   2.842830      96.80    0.10180000     2.3663     2.4053     1.9068    2.75870000     8.1290    0.00097181    3.40420000     44.25782     -63.33486    31.7528    31.7729     2.2555     2.2552    25.3524    25.3684     7.6821     7.4438         22
+       9431   '01-JAN-2000 16:16:26.92'     54.500     2.2716   2.843556     2.2710   2.845154      96.21    0.10180000     2.3674     2.4057     1.9268    1.79010000     8.1280    0.00077257    3.40420000     44.25782     -63.33486    31.7679    31.7882     2.2689     2.2683    25.3634    25.3797     7.6701     7.4363         23
+       9454   '01-JAN-2000 16:16:27.89'     55.000     2.2965   2.846702     2.2956   2.848331      95.72    0.10180000     2.3674     2.4054     1.9193    1.97790000     8.1280    0.00057978    3.40390000     44.25782     -63.33486    31.7816    31.8025     2.2937     2.2929    25.3725    25.3893     7.6502     7.4198         23
+       9477   '01-JAN-2000 16:16:28.85'     55.500     2.3076   2.848037     2.3070   2.849625      95.21    0.10180000     2.3665     2.4047     1.8911    1.91950000     8.1280    0.00056489    3.40330000     44.25780     -63.33486    31.7866    31.8068     2.3048     2.3042    25.3757    25.3919     7.6323     7.4063         23
+       9500   '01-JAN-2000 16:16:29.77'     56.000     2.3209   2.849479     2.3201   2.851094      94.66    0.10180000     2.3649     2.4027     1.8711    1.73010000     8.1280    0.00065850    3.40370000     44.25780     -63.33488    31.7908    31.8115     2.3181     2.3173    25.3781    25.3947     7.6123     7.3801         22
+       9521   '01-JAN-2000 16:16:30.67'     56.500     2.3457   2.852208     2.3448   2.853801      94.10    0.10180000     2.3631     2.4006     1.8517    1.52570000     8.1280    0.00062512    3.40400000     44.25778     -63.33488    31.7994    31.8199     2.3428     2.3420    25.3831    25.3995     7.6134     7.3810         21
+       9544   '01-JAN-2000 16:16:31.61'     57.000     2.3583   2.853889     2.3577   2.855499      93.47    0.10180000     2.3632     2.4004     1.8509    1.69140000     8.1280    0.00067918    3.40410000     44.25778     -63.33488    31.8072    31.8276     2.3554     2.3550    25.3884    25.4048     7.6397     7.4025         25
+       9569   '01-JAN-2000 16:16:32.68'     57.500     2.3738   2.855962     2.3741   2.857781      92.85    0.10180000     2.3649     2.4012     1.8334    1.62970000     8.1280    0.00058792    3.40420000     44.25778     -63.33490    31.8169    31.8390     2.3709     2.3712    25.3950    25.4126     7.6663     7.4207         26
+       9596   '01-JAN-2000 16:16:33.80'     58.000     2.4085   2.859880     2.4077   2.861485      92.35    0.10180000     2.3694     2.4046     1.8304    1.51390000     8.1290    0.00052881    3.40320000     44.25780     -63.33490    31.8301    31.8507     2.4056     2.4048    25.4029    25.4194     7.7202     7.4694         27
+       9622   '01-JAN-2000 16:16:34.86'     58.500     2.3720   2.857186     2.3700   2.858610      91.87    0.10180000     2.3765     2.4111     1.8217    1.17570000     8.1310    0.00046135    3.40290000     44.25780     -63.33492    31.8332    31.8527     2.3691     2.3671    25.4082    25.4239     7.7762     7.5228         24
+       9644   '01-JAN-2000 16:16:35.81'     59.000     2.3637   2.857165     2.3636   2.858768      91.36    0.10180000     2.3828     2.4167     1.7830    1.37110000     8.1290    0.00047381    3.40290000     44.25778     -63.33490    31.8410    31.8609     2.3607     2.3606    25.4150    25.4309     7.7935     7.5384         22
+       9665   '01-JAN-2000 16:16:36.68'     59.500     2.3554   2.856973     2.3555   2.858563      90.87    0.10180000     2.3875     2.4211     1.7550    1.12880000     8.1280    0.00054445    3.40320000     44.25776     -63.33492    31.8467    31.8661     2.3524     2.3525    25.4202    25.4357     7.7869     7.5335         20
+       9684   '01-JAN-2000 16:16:37.48'     60.000     2.3674   2.858519     2.3650   2.859994      90.42    0.10180000     2.3898     2.4234     1.7424    1.24450000     8.1280    0.00059837    3.40410000     44.25776     -63.33492    31.8534    31.8740     2.3644     2.3619    25.4246    25.4413     7.7632     7.5161         18
+       9703   '01-JAN-2000 16:16:38.25'     60.500     2.4408   2.865648     2.4345   2.867033      89.96    0.10180000     2.3908     2.4245     1.7273    1.34440000     8.1270    0.00062231    3.40420000     44.25776     -63.33492    31.8673    31.8907     2.4377     2.4314    25.4302    25.4493     7.7292     7.4915         18
+       9721   '01-JAN-2000 16:16:38.99'     61.000     2.5728   2.878474     2.5683   2.879863      89.16    0.10180000     2.3908     2.4251     1.7009    1.07330000     8.1270    0.00062553    3.40350000     44.25776     -63.33492    31.8925    31.9139     2.5696     2.5651    25.4400    25.4576     7.6837     7.4471         18
+       9739   '01-JAN-2000 16:16:39.75'     61.500     2.6259   2.884011     2.6222   2.885342      88.74    0.10178000     2.3903     2.4242     1.6676    1.32300000     8.1310    0.00052473    3.40290000     44.25776     -63.33492    31.9069    31.9269     2.6227     2.6190    25.4474    25.4636     7.6491     7.4137         18
+       9758   '01-JAN-2000 16:16:40.52'     62.000     2.6554   2.887357     2.6532   2.888785      88.30    0.10178000     2.3879     2.4223     1.6490    1.25920000     8.1370    0.00060112    3.40210000     44.25776     -63.33494    31.9180    31.9377     2.6522     2.6499    25.4539    25.4698     7.6118     7.3828         20
+       9779   '01-JAN-2000 16:16:41.41'     62.500     2.6576   2.887932     2.6563   2.889372      87.78    0.10175000     2.3845     2.4192     1.6490    0.88960000     8.1420    0.00061431    3.40170000     44.25776     -63.33494    31.9226    31.9415     2.6543     2.6530    25.4574    25.4726     7.5809     7.3565         23
+       9805   '01-JAN-2000 16:16:42.49'     63.000     2.6388   2.886673     2.6369   2.888090      87.25    0.10174000     2.3790     2.4145     1.6579    1.10800000     8.1460    0.00051149    3.40170000     44.25776     -63.33494    31.9257    31.9450     2.6355     2.6335    25.4614    25.4769     7.5492     7.3292         29
+       9834   '01-JAN-2000 16:16:43.72'     63.500     2.6204   2.885448     2.6192   2.886930      86.69    0.10177000     2.3716     2.4080     1.8022    0.91357000     8.1470    0.00041758    3.40260000     44.25776     -63.33496    31.9289    31.9482     2.6171     2.6158    25.4654    25.4809     7.5193     7.3030         29
+       9861   '01-JAN-2000 16:16:44.84'     64.000     2.6020   2.884109     2.6014   2.885641      86.19    0.10173000     2.3658     2.4024     1.8016    1.27420000     8.1480    0.00042018    3.40290000     44.25776     -63.33496    31.9306    31.9499     2.5987     2.5981    25.4682    25.4837     7.5146     7.2947         25
+       9884   '01-JAN-2000 16:16:45.78'     64.500     2.5878   2.883042     2.5880   2.884606      85.83    0.10178000     2.3616     2.3986     1.8144    0.88329000     8.1470    0.00040741    3.40290000     44.25776     -63.33496    31.9315    31.9504     2.5844     2.5846    25.4701    25.4852     7.5051     7.2893         20
+       9903   '01-JAN-2000 16:16:46.56'     65.000     2.5643   2.881246     2.5650   2.882833      85.36    0.10166000     2.3581     2.3953     1.8242    0.90700000     8.1470    0.00040085    3.40290000     44.25776     -63.33498    31.9327    31.9515     2.5609     2.5616    25.4729    25.4878     7.4830     7.2701         18
+       9921   '01-JAN-2000 16:16:47.33'     65.500     2.5251   2.878245     2.5241   2.879703      84.80    0.10165000     2.3532     2.3910     1.8519    1.21680000     8.1470    0.00047811    3.40290000     44.25776     -63.33498    31.9349    31.9538     2.5217     2.5207    25.4777    25.4929     7.4580     7.2454         19
+       9940   '01-JAN-2000 16:16:48.12'     66.000     2.5046   2.876642     2.5029   2.878112      84.22    0.10168000     2.3480     2.3858     1.8787    0.89880000     8.1430    0.00053076    3.40180000     44.25777     -63.33498    31.9355    31.9552     2.5012     2.4994    25.4798    25.4957     7.4378     7.2164         19
+       9961   '01-JAN-2000 16:16:49.01'     66.500     2.4976   2.876065     2.4963   2.877556      83.61    0.10166000     2.3419     2.3792     1.9008    0.90998000     8.1410    0.00055994    3.40170000     44.25778     -63.33498    31.9352    31.9547     2.4942     2.4929    25.4800    25.4958     7.3960     7.1823         24
+       9988   '01-JAN-2000 16:16:50.12'     67.000     2.4872   2.875206     2.4866   2.876745      83.02    0.10157000     2.3318     2.3702     1.9479    0.97979000     8.1380    0.00044009    3.40170000     44.25777     -63.33499    31.9348    31.9543     2.4837     2.4831    25.4805    25.4962     7.3343     7.1371         30
+      10020   '01-JAN-2000 16:16:51.44'     67.500     2.4806   2.874669     2.4797   2.876202      82.46    0.10156000     2.3186     2.3584     2.0486    0.91861000     8.1370    0.00048179    3.40240000     44.25776     -63.33500    31.9346    31.9542     2.4771     2.4762    25.4809    25.4967     7.2735     7.0822         32
+      10049   '01-JAN-2000 16:16:52.65'     68.000     2.4712   2.873929     2.4706   2.875491      81.90    0.10156000     2.3058     2.3461     2.4220    0.91768000     8.1340    0.00047964    3.40290000     44.25776     -63.33500    31.9346    31.9544     2.4677     2.4674    25.4816    25.4975     7.2142     7.0216         25
+      10070   '01-JAN-2000 16:16:53.55'     68.500     2.4389   2.871349     2.4446   2.873274      81.46    0.10161000     2.2959     2.3365     2.4813    0.95155000     8.1330    0.00046136    3.40220000     44.25774     -63.33501    31.9350    31.9529     2.4354     2.4410    25.4844    25.4984     7.1813     6.9893         19
+      10088   '01-JAN-2000 16:16:54.31'     69.000     2.3641   2.865642     2.3618   2.866973      81.12    0.10152000     2.2879     2.3290     2.8820    0.84614000     8.1310    0.00046822    3.40170000     44.25774     -63.33502    31.9395    31.9583     2.3606     2.3583    25.4938    25.5089     7.1681     6.9767         17
+      10105   '01-JAN-2000 16:16:55.01'     69.500     2.3047   2.861509     2.3054   2.863099      80.50    0.10153000     2.2805     2.3214     3.7587    1.64130000     8.1270    0.00049897    3.40170000     44.25774     -63.33502    31.9479    31.9669     2.3012     2.3019    25.5050    25.5201     7.1489     6.9561         17
+      10122   '01-JAN-2000 16:16:55.71'     70.000     2.2896   2.861454     2.2883   2.862965      80.08    0.10151000     2.2729     2.3143     3.0517    0.96426000     8.1220    0.00058740    3.40160000     44.25774     -63.33502    31.9621    31.9821     2.2861     2.2848    25.5175    25.5335     7.1232     6.9291         17
+      10141   '01-JAN-2000 16:16:56.50'     70.500     2.2931   2.863196     2.2930   2.864691      79.58    0.10151000     2.2648     2.3057     2.8016    0.86731000     8.1170    0.00062487    3.40170000     44.25774     -63.33502    31.9798    31.9984     2.2896     2.2894    25.5314    25.5463     7.0860     6.8883         21
+      10165   '01-JAN-2000 16:16:57.51'     71.000     2.2705   2.862382     2.2696   2.863955      78.91    0.10146000     2.2539     2.2946     2.5459    0.97049000     8.1130    0.00059937    3.40180000     44.25774     -63.33503    31.9923    32.0126     2.2669     2.2660    25.5431    25.5594     7.0485     6.8574         29
+      10198   '01-JAN-2000 16:16:58.86'     71.500     2.2358   2.860399     2.2400   2.862262      78.26    0.10146000     2.2409     2.2817     2.9756    1.81350000     8.1080    0.00053483    3.40220000     44.25774     -63.33504    32.0024    32.0212     2.2322     2.2365    25.5537    25.5685     7.0324     6.8378         35
+      10230   '01-JAN-2000 16:17:00.21'     72.000     2.2160   2.859128     2.2168   2.860784      77.90    0.10148000     2.2310     2.2713     3.2523    1.03480000     8.1040    0.00055848    3.40170000     44.25774     -63.33505    32.0064    32.0261     2.2125     2.2133    25.5584    25.5741     7.0294     6.8297         28
+      10256   '01-JAN-2000 16:17:01.30'     72.500     2.1904   2.857929     2.1861   2.859310      77.27    0.10150000     2.2253     2.2653     3.1875    0.91375000     8.1000    0.00050141    3.40170000     44.25773     -63.33506    32.0172    32.0385     2.1868     2.1826    25.5689    25.5863     7.0309     6.8376         25
+      10280   '01-JAN-2000 16:17:02.30'     73.000     2.1758   2.858192     2.1749   2.859795      76.82    0.10144000     2.2211     2.2611     3.1534    0.69020000     8.0970    0.00057817    3.40170000     44.25772     -63.33507    32.0348    32.0556     2.1722     2.1712    25.5841    25.6008     7.0335     6.8371         23
+      10303   '01-JAN-2000 16:17:03.27'     73.500     2.1726   2.858649     2.1718   2.860267      76.59    0.10144000     2.2178     2.2577     3.1181    0.58431000     8.0900    0.00057160    3.40170000     44.25773     -63.33508    32.0434    32.0643     2.1690     2.1681    25.5912    25.6080     7.0270     6.8289         23
+      10325   '01-JAN-2000 16:17:04.18'     74.000     2.1738   2.859036     2.1733   2.860650      75.86    0.10144000     2.2152     2.2547     3.1004    0.49050000     8.0860    0.00053520    3.40170000     44.25774     -63.33508    32.0468    32.0673     2.1701     2.1696    25.5938    25.6103     7.0200     6.8237         21
+      10345   '01-JAN-2000 16:17:05.02'     74.500     2.1751   2.859327     2.1745   2.860926      75.32    0.10146000     2.2127     2.2524     3.0679    0.52972000     8.0820    0.00050033    3.40170000     44.25774     -63.33508    32.0488    32.0692     2.1714     2.1708    25.5954    25.6117     7.0120     6.8199         20
+      10364   '01-JAN-2000 16:17:05.80'     75.000     2.1755   2.859499     2.1751   2.861092      74.82    0.10144000     2.2107     2.2505     3.0672    0.50705000     8.0800    0.00051164    3.40170000     44.25774     -63.33508    32.0502    32.0704     2.1718     2.1713    25.5964    25.6126     7.0086     6.8164         18
+      10383   '01-JAN-2000 16:17:06.60'     75.500     2.1762   2.859653     2.1757   2.861247      74.37    0.10144000     2.2090     2.2486     3.0315    0.56408000     8.0790    0.00051836    3.40170000     44.25772     -63.33509    32.0511    32.0714     2.1725     2.1720    25.5971    25.6134     7.0135     6.8141         20
+      10404   '01-JAN-2000 16:17:07.47'     76.000     2.1772   2.859857     2.1767   2.861458      73.83    0.10146000     2.2078     2.2471     2.9728    0.60937000     8.0760    0.00052912    3.40170000     44.25772     -63.33510    32.0524    32.0727     2.1734     2.1730    25.5981    25.6143     7.0210     6.8107         22
+      10429   '01-JAN-2000 16:17:08.51'     76.500     2.1804   2.860597     2.1804   2.862288      73.19    0.10144000     2.2075     2.2450     2.9309    0.43676000     8.0750    0.00055285    3.40170000     44.25771     -63.33511    32.0581    32.0790     2.1766     2.1766    25.6024    25.6191     7.0270     6.7983         28
+      10459   '01-JAN-2000 16:17:09.75'     77.000     2.1925   2.862909     2.1919   2.864537      72.66    0.10145000     2.2069     2.2422     2.9168    0.61496000     8.0720    0.00058208    3.40170000     44.25770     -63.33512    32.0742    32.0949     2.1886     2.1881    25.6144    25.6310     7.0152     6.7854         30
+      10488   '01-JAN-2000 16:17:10.94'     77.500     2.2139   2.865556     2.2169   2.867570      72.17    0.10144000     2.2058     2.2404     2.8897    0.29258000     8.0700    0.00057509    3.40170000     44.25770     -63.33512    32.0850    32.1068     2.2101     2.2131    25.6214    25.6387     7.0044     6.7899         27
+      10512   '01-JAN-2000 16:17:11.96'     78.000     2.2643   2.870765     2.2648   2.872571      71.69    0.10144000     2.2050     2.2400     2.8518    0.40001000     8.0700    0.00054965    3.40170000     44.25770     -63.33512    32.0982    32.1200     2.2604     2.2608    25.6282    25.6457     7.0017     6.7959         23
+      10534   '01-JAN-2000 16:17:12.86'     78.500     2.2902   2.873635     2.2907   2.875324      71.24    0.10146000     2.2055     2.2408     2.8413    0.40003000     8.0700    0.00050840    3.40170000     44.25770     -63.33514    32.1072    32.1279     2.2863     2.2868    25.6335    25.6500     7.0135     6.8036         21
+      10554   '01-JAN-2000 16:17:13.72'     79.000     2.2967   2.874475     2.2942   2.875863      70.75    0.10146000     2.2066     2.2413     2.8804    0.36371000     8.0690    0.00048600    3.40170000     44.25770     -63.33514    32.1108    32.1304     2.2927     2.2902    25.6359    25.6517     7.0220     6.7982         20
+      10575   '01-JAN-2000 16:17:14.59'     79.500     2.2982   2.874833     2.2973   2.876363      70.27    0.10144000     2.2076     2.2417     2.9481    0.52708000     8.0690    0.00044920    3.40140000     44.25770     -63.33514    32.1134    32.1331     2.2941     2.2933    25.6379    25.6537     7.0144     6.7999         22
+      10598   '01-JAN-2000 16:17:15.52'     80.000     2.3010   2.875307     2.3002   2.876849      69.80    0.10144000     2.2073     2.2418     2.9892    0.37676000     8.0680    0.00043401    3.40050000     44.25770     -63.33514    32.1161    32.1359     2.2969     2.2962    25.6398    25.6557     6.9852     6.7808         23
+      10623   '01-JAN-2000 16:17:16.56'     80.500     2.3030   2.875549     2.3031   2.877180      69.19    0.10146000     2.2045     2.2396     2.9515    0.80878000     8.0660    0.00047525    3.40050000     44.25768     -63.33516    32.1168    32.1368     2.2989     2.2990    25.6403    25.6562     6.9463     6.7433         27
+      10651   '01-JAN-2000 16:17:17.75'     81.000     2.3129   2.876632     2.3141   2.878375      68.50    0.10144000     2.2001     2.2352     2.9223    1.21610000     8.0650    0.00049903    3.40150000     44.25770     -63.33516    32.1196    32.1402     2.3091     2.3100    25.6417    25.6581     6.9149     6.7103         29
+      10679   '01-JAN-2000 16:17:18.93'     81.500     2.3275   2.878298     2.3296   2.880229      68.10    0.10144000     2.1950     2.2304     2.9179    1.39390000     8.0650    0.00043431    3.40200000     44.25770     -63.33516    32.1257    32.1479     2.3234     2.3255    25.6455    25.6631     6.8939     6.6872         27
+      10703   '01-JAN-2000 16:17:19.93'     82.000     2.3845   2.884289     2.3869   2.886464      67.57    0.10144000     2.1915     2.2265     2.9154    1.57350000     8.0650    0.00048119    3.40290000     44.25770     -63.33516    32.1414    32.1658     2.3803     2.3826    25.6537    25.6730     6.8777     6.6740         21
+      10724   '01-JAN-2000 16:17:20.78'     82.500     2.4256   2.889563     2.4255   2.891297      67.12    0.10144000     2.1890     2.2244     2.9277    1.69950000     8.0650    0.00064932    3.40170000     44.25770     -63.33518    32.1646    32.1860     2.4213     2.4212    25.6690    25.6862     6.8706     6.6660         19
+      10742   '01-JAN-2000 16:17:21.53'     83.000     2.4688   2.894364     2.4640   2.895703      66.64    0.10144000     2.1877     2.2222     2.9341    1.54570000     8.0650    0.00048228    3.40170000     44.25770     -63.33518    32.1797    32.2009     2.4645     2.4597    25.6778    25.6951     6.8624     6.6527         18
+      10759   '01-JAN-2000 16:17:22.25'     83.500     2.5052   2.898354     2.5028   2.899784      66.10    0.10144000     2.1860     2.2207     2.8963    1.80230000     8.0640    0.00048171    3.40080000     44.25770     -63.33518    32.1917    32.2117     2.5008     2.4984    25.6845    25.7007     6.8475     6.6442         17
+      10777   '01-JAN-2000 16:17:23.00'     84.000     2.5136   2.899647     2.5124   2.901131      65.42    0.10144000     2.1848     2.2193     2.8923    1.70750000     8.0640    0.00060501    3.40050000     44.25770     -63.33518    32.1988    32.2183     2.5092     2.5080    25.6895    25.7052     6.8453     6.6399         19
+      10798   '01-JAN-2000 16:17:23.86'     84.500     2.5176   2.900307     2.5170   2.901879      64.99    0.10144000     2.1834     2.2175     2.8894    1.75360000     8.0620    0.00057072    3.40060000     44.25770     -63.33520    32.2026    32.2225     2.5131     2.5125    25.6923    25.7083     6.8435     6.6348         23
+      10823   '01-JAN-2000 16:17:24.92'     85.000     2.5239   2.901227     2.5245   2.902918      64.52    0.10144000     2.1821     2.2160     2.9015    1.73710000     8.0610    0.00057021    3.40170000     44.25770     -63.33520    32.2073    32.2274     2.5194     2.5200    25.6956    25.7116     6.8357     6.6351         28
+      10853   '01-JAN-2000 16:17:26.15'     85.500     2.5264   2.901566     2.5263   2.903160      63.80    0.10144000     2.1801     2.2147     2.9038    1.80930000     8.0600    0.00055053    3.40240000     44.25770     -63.33520    32.2086    32.2282     2.5219     2.5218    25.6964    25.7121     6.8275     6.6315         30
+      10881   '01-JAN-2000 16:17:27.33'     86.000     2.5293   2.901944     2.5291   2.903537      63.39    0.10144000     2.1784     2.2134     2.9088    1.71640000     8.0600    0.00054252    3.40240000     44.25770     -63.33520    32.2101    32.2298     2.5247     2.5246    25.6974    25.7131     6.8207     6.6254         26
+      10906   '01-JAN-2000 16:17:28.39'     86.500     2.5328   2.902418     2.5328   2.904025      62.94    0.10146000     2.1766     2.2118     2.9027    1.67140000     8.0600    0.00050091    3.40170000     44.25769     -63.33520    32.2121    32.2318     2.5283     2.5282    25.6987    25.7145     6.8089     6.6067         25
+      10931   '01-JAN-2000 16:17:29.41'     87.000     2.5405   2.903471     2.5403   2.905092      62.39    0.10144000     2.1751     2.2091     2.9058    1.73700000     8.0590    0.00056328    3.40170000     44.25768     -63.33521    32.2169    32.2370     2.5360     2.5357    25.7019    25.7180     6.8057     6.5891         25
+      10955   '01-JAN-2000 16:17:30.41'     87.500     2.5496   2.904658     2.5496   2.906281      61.85    0.10144000     2.1735     2.2070     2.9246    1.78620000     8.0590    0.00053153    3.40170000     44.25768     -63.33522    32.2221    32.2419     2.5450     2.5450    25.7053    25.7212     6.7915     6.5829         23
+      10977   '01-JAN-2000 16:17:31.35'     88.000     2.5560   2.905507     2.5558   2.907119      61.38    0.10144000     2.1715     2.2047     2.9305    1.70370000     8.0590    0.00047173    3.40170000     44.25767     -63.33522    32.2258    32.2457     2.5513     2.5511    25.7078    25.7238     6.7799     6.5736         21
+      10997   '01-JAN-2000 16:17:32.18'     88.500     2.5689   2.907058     2.5684   2.908658      60.84    0.10144000     2.1700     2.2030     2.9288    1.71080000     8.0590    0.00048089    3.40170000     44.25766     -63.33522    32.2314    32.2516     2.5642     2.5637    25.7113    25.7274     6.7752     6.5727         19
+      11016   '01-JAN-2000 16:17:32.95'     89.000     2.5845   2.908709     2.5835   2.910228      60.55    0.10144000     2.1687     2.2020     2.9238    1.78450000     8.0590    0.00048744    3.40170000     44.25766     -63.33522    32.2357    32.2553     2.5798     2.5788    25.7135    25.7292     6.7664     6.5679         18
+      11034   '01-JAN-2000 16:17:33.71'     89.500     2.5964   2.909972     2.5963   2.911607      59.96    0.10144000     2.1671     2.2008     2.9513    1.78650000     8.0590    0.00049741    3.40170000     44.25766     -63.33522    32.2389    32.2590     2.5916     2.5915    25.7151    25.7311     6.7554     6.5585         19
+      11053   '01-JAN-2000 16:17:34.52'     90.000     2.6091   2.911492     2.6089   2.913091      59.35    0.10144000     2.1655     2.1993     2.9815    2.09630000     8.0590    0.00051144    3.40170000     44.25766     -63.33524    32.2444    32.2642     2.6043     2.6040    25.7185    25.7343     6.7493     6.5487         20
+      11076   '01-JAN-2000 16:17:35.45'     90.500     2.6099   2.912247     2.6095   2.913872      58.72    0.10144000     2.1640     2.1975     2.9423    1.70260000     8.0580    0.00054965    3.40170000     44.25766     -63.33524    32.2525    32.2729     2.6051     2.6047    25.7249    25.7412     6.7444     6.5423         25
+      11103   '01-JAN-2000 16:17:36.58'     91.000     2.6162   2.913485     2.6163   2.915181      58.14    0.10144000     2.1620     2.1955     2.9244    1.64600000     8.0580    0.00049287    3.40170000     44.25766     -63.33524    32.2611    32.2817     2.6113     2.6115    25.7313    25.7477     6.7352     6.5320         29
+      11131   '01-JAN-2000 16:17:37.75'     91.500     2.6244   2.914638     2.6250   2.916349      57.64    0.10144000     2.1604     2.1931     2.9059    1.64980000     8.0560    0.00055346    3.40170000     44.25766     -63.33526    32.2667    32.2870     2.6195     2.6200    25.7351    25.7513     6.7322     6.5259         26
+      11155   '01-JAN-2000 16:17:38.74'     92.000     2.6316   2.915583     2.6319   2.917253      57.21    0.10144000     2.1589     2.1920     2.9236    1.65450000     8.0550    0.00049982    3.40170000     44.25766     -63.33526    32.2707    32.2908     2.6266     2.6270    25.7377    25.7537     6.7261     6.5272         22
+      11175   '01-JAN-2000 16:17:39.59'     92.500     2.6423   2.916807     2.6423   2.918453      56.81    0.10146000     2.1579     2.1910     2.9253    1.76180000     8.0550    0.00049152    3.40170000     44.25766     -63.33526    32.2746    32.2947     2.6373     2.6374    25.7400    25.7560     6.7220     6.5255         20
+      11196   '01-JAN-2000 16:17:40.46'     93.000     2.6509   2.917850     2.6510   2.919477      56.31    0.10144000     2.1570     2.1906     2.9309    1.70950000     8.0540    0.00048033    3.40170000     44.25766     -63.33526    32.2784    32.2982     2.6459     2.6460    25.7423    25.7581     6.7194     6.5296         22
+      11220   '01-JAN-2000 16:17:41.45'     93.500     2.6561   2.918581     2.6559   2.920174      55.70    0.10144000     2.1563     2.1906     2.9400    1.64800000     8.0540    0.00047167    3.40170000     44.25765     -63.33527    32.2819    32.3015     2.6510     2.6508    25.7447    25.7604     6.7240     6.5326         26
+      11248   '01-JAN-2000 16:17:42.64'     94.000     2.6565   2.918794     2.6562   2.920363      55.12    0.10144000     2.1559     2.1900     3.0074    1.72230000     8.0540    0.00050291    3.40170000     44.25764     -63.33528    32.2837    32.3032     2.6515     2.6511    25.7461    25.7617     6.7206     6.5237         30
+      11277   '01-JAN-2000 16:17:43.83'     94.500     2.6554   2.918764     2.6551   2.920339      54.70    0.10144000     2.1552     2.1893     3.0344    1.69780000     8.0540    0.00052582    3.40170000     44.25764     -63.33528    32.2842    32.3038     2.6503     2.6500    25.7466    25.7622     6.7140     6.5161         26
+      11301   '01-JAN-2000 16:17:44.83'     95.000     2.6543   2.918715     2.6539   2.920263      54.23    0.10144000     2.1540     2.1881     3.0272    1.72360000     8.0540    0.00049798    3.40170000     44.25764     -63.33528    32.2844    32.3038     2.6492     2.6488    25.7468    25.7623     6.7071     6.5072         22
+      11322   '01-JAN-2000 16:17:45.69'     95.500     2.6531   2.918657     2.6524   2.920169      53.72    0.10144000     2.1532     2.1866     3.0311    1.74610000     8.0540    0.00048836    3.40170000     44.25764     -63.33530    32.2847    32.3039     2.6480     2.6473    25.7472    25.7625     6.7057     6.4968         20
+      11340   '01-JAN-2000 16:17:46.48'     96.000     2.6542   2.918847     2.6538   2.920420      53.29    0.10144000     2.1526     2.1853     3.0419    1.77640000     8.0540    0.00050563    3.40170000     44.25764     -63.33530    32.2857    32.3053     2.6490     2.6486    25.7479    25.7635     6.7007     6.4931         18
+      11359   '01-JAN-2000 16:17:47.26'     96.500     2.6559   2.919099     2.6556   2.920689      52.93    0.10144000     2.1514     2.1841     3.0601    1.70110000     8.0530    0.00051422    3.40170000     44.25764     -63.33530    32.2868    32.3065     2.6506     2.6504    25.7486    25.7644     6.6910     6.4890         19
+      11379   '01-JAN-2000 16:17:48.06'     97.000     2.6705   2.921015     2.6705   2.922699      52.36    0.10144000     2.1503     2.1830     3.0942    1.75400000     8.0510    0.00051970    3.40170000     44.25764     -63.33530    32.2951    32.3157     2.6653     2.6653    25.7541    25.7706     6.6823     6.4801         20
+      11401   '01-JAN-2000 16:17:48.98'     97.500     2.6866   2.922999     2.6873   2.924712      51.69    0.10144000     2.1487     2.1810     3.1185    1.73220000     8.0500    0.00048711    3.40260000     44.25764     -63.33532    32.3029    32.3231     2.6813     2.6820    25.7590    25.7751     6.6705     6.4716         24
+      11427   '01-JAN-2000 16:17:50.07'     98.000     2.7053   2.925138     2.7066   2.926997      51.04    0.10146000     2.1466     2.1799     3.1307    1.74090000     8.0490    0.00051315    3.40290000     44.25764     -63.33534    32.3099    32.3312     2.6999     2.7013    25.7631    25.7800     6.6561     6.4661         28
+      11455   '01-JAN-2000 16:17:51.24'     98.500     2.7404   2.928902     2.7420   2.930747      50.73    0.10144000     2.1447     2.1775     3.1356    1.77610000     8.0490    0.00053566    3.40190000     44.25764     -63.33534    32.3202    32.3410     2.7350     2.7366    25.7684    25.7849     6.6419     6.4400         28
+      11481   '01-JAN-2000 16:17:52.32'     99.000     2.7488   2.929953     2.7487   2.931556      50.25    0.10147000     2.1423     2.1750     3.1306    1.72610000     8.0490    0.00053180    3.40170000     44.25764     -63.33534    32.3242    32.3439     2.7434     2.7433    25.7709    25.7867     6.6236     6.4269         24
+      11504   '01-JAN-2000 16:17:53.29'     99.500     2.7650   2.931953     2.7642   2.933516      49.72    0.10146000     2.1398     2.1728     3.1445    1.74820000     8.0490    0.00050905    3.40170000     44.25763     -63.33534    32.3320    32.3518     2.7595     2.7587    25.7758    25.7918     6.6077     6.4180         22
+      11525   '01-JAN-2000 16:17:54.17'    100.000     2.7719   2.933102     2.7719   2.934741      49.04    0.10146000     2.1377     2.1709     3.1474    1.74430000     8.0490    0.00049339    3.40170000     44.25762     -63.33535    32.3388    32.3587     2.7664     2.7664    25.7807    25.7966     6.6081     6.4138         21
+      11546   '01-JAN-2000 16:17:55.04'    100.500     2.7770   2.934030     2.7770   2.935665      48.60    0.10149000     2.1366     2.1695     3.1345    1.74140000     8.0490    0.00048493    3.40170000     44.25762     -63.33536    32.3447    32.3645     2.7715     2.7715    25.7850    25.8009     6.6100     6.4168         21
+      11567   '01-JAN-2000 16:17:55.90'    101.000     2.7807   2.934959     2.7808   2.936622      48.13    0.10144000     2.1353     2.1686     3.1362    1.74310000     8.0490    0.00048814    3.40200000     44.25762     -63.33536    32.3520    32.3721     2.7752     2.7752    25.7905    25.8066     6.6075     6.4151         21
+      11589   '01-JAN-2000 16:17:56.83'    101.500     2.7913   2.936399     2.7915   2.938085      47.51    0.10146000     2.1346     2.1677     3.1378    1.72590000     8.0490    0.00049131    3.40280000     44.25762     -63.33536    32.3586    32.3790     2.7857     2.7865    25.7949    25.8112     6.6076     6.4126         23
+      11615   '01-JAN-2000 16:17:57.90'    102.000     2.8017   2.937844     2.8029   2.939633      46.87    0.10146000     2.1339     2.1667     3.1075    1.74470000     8.0490    0.00048412    3.40290000     44.25762     -63.33536    32.3655    32.3859     2.7960     2.7973    25.7996    25.8158     6.6019     6.4032         28
+      11643   '01-JAN-2000 16:17:59.10'    102.500     2.8084   2.938709     2.8082   2.940289      46.31    0.10145000     2.1328     2.1655     3.1062    1.71680000     8.0480    0.00051614    3.40260000     44.25762     -63.33536    32.3689    32.3883     2.8027     2.8026    25.8018    25.8173     6.5954     6.4035         30
+      11672   '01-JAN-2000 16:18:00.29'    103.000     2.7972   2.937804     2.7948   2.939152      45.77    0.10147000     2.1317     2.1647     3.1043    1.72390000     8.0490    0.00053011    3.40170000     44.25762     -63.33536    32.3689    32.3878     2.7915     2.7891    25.8027    25.8179     6.5961     6.4033         27
+      11696   '01-JAN-2000 16:18:01.30'    103.500     2.7902   2.937466     2.7896   2.939081      45.42    0.10149000     2.1312     2.1639     3.1335    1.71460000     8.0480    0.00049477    3.40170000     44.25762     -63.33537    32.3716    32.3919     2.7845     2.7839    25.8054    25.8217     6.6014     6.4015         21
+      11716   '01-JAN-2000 16:18:02.12'    104.000     2.7991   2.938485     2.7987   2.940049      44.92    0.10146000     2.1309     2.1634     3.1535    1.71970000     8.0470    0.00048006    3.40170000     44.25762     -63.33538    32.3748    32.3942     2.7933     2.7930    25.8073    25.8227     6.5958     6.4003         18
+      11733   '01-JAN-2000 16:18:02.84'    104.500     2.8016   2.938835     2.8010   2.940375      44.42    0.10144000     2.1305     2.1630     3.1806    1.76950000     8.0460    0.00047451    3.40170000     44.25762     -63.33538    32.3763    32.3956     2.7958     2.7952    25.8082    25.8237     6.5962     6.4016         17
+      11750   '01-JAN-2000 16:18:03.54'    105.000     2.8107   2.939838     2.8095   2.941369      44.03    0.10153000     2.1304     2.1630     3.1536    1.77260000     8.0470    0.00047904    3.40170000     44.25762     -63.33538    32.3790    32.3989     2.8049     2.8037    25.8097    25.8256     6.5919     6.3948         17
+      11768   '01-JAN-2000 16:18:04.27'    105.500     2.8202   2.940959     2.8191   2.942450      43.58    0.10152000     2.1296     2.1619     3.1473    1.74400000     8.0450    0.00049600    3.40180000     44.25762     -63.33539    32.3828    32.4020     2.8144     2.8133    25.8119    25.8273     6.5784     6.3757         18
+      11788   '01-JAN-2000 16:18:05.12'    106.000     2.8222   2.941266     2.8217   2.942799      42.82    0.10147000     2.1286     2.1602     3.1385    1.72440000     8.0440    0.00054152    3.40260000     44.25762     -63.33540    32.3842    32.4035     2.8163     2.8158    25.8129    25.8283     6.5707     6.3727         23
+      11815   '01-JAN-2000 16:18:06.26'    106.500     2.8226   2.941364     2.8224   2.942943      42.13    0.10147000     2.1271     2.1590     3.1198    1.74440000     8.0440    0.00050307    3.40290000     44.25762     -63.33540    32.3848    32.4042     2.8167     2.8165    25.8133    25.8288     6.5673     6.3742         33
+      11851   '01-JAN-2000 16:18:07.75'    107.000     2.8331   2.942562     2.8325   2.944127      41.57    0.10153000     2.1247     2.1570     3.1065    1.72160000     8.0440    0.00052475    3.40290000     44.25762     -63.33541    32.3885    32.4082     2.8271     2.8265    25.8154    25.8311     6.5444     6.3517         35
+      11880   '01-JAN-2000 16:18:08.96'    107.500     2.8499   2.944466     2.8509   2.946196      41.10    0.10155000     2.1219     2.1541     3.1025    1.71690000     8.0440    0.00050737    3.40290000     44.25762     -63.33542    32.3945    32.4145     2.8439     2.8449    25.8188    25.8346     6.5253     6.3333         24
+      11902   '01-JAN-2000 16:18:09.86'    108.000     2.8630   2.946018     2.8639   2.947775      40.64    0.10153000     2.1199     2.1519     3.1133    1.73830000     8.0440    0.00049699    3.40280000     44.25762     -63.33542    32.3998    32.4203     2.8570     2.8578    25.8219    25.8382     6.5139     6.3173         20
+      11922   '01-JAN-2000 16:18:10.70'    108.500     2.8846   2.948575     2.8852   2.950319      40.13    0.10150000     2.1175     2.1495     3.1299    1.74310000     8.0440    0.00052388    3.40190000     44.25762     -63.33542    32.4089    32.4294     2.8785     2.8791    25.8274    25.8437     6.4993     6.3069         20
+      11942   '01-JAN-2000 16:18:11.53'    109.000     2.8964   2.949944     2.8962   2.951539      39.64    0.10151000     2.1157     2.1478     3.1530    1.75570000     8.0440    0.00049549    3.40170000     44.25760     -63.33542    32.4133    32.4329     2.8903     2.8900    25.8299    25.8456     6.4994     6.3003         21
+      11963   '01-JAN-2000 16:18:12.40'    109.500     2.9050   2.951421     2.9059   2.953359      39.19    0.10149000     2.1144     2.1453     3.0895    1.76620000     8.0440    0.00047887    3.40170000     44.25761     -63.33543    32.4223    32.4445     2.8988     2.8997    25.8364    25.8540     6.4977     6.2915         21
+      11985   '01-JAN-2000 16:18:13.32'    110.000     2.9363   2.956068     2.9372   2.957892      38.63    0.10156000     2.1129     2.1439     3.0518    1.71820000     8.0430    0.00047397    3.40280000     44.25761     -63.33543    32.4469    32.4681     2.9301     2.9310    25.8533    25.8702     6.4825     6.2942         22
+      12007   '01-JAN-2000 16:18:14.24'    110.500     2.9503   2.957746     2.9518   2.959549      38.17    0.10157000     2.1115     2.1429     3.0711    1.74790000     8.0430    0.00048899    3.40290000     44.25759     -63.33542    32.4529    32.4732     2.9440     2.9456    25.8570    25.8730     6.4802     6.2845         22
+      12028   '01-JAN-2000 16:18:15.14'    111.000     2.9731   2.960394     2.9766   2.962471      37.56    0.10159000     2.1105     2.1412     3.0550    1.75490000     8.0430    0.00051502    3.40290000     44.25758     -63.33542    32.4618    32.4836     2.9668     2.9703    25.8621    25.8792     6.4729     6.2744         22
+      12051   '01-JAN-2000 16:18:16.07'    111.500     2.9850   2.961935     2.9850   2.963531      36.95    0.10155000     2.1096     2.1403     3.0653    1.72900000     8.0430    0.00061383    3.40290000     44.25758     -63.33543    32.4682    32.4875     2.9786     2.9786    25.8662    25.8816     6.4708     6.2776         23
+      12074   '01-JAN-2000 16:18:17.05'    112.000     2.9854   2.962080     2.9855   2.963673      36.43    0.10156000     2.1086     2.1397     3.0621    1.71760000     8.0410    0.00054620    3.40290000     44.25759     -63.33545    32.4692    32.4884     2.9790     2.9791    25.8670    25.8823     6.4715     6.2797         25
+      12100   '01-JAN-2000 16:18:18.13'    112.500     2.9893   2.962690     2.9898   2.964334      35.88    0.10162000     2.1082     2.1389     3.0534    1.75620000     8.0410    0.00053577    3.40290000     44.25760     -63.33547    32.4724    32.4918     2.9829     2.9833    25.8692    25.8847     6.4691     6.2711         26
+      12126   '01-JAN-2000 16:18:19.21'    113.000     2.9918   2.963037     2.9917   2.964603      35.40    0.10156000     2.1074     2.1378     3.0347    1.71220000     8.0410    0.00054364    3.40290000     44.25760     -63.33549    32.4738    32.4929     2.9854     2.9853    25.8701    25.8853     6.4674     6.2640         25
+      12150   '01-JAN-2000 16:18:20.23'    113.500     2.9944   2.963383     2.9942   2.964963      34.90    0.10163000     2.1070     2.1367     3.0219    1.70670000     8.0390    0.00050135    3.40360000     44.25760     -63.33551    32.4752    32.4945     2.9879     2.9877    25.8710    25.8864     6.4619     6.2644         23
+      12172   '01-JAN-2000 16:18:21.14'    114.000     2.9955   2.963592     2.9954   2.965157      34.45    0.10158000     2.1060     2.1362     3.0013    1.70000000     8.0390    0.00049168    3.40420000     44.25760     -63.33552    32.4763    32.4954     2.9890     2.9888    25.8718    25.8871     6.4638     6.2697         21
+      12193   '01-JAN-2000 16:18:22.00'    114.500     2.9959   2.963662     2.9957   2.965225      33.86    0.10154000     2.1064     2.1363     2.9789    1.69890000     8.0390    0.00048855    3.40400000     44.25760     -63.33553    32.4765    32.4956     2.9893     2.9892    25.8719    25.8872     6.4870     6.2847         21
+      12213   '01-JAN-2000 16:18:22.85'    115.000     2.9966   2.963778     2.9962   2.965307      33.39    0.10155000     2.1079     2.1374     2.9373    1.66020000     8.0390    0.00048536    3.40290000     44.25760     -63.33554    32.4769    32.4959     2.9900     2.9896    25.8722    25.8874     6.5109     6.2951         20
+      12235   '01-JAN-2000 16:18:23.75'    115.500     2.9980   2.963998     2.9981   2.965614      32.99    0.10163000     2.1104     2.1384     2.9310    1.67010000     8.0390    0.00048455    3.40290000     44.25758     -63.33552    32.4779    32.4974     2.9914     2.9915    25.8729    25.8884     6.5025     6.2782         23
+      12259   '01-JAN-2000 16:18:24.75'    116.000     3.0059   2.964995     3.0069   2.966724      32.53    0.10167000     2.1094     2.1363     2.9117    1.66350000     8.0390    0.00054917    3.40290000     44.25756     -63.33552    32.4818    32.5017     2.9992     3.0003    25.8753    25.8911     6.4451     6.2341         25
+      12286   '01-JAN-2000 16:18:25.88'    116.500     3.0160   2.966215     3.0171   2.967918      31.82    0.10168000     2.1055     2.1330     2.9056    1.67950000     8.0390    0.00059879    3.40290000     44.25754     -63.33552    32.4861    32.5056     3.0093     3.0104    25.8779    25.8933     6.4277     6.2286         30
+      12314   '01-JAN-2000 16:18:27.06'    117.000     3.0226   2.967028     3.0231   2.968719      31.19    0.10161000     2.1032     2.1310     2.9039    1.67650000     8.0380    0.00048908    3.40410000     44.25752     -63.33552    32.4890    32.5089     3.0159     3.0166    25.8796    25.8954     6.4335     6.2236         26
+      12339   '01-JAN-2000 16:18:28.09'    117.500     3.0308   2.968136     3.0330   2.970118      30.73    0.10172000     2.1018     2.1277     2.9106    1.66250000     8.0380    0.00049558    3.40470000     44.25751     -63.33552    32.4945    32.5157     3.0234     3.0262    25.8834    25.9000     6.3830     6.1394         22
+      12360   '01-JAN-2000 16:18:28.95'    118.000     3.0854   2.974427     3.0953   2.977359      30.26    0.10167000     2.0942     2.1186     2.9184    1.67660000     8.0380    0.00053080    3.40540000     44.25750     -63.33553    32.5147    32.5401     3.0785     3.0884    25.8947    25.9141     6.2507     6.0364         20
+      12378   '01-JAN-2000 16:18:29.70'    118.500     3.1773   2.984641     3.1804   2.987086      29.81    0.10175000     2.0841     2.1095     2.9081    1.66210000     8.0380    0.00049427    3.40520000     44.25750     -63.33554    32.5451    32.5714     3.1703     3.1735    25.9109    25.9316     6.1704     5.9855         17
+      12395   '01-JAN-2000 16:18:30.44'    119.000     3.3241   3.001105     3.3227   3.003232      29.39    0.10170000     2.0750     2.1012     2.8995    1.70120000     8.0370    0.00050041    3.40420000     44.25750     -63.33554    32.5951    32.6221     3.3170     3.3155    25.9378    25.9594     6.1094     5.9394         18
+      12414   '01-JAN-2000 16:18:31.19'    119.500     3.4205   3.011881     3.4168   3.013370      28.86    0.10167000     2.0654     2.0934     2.9037    1.65910000     8.0360    0.00052647    3.40420000     44.25750     -63.33554    32.6272    32.6488     3.4132     3.4095    25.9546    25.9722     6.0585     5.8980         19
+      12434   '01-JAN-2000 16:18:32.04'    120.000     3.4864   3.019241     3.4908   3.021536      28.17    0.10167000     2.0553     2.0843     2.9220    1.67030000     8.0340    0.00055372    3.40360000     44.25750     -63.33554    32.6488    32.6718     3.4790     3.4834    25.9658    25.9837     6.0283     5.8685         22
+      12459   '01-JAN-2000 16:18:33.08'    120.500     3.6424   3.036751     3.6722   3.041828      27.71    0.10171000     2.0454     2.0760     2.9287    1.67060000     8.0320    0.00057813    3.40410000     44.25752     -63.33556    32.7007    32.7313     3.6348     3.6646    25.9926    26.0141     5.9917     5.8356         28
+      12490   '01-JAN-2000 16:18:34.39'    121.000     3.9652   3.073147     3.9973   3.079028      27.03    0.10175000     2.0359     2.0676     2.9295    1.66760000     8.0300    0.00066863    3.40480000     44.25752     -63.33556    32.8085    32.8457     3.9572     3.9893    26.0472    26.0736     5.9283     5.7708         33
+      12522   '01-JAN-2000 16:18:35.70'    121.500     4.1950   3.099429     4.1957   3.100935      26.59    0.10167000     2.0294     2.0611     2.9310    1.67030000     8.0290    0.00068276    3.40540000     44.25752     -63.33558    32.8881    32.9050     4.1867     4.1875    26.0877    26.1010     5.8881     5.7312         28
+      12545   '01-JAN-2000 16:18:36.68'    122.000     4.2342   3.104063     4.2440   3.106760      26.13    0.10175000     2.0260     2.0571     2.9331    1.67440000     8.0260    0.00075379    3.40540000     44.25752     -63.33558    32.9029    32.9247     4.2259     4.2357    26.0955    26.1118     5.8983     5.7287         22
+      12565   '01-JAN-2000 16:18:37.51'    122.500     4.3004   3.111440     4.3053   3.113577      25.68    0.10170000     2.0260     2.0558     2.9300    1.67210000     8.0240    0.00074596    3.40540000     44.25750     -63.33558    32.9230    32.9432     4.2920     4.2968    26.1046    26.1202     5.9190     5.7406         18
+      12583   '01-JAN-2000 16:18:38.26'    123.000     4.3153   3.113125     4.3225   3.115346      25.35    0.10172000     2.0270     2.0558     2.9364    1.67340000     8.0250    0.00074172    3.40540000     44.25750     -63.33558    32.9275    32.9464     4.3069     4.3140    26.1067    26.1210     5.9181     5.7409         18
+      12601   '01-JAN-2000 16:18:39.00'    123.500     4.3155   3.113145     4.3203   3.115081      24.71    0.10166000     2.0270     2.0550     2.8880    1.63370000     8.0270    0.00074415    3.40540000     44.25750     -63.33558    32.9274    32.9452     4.3070     4.3118    26.1066    26.1202     5.8812     5.7052         18
+      12620   '01-JAN-2000 16:18:39.81'    124.000     4.3368   3.115463     4.3304   3.116309      24.19    0.10174000     2.0233     2.0506     2.8177    1.55240000     8.0270    0.00080325    3.40540000     44.25750     -63.33558    32.9329    32.9492     4.3283     4.3219    26.1088    26.1224     5.8127     5.6454         20
+      12643   '01-JAN-2000 16:18:40.76'    124.500     4.3438   3.116167     4.3465   3.117946      23.60    0.10172000     2.0153     2.0430     2.8159    1.53930000     8.0280    0.00079862    3.40540000     44.25750     -63.33558    32.9339    32.9522     4.3352     4.3382    26.1088    26.1231     5.7528     5.5981         27
+      12672   '01-JAN-2000 16:18:41.94'    125.000     4.3562   3.117493     4.3564   3.118995      23.04    0.10170000     2.0049     2.0336     2.8247    1.56130000     8.0280    0.00079455    3.40540000     44.25750     -63.33560    32.9368    32.9542     4.3475     4.3477    26.1099    26.1237     5.7122     5.5651         29
+      12699   '01-JAN-2000 16:18:43.10'    125.500     4.3622   3.118115     4.3795   3.121494      22.51    0.10160000     1.9958     2.0248     2.8219    1.55250000     8.0280    0.00083215    3.40640000     44.25750     -63.33560    32.9379    32.9613     4.3535     4.3708    26.1101    26.1269     5.6961     5.5455         25
+      12722   '01-JAN-2000 16:18:44.05'    126.000     4.4060   3.123189     4.3978   3.123847      21.96    0.10173000     1.9900     2.0196     2.8212    1.57060000     8.0280    0.00085081    3.40660000     44.25750     -63.33560    32.9531    32.9690     4.3973     4.3891    26.1176    26.1311     5.6871     5.5464         21
+      12742   '01-JAN-2000 16:18:44.87'    126.500     4.5527   3.140127     4.5494   3.141743      21.55    0.10168000     1.9862     2.0164     2.8209    1.56480000     8.0270    0.00087154    3.40660000     44.25748     -63.33560    33.0040    33.0261     4.5437     4.5404    26.1426    26.1605     5.6677     5.5244         19
+      12761   '01-JAN-2000 16:18:45.67'    127.000     4.6904   3.155840     4.7029   3.159222      21.11    0.10168000     1.9839     2.0138     2.8147    1.56290000     8.0240    0.00092696    3.40660000     44.25748     -63.33562    33.0489    33.0757     4.6813     4.6937    26.1636    26.1835     5.6485     5.4973         19
+      12781   '01-JAN-2000 16:18:46.48'    127.500     4.7820   3.166436     4.7839   3.168240      20.59    0.10162000     1.9819     2.0114     2.8033    1.55920000     8.0220    0.00102970    3.40660000     44.25748     -63.33562    33.0803    33.0992     4.7727     4.7746    26.1785    26.1934     5.6307     5.4785         20
+      12801   '01-JAN-2000 16:18:47.35'    128.000     4.8192   3.170933     4.8190   3.172500      20.02    0.10168000     1.9800     2.0088     2.8138    1.56840000     8.0220    0.00112750    3.40660000     44.25748     -63.33562    33.0949    33.1132     4.8098     4.8097    26.1861    26.2006     5.6188     5.4663         22
+      12825   '01-JAN-2000 16:18:48.32'    128.500     4.8484   3.174377     4.8518   3.176232      19.45    0.10166000     1.9781     2.0067     2.8329    1.58550000     8.0220    0.00112880    3.40670000     44.25748     -63.33562    33.1054    33.1234     4.8390     4.8424    26.1912    26.2051     5.6144     5.4660         24
+      12851   '01-JAN-2000 16:18:49.40'    129.000     4.8617   3.175948     4.8622   3.177396      18.86    0.10164000     1.9768     2.0051     2.8278    1.59480000     8.0220    0.00111790    3.40780000     44.25748     -63.33563    33.1101    33.1270     4.8522     4.8527    26.1934    26.2068     5.6109     5.4617         28
+      12878   '01-JAN-2000 16:18:50.53'    129.500     4.8678   3.176645     4.8685   3.178173      18.38    0.10168000     1.9748     2.0031     2.8380    1.59500000     8.0220    0.00106300    3.40780000     44.25747     -63.33564    33.1118    33.1288     4.8582     4.8589    26.1942    26.2075     5.5944     5.4455         27
+      12902   '01-JAN-2000 16:18:51.56'    130.000     4.8781   3.177781     4.8791   3.179444      17.90    0.10165000     1.9728     2.0009     2.8388    1.63260000     8.0220    0.00107920    3.40780000     44.25746     -63.33564    33.1151    33.1325     4.8685     4.8699    26.1956    26.2093     5.5851     5.4360         22
+      12928   '01-JAN-2000 16:18:52.63'    130.500     4.8958   3.179923     4.8959   3.181422      17.34    0.10164000     1.9706     1.9983     2.8670    1.65250000     8.0220    0.00106370    3.40780000     44.25746     -63.33564    33.1212    33.1385     4.8862     4.8862    26.1985    26.2122     5.5750     5.4255         30
+      12961   '01-JAN-2000 16:18:53.99'    131.000     4.9149   3.182069     4.9137   3.183425      16.76    0.10171000     1.9684     1.9958     2.9060    1.68970000     8.0220    0.00113690    3.40780000     44.25746     -63.33566    33.1267    33.1436     4.9053     4.9040    26.2008    26.2143     5.5699     5.4184         35
+      12994   '01-JAN-2000 16:18:55.36'    131.500     4.9360   3.184529     4.9333   3.185792      16.21    0.10161000     1.9667     1.9935     2.9049    1.70380000     8.0220    0.00108680    3.40780000     44.25746     -63.33566    33.1338    33.1511     4.9263     4.9235    26.2041    26.2181     5.5635     5.4105         31
+      13024   '01-JAN-2000 16:18:56.63'    132.000     4.9783   3.189430     4.9790   3.191042      15.73    0.10169000     1.9652     1.9921     2.9054    1.71240000     8.0220    0.00105360    3.40790000     44.25744     -63.33566    33.1480    33.1659     4.9684     4.9691    26.2107    26.2247     5.5543     5.4079         29
+      13053   '01-JAN-2000 16:18:57.85'    132.500     4.9884   3.190641     4.9898   3.192296      15.23    0.10168000     1.9645     1.9915     2.9096    1.72280000     8.0220    0.00108190    3.40850000     44.25744     -63.33568    33.1516    33.1693     4.9786     4.9799    26.2124    26.2262     5.5584     5.4043         28
+      13082   '01-JAN-2000 16:18:59.03'    133.000     5.0022   3.192259     5.0035   3.193902      14.70    0.10164000     1.9645     1.9908     2.9158    1.73250000     8.0210    0.00108890    3.40820000     44.25744     -63.33568    33.1563    33.1739     4.9922     4.9936    26.2146    26.2283     5.5575     5.4045         36
+      13131   '01-JAN-2000 16:19:01.10'    133.500     5.0116   3.193332     5.0118   3.194863      14.03    0.10171000     1.9632     1.9891     2.9205    1.73570000     8.0220    0.00103820    3.40910000     44.25744     -63.33570    33.1591    33.1764     5.0016     5.0018    26.2157    26.2295     5.5360     5.3829         54
+      13175   '01-JAN-2000 16:19:02.92'    134.000     5.0204   3.194377     5.0198   3.195783      13.61    0.10162000     1.9595     1.9857     2.9571    1.75420000     8.0230    0.00098984    3.40900000     44.25742     -63.33570    33.1620    33.1788     5.0104     5.0098    26.2171    26.2304     5.5116     5.3674         35
+      13205   '01-JAN-2000 16:19:04.15'    134.500     5.0272   3.195180     5.0279   3.196785      13.17    0.10163000     1.9570     1.9832     2.9489    1.76020000     8.0220    0.00102980    3.40900000     44.25742     -63.33570    33.1642    33.1820     5.0171     5.0179    26.2181    26.2320     5.5016     5.3489         26
+      13229   '01-JAN-2000 16:19:05.17'    135.000     5.0440   3.197235     5.0405   3.198353      12.72    0.10170000     1.9545     1.9802     2.9527    1.73740000     8.0230    0.00097753    3.40900000     44.25742     -63.33571    33.1709    33.1872     5.0338     5.0304    26.2215    26.2348     5.4811     5.3243         23
+      13252   '01-JAN-2000 16:19:06.12'    135.500     5.0786   3.201270     5.0828   3.203268      12.16    0.10175000     1.9515     1.9765     2.9873    1.74000000     8.0230    0.00097454    3.40900000     44.25742     -63.33572    33.1826    33.2023     5.0684     5.0725    26.2269    26.2420     5.4573     5.3081         22
+      13273   '01-JAN-2000 16:19:06.98'    136.000     5.1249   3.206708     5.1310   3.209045      11.74    0.10173000     1.9484     1.9744     3.0045    1.74980000     8.0230    0.00098687    3.40900000     44.25742     -63.33572    33.1988    33.2196     5.1146     5.1207    26.2344    26.2502     5.4417     5.3082         20
+      13294   '01-JAN-2000 16:19:07.87'    136.500     5.1548   3.210289     5.1523   3.211562      11.20    0.10170000     1.9459     1.9729     3.0125    1.77150000     8.0220    0.00101600    3.40900000     44.25742     -63.33572    33.2099    33.2270     5.1444     5.1419    26.2398    26.2537     5.4372     5.2992         22
+      13316   '01-JAN-2000 16:19:08.81'    137.000     5.1661   3.211616     5.1629   3.212789      10.69    0.10166000     1.9439     1.9705     3.0741    1.80480000     8.0230    0.00106280    3.40900000     44.25740     -63.33574    33.2136    33.2303     5.1557     5.1525    26.2415    26.2551     5.4384     5.2919         24
+      13340   '01-JAN-2000 16:19:09.80'    137.500     5.2070   3.216504     5.2115   3.218641      10.14    0.10162000     1.9429     1.9694     3.1142    1.81560000     8.0220    0.00104640    3.40900000     44.25740     -63.33574    33.2287    33.2487     5.1965     5.2010    26.2488    26.2641     5.4346     5.2880         24
+      13365   '01-JAN-2000 16:19:10.84'    138.000     5.2473   3.221199     5.2503   3.223199       9.61    0.10164000     1.9417     1.9679     3.1165    1.83400000     8.0220    0.00107470    3.40920000     44.25740     -63.33574    33.2421    33.2621     5.2367     5.2397    26.2548    26.2703     5.4188     5.2706         25
+      13391   '01-JAN-2000 16:19:11.92'    138.500     5.2786   3.224954     5.2804   3.226675       9.10    0.10169000     1.9396     1.9653     3.1370    1.84010000     8.0210    0.00110900    3.40990000     44.25740     -63.33576    33.2537    33.2716     5.2680     5.2698    26.2604    26.2744     5.3918     5.2456         27
+      13417   '01-JAN-2000 16:19:13.01'    139.000     5.2931   3.226639     5.2938   3.228212       8.59    0.10167000     1.9364     1.9621     3.1126    1.81570000     8.0210    0.00120950    3.41010000     44.25740     -63.33576    33.2584    33.2756     5.2823     5.2831    26.2625    26.2760     5.3851     5.2383         26
+      13442   '01-JAN-2000 16:19:14.03'    139.500     5.3033   3.227869     5.3043   3.229486       8.05    0.10173000     1.9351     1.9601     3.1286    1.83050000     8.0210    0.00116760    3.41020000     44.25740     -63.33576    33.2619    33.2796     5.2925     5.2935    26.2640    26.2779     5.3943     5.2405         22
+      13462   '01-JAN-2000 16:19:14.88'    140.000     5.3134   3.229048     5.3125   3.230438       7.63    0.10176000     1.9347     1.9595     3.1915    1.87250000     8.0210    0.00117330    3.41030000     44.25740     -63.33576    33.2653    33.2820     5.3026     5.3017    26.2656    26.2789     5.3960     5.2521         20
+      13481   '01-JAN-2000 16:19:15.66'    140.500     5.3183   3.229628     5.3177   3.231106       7.18    0.10173000     1.9346     1.9598     3.2865    1.91950000     8.0210    0.00119320    3.41030000     44.25738     -63.33576    33.2668    33.2843     5.3074     5.3068    26.2662    26.2801     5.4005     5.2553         17
+      13502   '01-JAN-2000 16:19:16.53'    141.000     5.3418   3.232386     5.3414   3.233915       6.61    0.10171000     1.9348     1.9594     3.2195    1.90480000     8.0220    0.00123990    3.41030000     44.25738     -63.33577    33.2747    33.2925     5.3308     5.3304    26.2698    26.2839     5.3955     5.2425         27
+      13609   '01-JAN-2000 16:19:21.00'    141.500     5.3890   3.237937     5.4012   3.240942       5.79    0.10171000     1.9313     1.9549     3.1300    1.89410000     8.0210    0.00124700    3.41030000     44.25737     -63.33579    33.2909    33.3130     5.3779     5.3901    26.2771    26.2931     5.3722     5.2181         63
+      13719   '01-JAN-2000 16:19:25.59'    142.000     5.4152   3.241035     5.4154   3.242548       5.22    0.10171000     1.9288     1.9524     3.0744    1.89180000     8.0210    0.00126870    3.41030000     44.25735     -63.33582    33.3000    33.3170     5.4041     5.4042    26.2812    26.2947     5.3600     5.2145         53
+      14071   '01-JAN-2000 16:19:40.23'    142.500     5.4162   3.241161     5.4128   3.242276       4.46    0.10172000     1.9284     1.9526     3.0112    1.90990000     8.0240    0.00132360    3.41020000     44.25730     -63.33589    33.3001    33.3163     5.4051     5.4016    26.2812    26.2944     5.3628     5.2165        111
