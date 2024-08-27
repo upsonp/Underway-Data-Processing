@@ -1,0 +1,94 @@
+
+OBJECTIVE:
+# Script to read,interpolate hourly, and plot all processed tsg log files from underway flow 
+# through system.  
+# processed files are output from the code in the 1code_readTSGdata folder and saved in processed folder
+# 2code_interp_plot_TSGdata folder contains functions to interpolate and plot
+# output from the code is in the hourly_TSG_dataplots folder and includes:
+
+  # - one file per variable of hourly interpolated data, named TSG_xxxxdata_xxxx_HUDyyyyfff.csv 
+  # (where xxxx is variable and HUDyyyyfff is the mission number)
+  # - a file containing all the variables interpolated hourly, named HUDyyyyfff_TSG_hourly.csv
+  # - a plot of each variable versus time and versus longitude, named TSG_xxxxdata_xxxx_HUDyyyyfff.jpeg and  TSG_xxxx_long.jpeg, 
+  # - a map of station locations, named TSG_map.jpeg
+
+  
+VERSIONS:
+
+R version 4.4.1 (2024-06-14 ucrt)
+Platform: x86_64-w64-mingw32/x64
+Running under: Windows 10 x64 (build 19045)
+RStudio - 2024.04.2 Build 764
+
+SCRIPTS:
+
+2TSG_interp.R
+
+FUNCTIONS:
+
+interp.tsghourly - filename interpTSGhourly.R
+assemble.tsg - filename assemble_TSG.R
+plot.tsg - filename plot_tsg.R
+
+
+PACKAGES:
+
+library(oce)
+library(ocedata)
+library(ggplot2)
+
+FOLDER STRUCTURE:
+
+\1code_readTSGdata - functions to read and cleanup TSG log files and calculate oxygen saturation called from the script "1readTSGdata.R",
+ output is saved in the processed folder
+
+\raw - CSV text files logged by the TSG includes a log file saved once per day per data type; 
+		NMEA, flow, TSG data, PCO2 data. Example; NMEA_20210918.CSV, FLOW_20210918.CSV, PCO2_20210918.CSV, TSGOUT_20210918.CSV
+		
+\processed - the same log files in the rawdata but formated and some bad data removed. 
+			Files are the output from the code 1readTSGdata.R
+			Files are renamed to;  TSGposition_20210918.CSV, FLOWdata_20210918.CSV, PCO2data_20210918.CSV, TSGadta_20210918.CSV.
+
+\2code_interp_plot_TSGdata - contains functions to interpolate hourly and plot the processed data in the processed folder
+						  output from the code in the 2code_interp_plot_TSGdata\hourly_TSG_dataplots folder
+
+2code_interp_plot_TSGdata\hourly_TSG_dataplots - contains the output from the code in the code_interp_plot_TSGdata folder includes;
+   - one file per variable of hourly interpolated data, named TSG_xxxxdata_xxxx_HUDyyyyfff.csv 
+   (where xxxx is variable and HUDyyyyfff is the mission number)
+   - a file containing all the variables interpolated hourly, named HUDyyyyfff_TSG_hourly.csv
+   - a plot of each variable versus time and versus longitude, named TSG_xxxxdata_xxxx_HUDyyyyfff.jpeg and  TSG_xxxx_long.jpeg, 
+   - a map of station locations, named TSG_map.jpeg
+   
+		
+STEPS TO RUN THE CODE:	
+
+Insure all processed TSG log files are in the folder processed
+Create the folder code_interp_plot_TSGdata\hourly_TSG_dataplot 
+set working directory
+enter the mission number; variable missionnum in 2TSG_interp.R
+enter the longitude and latitude limits for plots; variable lonlim and latlim in 2TSG_interp.R
+hourrate can be changed from hour to another frequency
+Run this script 2TSG_interp.R
+
+# author Diana Cardoso
+# Oct 2023
+# Fisheries and Oceans Canada,Bedford Institute of Oceanography, Dartmouth, N.S. Canada B2Y 4A2
+
+> sessionInfo()
+R version 4.4.1 (2024-06-14 ucrt)
+Platform: x86_64-w64-mingw32/x64
+Running under: Windows 10 x64 (build 19045)
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  methods   base     
+
+other attached packages:
+[1] ggplot2_3.5.1 ocedata_0.2.2 oce_1.8-3     gsw_1.1-1    
+
+loaded via a namespace (and not attached):
+ [1] utf8_1.2.4        R6_2.5.1          tidyselect_1.2.1  magrittr_2.0.3    gtable_0.3.5     
+ [6] glue_1.7.0        tibble_3.2.1      pkgconfig_2.0.3   generics_0.1.3    dplyr_1.1.4      
+[11] lifecycle_1.0.4   cli_3.6.3         fansi_1.0.6       scales_1.3.0      vctrs_0.6.5      
+[16] grid_4.4.1        withr_3.0.1       compiler_4.4.1    rstudioapi_0.16.0 tools_4.4.1      
+[21] pillar_1.9.0      munsell_0.5.1     Rcpp_1.0.13       colorspace_2.1-1  rlang_1.1.4   
+> 
