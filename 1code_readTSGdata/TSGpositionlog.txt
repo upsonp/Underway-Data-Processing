@@ -1,3 +1,0 @@
-,  percernt NaN data =  0.03249051 for file  raw/NMEA_20240429.CSV 
-,  percernt NaN data =  0.004637251 for file  raw/NMEA_20240430.CSV 
-,  percernt NaN data =  0.005398985 for file  raw/NMEA_20240501.CSV 
