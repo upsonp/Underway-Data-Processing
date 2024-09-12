@@ -122,11 +122,11 @@ for (i in filesinterp2){
   colnames(interpdataall)<-c(coln2,cc) #adding name
 }
 
-interpdataall[,7][interpdataall[,7] > 959] <- NA
-interpdataall[,8][interpdataall[,8] > 959] <- NA
-interpdataall[,12][interpdataall[,12] > 959] <- NA
-interpdataall[,10][interpdataall[,10] < 0.5] <- NA
-interpdataall[,10][interpdataall[,10] > 15] <- NA
+interpdataall$Conductivity_S_m[interpdataall$Conductivity_S_m > 959]<- NA
+interpdataall$Fluorescence[interpdataall$Fluorescence > 959]<- NA
+interpdataall$salinity_PSU[interpdataall$salinity_PSU > 959]<- NA
+interpdataall$O2Concentration_ml_L[interpdataall$O2Concentration_ml_L < 0.5]<- NA
+interpdataall$O2Concentration_ml_L[interpdataall$O2Concentration_ml_L > 15]<- NA
 
 #write a csv with all variables interpolated hourly 
 filename <- paste0("2code_interp_plot_TSGdata/hourly_TSG_dataplots/",missionnum,"_TSG_hourly.csv")
