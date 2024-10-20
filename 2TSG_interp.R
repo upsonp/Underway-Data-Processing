@@ -58,7 +58,7 @@ library(ggplot2)
 data("coastlineWorldFine")
 
 #set working directory
-setwd("C:/TSG_process") # set working directory
+setwd("C:/AZMP/1_SPRING_FALL_SURVEYS_FIXEDSTATIONS/1_BIANNUAL_Surveys/2024/FALL_DY18402/AtSea/Underway-Data-Processing") # set working directory
 #wd <- getwd()
 #setwd(wd)
 parent <- getwd()
@@ -72,14 +72,14 @@ source("2code_interp_plot_TSGdata/plot_tsg.R")
 
 # list the processed log files from TSG including path from the processed folder
 filesflow <- list.files(path= pathprocessed, pattern = 'FLOWdata.*\\.csv', full.names = TRUE)
-filespco2 <- list.files(path= pathprocessed, pattern = 'PCO2data.*\\.csv', full.names = TRUE)
+#filespco2 <- list.files(path= pathprocessed, pattern = 'PCO2data.*\\.csv', full.names = TRUE)
 filestsg <- list.files(path= pathprocessed, pattern = 'TSGdata.*\\.csv', full.names = TRUE)
 filesnmea <- list.files(path= pathprocessed, pattern = 'TSGposition.*\\.csv', full.names = TRUE)
 
 #determine the latest start date/time from all files
 tsgall <- data.frame(read.csv(filestsg[1], header = TRUE))
 flowall <- data.frame(read.csv(filesflow[1], header = TRUE))
-pco2all <- data.frame(read.csv(filespco2[1], header = TRUE))
+#pco2all <- data.frame(read.csv(filespco2[1], header = TRUE))
 nmeaall <- data.frame(read.csv(filesnmea[1], header = TRUE))
 
 start_date <- max(tsgall$time[1], flowall$time[1],pco2all$time[1],nmeaall$time[1])

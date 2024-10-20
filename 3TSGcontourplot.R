@@ -44,7 +44,7 @@ library(oce)
 library(ocedata)
 
 #set working directory
-setwd("C:/TSG_process") # set working directory
+setwd("C:/AZMP/1_SPRING_FALL_SURVEYS_FIXEDSTATIONS/1_BIANNUAL_Surveys/2024/FALL_DY18402/AtSea/Underway-Data-Processing")# set working directory
 #wd <- getwd()
 #setwd(wd)
 parent <- getwd()
@@ -61,7 +61,8 @@ ocetopo <- read.topo(topoFile)
 
 # Read the file containing all the variables interpolated hourly, named HUDyyyyfff_TSG_hourly.csv
 fileinterp <- list.files(path= interpdata, pattern = '*_TSG_hourly.csv', full.names = TRUE)
-d <- read.csv(fileinterp)
+###Lindsay: Cut off dates/times BEFORE the underway system was turned on:
+d <- subset(d, time > '2024-10-04 18:00:00')
 
 lon <- d[['longitude']] * -1
 lat <- d[['latitude']]
@@ -69,19 +70,25 @@ lat <- d[['latitude']]
 variables <- c('Conductivity_S_m', 
                'FluorescenceUV', 
                'pH', 
-               'Temperature_TSG_ITS_90', 'CO2_ppm', 'O2Concentration_ml_L',
-               'Fluorescence','salinity_PSU')
+               'Temperature_TSG_ITS_90', 'O2Concentration_ml_L',
+               'Fluorescence','salinity_PSU') #'CO2_ppm' removed from list
 
 proj <- '+proj=merc'
 fillcol <- 'lightgray'
 lonlim <- c(-70, -56)
 latlim <- c(41.5, 49)
+
+
+
 for (var in variables){
   png(filename = paste0("3code_plot_TSGdata/",'TSG_', var, '.png'), width = 6, height = 4,
       units = 'in', res = 250, pointsize = 12)
-  par(mar = c(2.5, 2.5 , 1.5, 1))
+  layout(matrix(1:2, nrow=1), widths=c(5, 0.3))
+  par(mar = c(2, 3, 1, 1))
   cm <- colormap(z = d[[var]], col = oceColorsJet) # can change color scheme
-  drawPalette(colormap = cm, zlab = var)
+  drawPalette(colormap = cm)
+  par(new=TRUE)
+  par(mar = c(2, 2, 1, 3.5))
   mapPlot(coastlineWorldFine, 
           longitudelim = lonlim,
           latitudelim = latlim,
@@ -91,10 +98,17 @@ for (var in variables){
   bathylevels <- c(-3000, -2000, -1000, -200)
   bathycol <- 'lightgrey'
   mapContour(longitude = ocetopo[['longitude']],
-             latitude = ocetopo[['latitude']],
+             latitude = ocetopo[['latitude']],   
              z = ocetopo[['z']],
              levels = bathylevels,
              lwd = 0.8, col = bathycol)
+  if(var=='Conductivity_S_m') mtext("Conductivity (S/m)", side=4, line=4, col="black")
+  if(var=='FluorescenceUV') mtext(expression(paste("CDOM ", "(", mu,"g/L)", sep="")), side=4, line=4, col="black")
+  if(var=='pH') mtext("pH", side=4, line=4, col="black")
+  if(var=='Temperature_TSG_ITS_90') mtext(expression(paste("Temperature ","(",degree,"C)", sep="")), side=4, line=4, col="black")
+  if(var=='O2Concentration_ml_L') mtext("Dissolved Oxygen (ml/L)", side=4, line=4, col="black")
+  if(var=='Fluorescence') mtext(expression(paste("Chlorophyll ", "(", mu,"g/L)", sep="")), side=4, line=4, col="black")
+  if(var=='salinity_PSU') mtext("Salinity", side=4, line=4, col="black")
   mapPoints(lon, lat, pch = 20, col = cm$zcol)
   dev.off()
 }

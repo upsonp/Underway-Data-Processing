@@ -38,11 +38,11 @@ rm(list=ls()) #remove everything in the working environment.
 library(oce)
 library(csasAtlPhys)
 
-setwd("C:/TSG_process") # set working directory
+setwd("C:/AZMP/1_SPRING_FALL_SURVEYS_FIXEDSTATIONS/1_BIANNUAL_Surveys/2024/FALL_DY18402/AtSea/Underway-Data-Processing") # set working directory
 #wd <- getwd()
 #setwd(wd)
 parent <- getwd()
-pathrawdata = "raw/"  # path with raw files 
+pathrawdata = "Y:/DY184-02/TSG Logs"   # path with raw files 
 pathprocesseddata = "processed/" # path with processed output files 
 
 #List of Functions
