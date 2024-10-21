@@ -59,7 +59,7 @@ source("1code_readTSGdata/TSG_optode_SatO2_4.R")
 # read and process data
 read.flowdata(pathrawdata,pathprocesseddata)
 read.nmeadata(pathrawdata,pathprocesseddata)
-read.pco2data(pathrawdata,pathprocesseddata)
+#read.pco2data(pathrawdata,pathprocesseddata)
 read.tsgdata(pathrawdata,pathprocesseddata)
 
 # Record session information

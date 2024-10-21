@@ -44,7 +44,7 @@
 rm(list=ls()) #remove everything in the working environment.
 
 #enter cruise number
-missionnum <- "xxxyyyy000"
+missionnum <- "DY18402"
 
 #enter map boundary limits used by plots in the function plot.tsg
 lonlim <- c(-72,-55)
@@ -82,19 +82,19 @@ flowall <- data.frame(read.csv(filesflow[1], header = TRUE))
 #pco2all <- data.frame(read.csv(filespco2[1], header = TRUE))
 nmeaall <- data.frame(read.csv(filesnmea[1], header = TRUE))
 
-start_date <- max(tsgall$time[1], flowall$time[1],pco2all$time[1],nmeaall$time[1])
+start_date <- max(tsgall$time[1], flowall$time[1],nmeaall$time[1]) #Lindsay: pco2all$time[1] removed
 start_date <- round(as.POSIXct(start_date,tz = 'UTC'),"hour") # round to nearest hour
 
 #determine the earliest end date/time from all files
 tsgalle <- data.frame(read.csv(filestsg[length(filestsg)], header = TRUE))
 flowalle <- data.frame(read.csv(filesflow[length(filesflow)], header = TRUE))
-pco2alle <- data.frame(read.csv(filespco2[length(filespco2)], header = TRUE))
+#pco2alle <- data.frame(read.csv(filespco2[length(filespco2)], header = TRUE))
 nmeaalle <- data.frame(read.csv(filesnmea[length(filesnmea)], header = TRUE))
 
-end_date <- min(tsgalle$time[length(tsgalle$time)], flowalle$time[length(flowalle$time)],pco2alle$time[length(pco2alle$time)],nmeaalle$time[length(nmeaalle$time)])
+end_date <- min(tsgalle$time[length(tsgalle$time)], flowalle$time[length(flowalle$time)],nmeaalle$time[length(nmeaalle$time)]) #Lindsay: pco2alle$time[length(pco2alle$time)], removed
   
 # frequency of data collection
-freq <- data.frame(frequency(tsgall$time),frequency(flowall$time),frequency(pco2all$time),frequency(nmeaall$time) )
+freq <- data.frame(frequency(tsgall$time),frequency(flowall$time),frequency(nmeaall$time)) #Lindsay: frequency(pco2all$time) removed
 
 # vector of time by hour between start and end time determined above
 hourrate <- seq(from = as.POSIXct(start_date,tz = 'UTC'), to = as.POSIXct(end_date,tz = 'UTC'), by = "hour")
@@ -102,7 +102,7 @@ hourrate <- seq(from = as.POSIXct(start_date,tz = 'UTC'), to = as.POSIXct(end_da
 # read each processed file and interpolate each variable hourly and save in individual csv files and 
 # plots time series of each variable using the function assemble.tsg
 assemble.TSG(filesflow, hourrate, missionnum)
-assemble.TSG(filespco2, hourrate,missionnum)
+#assemble.TSG(filespco2, hourrate,missionnum)
 assemble.TSG(filestsg, hourrate,missionnum)
 assemble.TSG(filesnmea, hourrate,missionnum)
 

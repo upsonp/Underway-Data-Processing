@@ -61,6 +61,8 @@ ocetopo <- read.topo(topoFile)
 
 # Read the file containing all the variables interpolated hourly, named HUDyyyyfff_TSG_hourly.csv
 fileinterp <- list.files(path= interpdata, pattern = '*_TSG_hourly.csv', full.names = TRUE)
+d <- read.csv(fileinterp)
+
 ###Lindsay: Cut off dates/times BEFORE the underway system was turned on:
 d <- subset(d, time > '2024-10-04 18:00:00')
 
@@ -75,9 +77,8 @@ variables <- c('Conductivity_S_m',
 
 proj <- '+proj=merc'
 fillcol <- 'lightgray'
-lonlim <- c(-70, -56)
-latlim <- c(41.5, 49)
-
+lonlim <- c(-70, -57.5)
+latlim <- c(41.5, 48)
 
 
 for (var in variables){
