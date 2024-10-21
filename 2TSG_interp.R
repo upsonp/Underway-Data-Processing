@@ -57,12 +57,25 @@ library(ocedata)
 library(ggplot2)
 data("coastlineWorldFine")
 
-#set working directory
-setwd("C:/AZMP/1_SPRING_FALL_SURVEYS_FIXEDSTATIONS/1_BIANNUAL_Surveys/2024/FALL_DY18402/AtSea/Underway-Data-Processing") # set working directory
-#wd <- getwd()
-#setwd(wd)
-parent <- getwd()
-pathprocessed = "processed/" # path with processed output files 
+# this is the directory where R expects to find the local code
+# e.g "1code_readTSGdata/readflowdata.R"
+source_code_directory <- Sys.getenv("Source_Code_Directory")
+
+# set working directory to the source code directory because that's
+# where R is going to load source code from
+setwd(source_code_directory)
+
+# path where raw TSG files Read exist
+pathrawdata <- Sys.getenv("TSG_Input_Directory")
+
+# path to where we want the processed files to end up
+pathprocessed <- Sys.getenv("Processed_Directory")
+
+# if the processed directory doesn't already exist create it
+if(!dir.exists(file.path(pathprocessed))) {
+  dir.create(file.path(pathprocessed))
+}
+
 pathfunctions = "2code_interp_plot_TSGdata/"
 
 # function file names
@@ -79,10 +92,15 @@ filesnmea <- list.files(path= pathprocessed, pattern = 'TSGposition.*\\.csv', fu
 #determine the latest start date/time from all files
 tsgall <- data.frame(read.csv(filestsg[1], header = TRUE))
 flowall <- data.frame(read.csv(filesflow[1], header = TRUE))
-#pco2all <- data.frame(read.csv(filespco2[1], header = TRUE))
+pco2all <- data.frame(read.csv(filespco2[1], header = TRUE))
 nmeaall <- data.frame(read.csv(filesnmea[1], header = TRUE))
 
-start_date <- max(tsgall$time[1], flowall$time[1],pco2all$time[1],nmeaall$time[1])
+t_tgall = if(exists("tsgall")) tsgall$time[1] else -1
+t_flowall = if( exists("flowall")) flowall$time[1] else -1
+t_pco2all = if( exists("pco2all")) pco2all$time[1] else -1
+t_nmeaall = if( exists("nmeaall")) nmeaall$time[1] else -1
+
+start_date <- max(t_tgall, t_flowall, t_pco2all, t_nmeaall)
 start_date <- round(as.POSIXct(start_date,tz = 'UTC'),"hour") # round to nearest hour
 
 #determine the earliest end date/time from all files
