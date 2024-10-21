@@ -3,3 +3,7 @@
 .RData
 .Ruserdata
 .REnviron
+
+# ignore local status files
+session_info.txt
+TSGpostionlog.txt
