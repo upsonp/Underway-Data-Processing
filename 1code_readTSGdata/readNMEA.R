@@ -11,7 +11,7 @@
 # Oct 2023
 # Fisheries and Oceans Canada,Bedford Institute of Oceanography, Dartmouth, N.S. Canada B2Y 4A2
 
-read.nmea <- function(output_dir,file){   
+read.nmea <- function(output_dir, file){   
   # convert lat lon to decimal
     conv <- function(x) {
     res <- rep(NA, length(x))

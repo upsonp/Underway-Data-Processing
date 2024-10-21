@@ -22,7 +22,7 @@ read.nmeadata <- function(pathrawdata, pathprocesseddata){
   
   for (i in files){
     #call function to read each log file i
-    nmea <- read.nmea(i)
+    nmea <- read.nmea(pathprocesseddata, i)
   
     #check for NaN in nmea
     which(is.na(nmea$latitude))
