@@ -1,3 +1,4 @@
 Source_Code_Directory="C:/AZMP/1_SPRING_FALL_SURVEYS_FIXEDSTATIONS/1_BIANNUAL_Surveys/2024/FALL_DY18402/AtSea/Underway-Data-Processing"
 TSG_Input_Directory="Y:/DY184-02/TSG Logs"
 Processed_Directory="processed/"
+Cruise_Number="DY18402"
