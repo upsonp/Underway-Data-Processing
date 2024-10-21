@@ -84,15 +84,15 @@ library(oce)
 CTDpres <- 7
 
 #set working directory
-setwd("C:/TSG_process") # set working directory
+setwd("C:/AZMP/1_SPRING_FALL_SURVEYS_FIXEDSTATIONS/1_BIANNUAL_Surveys/2024/FALL_DY18402/AtSea/Underway-Data-Processing") # set working directory
 #wd <- getwd()
 #setwd(wd)
 parent <- getwd()
 pathprocessed = "processed/" # path with processed output files
 pathout = "4comparesamples/"
-pathelog= "elog/"
-pathbottle="bottle/"
-pathctd="ctd/"
+pathelog= "Y:/DY184-02/Elog/logbooks/DY18402/2024/"
+pathbottle="C:/AZMP/1_SPRING_FALL_SURVEYS_FIXEDSTATIONS/1_BIANNUAL_Surveys/2024/FALL_DY18402/AtSea/Underway-Data-Processing/bottle/"
+pathctd="Y:/DY184-02/CTD/CTD Processing/ODF/"
 
 #List of Functions
 source("4comparesamples/read_elog_tsg3.R")
