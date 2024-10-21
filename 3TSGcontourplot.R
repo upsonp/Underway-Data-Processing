@@ -146,6 +146,7 @@ for (var in variables){
 }
 
 # Record session information
-sink("session_info2.txt")
+sink_dir <- file.path(pathprocesseddata, 'session_info3.txt')
+sink(sink_dir)
 sessionInfo()
 sink()

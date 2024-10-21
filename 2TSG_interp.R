@@ -192,6 +192,7 @@ write.csv(interpdataall, file=output_file, row.names = FALSE)
 plot.tsg(hourly_processed_data, interpdataall, lonlim, latlim)
 
 # Record session information
-sink("session_info.txt")
+sink_dir <- file.path(pathprocesseddata, 'session_info2.txt')
+sink(sink_dir)
 sessionInfo()
 sink()

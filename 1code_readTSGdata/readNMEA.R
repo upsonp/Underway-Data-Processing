@@ -11,7 +11,7 @@
 # Oct 2023
 # Fisheries and Oceans Canada,Bedford Institute of Oceanography, Dartmouth, N.S. Canada B2Y 4A2
 
-read.nmea <- function(file){   
+read.nmea <- function(output_dir,file){   
   # convert lat lon to decimal
     conv <- function(x) {
     res <- rep(NA, length(x))
@@ -63,8 +63,9 @@ read.nmea <- function(file){
     
     #checks the percent of bad data - rows with 17 or less columns and prints to a log file
     percentbad <- length(ok16less)/length(ssg)*100
+    position_log_file <- file.path(output_dir, "TSGpositionlog.txt")
     cat('percernt bad data = ', percentbad)
-    cat('percernt bad data = ', percentbad, file = "TSGpositionlog.txt", append = TRUE) 
+    cat('percernt bad data = ', percentbad, file = position_log_file, append = TRUE) 
     
     #If the percent is greater than 5 print error otherwise keep only good data remove bad.
     if (percentbad > 5) {

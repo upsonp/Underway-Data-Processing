@@ -16,7 +16,7 @@
 # Oct 2023
 # Fisheries and Oceans Canada,Bedford Institute of Oceanography, Dartmouth, N.S. Canada B2Y 4A2
 
-read.nmeadata <- function(pathrawdata,pathprocesseddata){
+read.nmeadata <- function(pathrawdata, pathprocesseddata){
 
   files <- list.files(path= pathrawdata, pattern = 'NMEA.*\\.CSV', full.names = TRUE) #list of log files with path 
   
@@ -31,8 +31,9 @@ read.nmeadata <- function(pathrawdata,pathprocesseddata){
     #nmea[bad,]
     #checks the percent of data with NaN and prints to a log file
     percentbad <- length(bad)/length(nmea$latitude)*100
+    position_log_file <- file.path(pathprocesseddata, "TSGpositionlog.txt")
     cat(',  percernt NaN data = ', percentbad, "for file ",i , "\n") #prints the percent of the data that has NaN in terminal window
-    cat(',  percernt NaN data = ', percentbad, "for file ",i , "\n",file = "1code_readTSGdata/TSGpositionlog.txt", append = TRUE) #prints the percent of the data that has NaN to log file
+    cat(',  percernt NaN data = ', percentbad, "for file ",i , "\n",file = position_log_file, append = TRUE) #prints the percent of the data that has NaN to log file
     
     #creates file name to save the nmea data
     filen <- unlist(strsplit(i, "_"))

@@ -16,7 +16,7 @@
 # Oct 2023
 # Fisheries and Oceans Canada,Bedford Institute of Oceanography, Dartmouth, N.S. Canada B2Y 4A2
 
-read.tsgdata <- function(pathrawdata,pathprocesseddata){
+read.tsgdata <- function(pathrawdata, pathprocesseddata){
 
   filesTSG <- list.files(path=pathrawdata, pattern='TSGOUT.*\\.CSV', full.names = TRUE) #list of log files with path
 

@@ -69,12 +69,13 @@ source("1code_readTSGdata/readTSGout.R")
 source("1code_readTSGdata/TSG_optode_SatO2_4.R")
 
 # read and process data
-read.flowdata(pathrawdata,pathprocesseddata)
-read.nmeadata(pathrawdata,pathprocesseddata)
-read.pco2data(pathrawdata,pathprocesseddata)
-read.tsgdata(pathrawdata,pathprocesseddata)
+read.flowdata(pathrawdata, pathprocesseddata)
+read.nmeadata(pathrawdata, pathprocesseddata)
+read.pco2data(pathrawdata, pathprocesseddata)
+read.tsgdata(pathrawdata, pathprocesseddata)
 
 # Record session information
-sink("session_info.txt")
+sink_dir <- file.path(pathprocesseddata, 'session_info.txt')
+sink(sink_dir)
 sessionInfo()
 sink()
