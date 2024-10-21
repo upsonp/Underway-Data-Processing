@@ -14,7 +14,7 @@
 # Oct 2023
 # Fisheries and Oceans Canada,Bedford Institute of Oceanography, Dartmouth, N.S. Canada B2Y 4A2
 
-read.flowdata <- function(pathrawdata,pathprocesseddata){
+read.flowdata <- function(pathrawdata, pathprocesseddata){
 
   filesflow <- list.files(path=pathrawdata, pattern='FLOW.*\\.CSV', full.names = TRUE) #list of log files with path
   
