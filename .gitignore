@@ -8,3 +8,6 @@
 session_info.txt
 TSGpostionlog.txt
 *.Rproj
+
+# ignore the downloaded topo data
+topo*.nc
