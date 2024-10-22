@@ -50,22 +50,24 @@ source_code_directory <- getwd()
 # path to where we want the processed files to end up
 pathprocessed <- Sys.getenv("Processed_Directory")
 
+#Map boundary limits used by plots in the function plot.tsg
+min_lat <- as.numeric(Sys.getenv("Min_Lat"))
+min_lon <- as.numeric(Sys.getenv("Min_Lon"))
+max_lat <- as.numeric(Sys.getenv("Max_Lat"))
+max_lon <- as.numeric(Sys.getenv("Max_Lon"))
+
+lonlim <- c(min_lon, max_lon)
+latlim <- c(min_lat, max_lat)
+
 # if the processed directory doesn't already exist create it
 if(!dir.exists(file.path(pathprocessed))) {
   dir.create(file.path(pathprocessed))
 }
 
+# This directory should have been created in the 2TSG_interp.R script
+hourly_processed_data <- file.path(pathprocessed, "2code_interp_plot_TSGdata", "hourly_TSG_dataplots")
+
 # Create the directory where intermediate hourly plots and data will be stored 
-hourly_processed_data <- file.path(pathprocessed, "2code_interp_plot_TSGdata")
-if(!dir.exists(hourly_processed_data)) {
-  dir.create(hourly_processed_data)
-}
-
-hourly_processed_data <- file.path(hourly_processed_data, "hourly_TSG_dataplots")
-if(!dir.exists(hourly_processed_data)) {
-  dir.create(hourly_processed_data)
-}
-
 plot_output <- file.path(pathprocessed, "3code_plot_TSGdata")
 if(!dir.exists(plot_output)) {
   dir.create(plot_output)
@@ -75,8 +77,8 @@ data('coastlineWorldFine', package="ocedata")
 
 #Topographic data downloaded from a data server that holds the ETOPO1 dataset 
 #(Amante, C. and B.W. Eakins, 2009) and saved as a netCDF file 
-topoFile <- download.topo(west = -75, east = -50,
-                          south = 38, north = 50,
+topoFile <- download.topo(west = min_lon, east = max_lon,
+                          south = min_lat, north = max_lat,
                           resolution = 1)
 ocetopo <- read.topo(topoFile)
 
@@ -85,7 +87,13 @@ fileinterp <- list.files(path=hourly_processed_data, pattern = '*_TSG_hourly.csv
 
 ###Lindsay: Cut off dates/times BEFORE the underway system was turned on:
 d <- read.csv(fileinterp)
-d <- subset(d, time > '2024-10-04 18:00:00')
+
+start_date <- Sys.getenv("Start_Date")
+end_date <- Sys.getenv("End_Date")
+
+# subset the data to remove bad head or tail data from the underway dataset
+if(start_date != '') d <- subset(d, time > start_date)
+if(end_date != '') d <- subset(d, time < end_date)
 
 lon <- d[['longitude']] * -1
 lat <- d[['latitude']]
@@ -103,8 +111,6 @@ variables <- c(conductivity, fluorescence_uv, pH, temperature, oxygen,
 
 proj <- '+proj=merc'
 fillcol <- 'lightgray'
-lonlim <- c(-70, -57.5)
-latlim <- c(41.5, 48)
 
 for (var in variables){
   filename <- paste0('TSG_', var, '.png')
@@ -142,7 +148,7 @@ for (var in variables){
 }
 
 # Record session information
-sink_dir <- file.path(pathprocesseddata, 'session_info3.txt')
+sink_dir <- file.path(pathprocessed, 'session_info3.txt')
 sink(sink_dir)
 sessionInfo()
 sink()

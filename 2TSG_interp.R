@@ -46,9 +46,14 @@ rm(list=ls()) #remove everything in the working environment.
 #enter cruise number
 missionnum <- Sys.getenv("Cruise_Number")
 
-#enter map boundary limits used by plots in the function plot.tsg
-lonlim <- c(-72,-55)
-latlim <- c(40,48)
+#Map boundary limits used by plots in the function plot.tsg
+min_lat <- as.numeric(Sys.getenv("Min_Lat")) 
+min_lon <- as.numeric(Sys.getenv("Min_Lon"))
+max_lat <- as.numeric(Sys.getenv("Max_Lat"))
+max_lon <- as.numeric(Sys.getenv("Max_Lon"))
+
+lonlim <- c(min_lon, max_lon)
+latlim <- c(min_lat, max_lat)
 
 #Install and load specific package versions
 #install.packages("oce", "ocedata", "ggplot2")
@@ -73,14 +78,9 @@ if(!dir.exists(file.path(pathprocessed))) {
 }
 
 # Create the directory where intermediate hourly plots and data will be stored 
-hourly_processed_data <- file.path(pathprocessed, "2code_interp_plot_TSGdata")
+hourly_processed_data <- file.path(pathprocessed, "2code_interp_plot_TSGdata", "hourly_TSG_dataplots")
 if(!dir.exists(hourly_processed_data)) {
-  dir.create(hourly_processed_data)
-}
-
-hourly_processed_data <- file.path(hourly_processed_data, "hourly_TSG_dataplots")
-if(!dir.exists(hourly_processed_data)) {
-  dir.create(hourly_processed_data)
+  dir.create(hourly_processed_data, recursive = TRUE)
 }
 
 # function file names
@@ -188,7 +188,7 @@ write.csv(interpdataall, file=output_file, row.names = FALSE)
 plot.tsg(hourly_processed_data, interpdataall, lonlim, latlim)
 
 # Record session information
-sink_dir <- file.path(pathprocesseddata, 'session_info2.txt')
+sink_dir <- file.path(hourly_processed_data, 'session_info2.txt')
 sink(sink_dir)
 sessionInfo()
 sink()
