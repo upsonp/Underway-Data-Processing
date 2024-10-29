@@ -153,9 +153,9 @@ hourrate <- seq(from = as.POSIXct(start_date,tz = 'UTC'), to = as.POSIXct(end_da
 # read each processed file and interpolate each variable hourly and save in individual csv files and 
 # plots time series of each variable using the function assemble.tsg
 if(length(filestsg) > 0) assemble.TSG(hourly_processed_data, filestsg, hourrate, missionnum)
-if(length(filesnmea) > 0) assemble.TSG(hourly_processed_data, filesnmea, hourrate,missionnum)
+if(length(filesnmea) > 0) assemble.TSG(hourly_processed_data, filesnmea, hourrate, missionnum)
 if(length(filesflow) > 0) assemble.TSG(hourly_processed_data, filesflow, hourrate, missionnum)
-if(length(filespco2) > 0) assemble.TSG(hourly_processed_data, filespco2, hourrate,missionnum)
+if(length(filespco2) > 0) assemble.TSG(hourly_processed_data, filespco2, hourrate, missionnum)
 
 filesinterp <- list.files(path=hourly_processed_data, pattern = 'TSG_.*\\.csv', full.names = TRUE)
 interpdataall <- data.frame(read.csv(filesinterp[1], header = TRUE))

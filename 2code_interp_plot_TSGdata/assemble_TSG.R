@@ -16,11 +16,18 @@
 assemble.TSG <- function(output_dir, files, hourrate, missionnum){
   # read files in for each variable (normally one per day) and bind them all in one data frame/file  
   dataall <- data.frame(read.csv(files[1], header = TRUE))
-  files2 <- files[2:length(files)]
-  filen <- unlist(strsplit(files[1], "/"))
-  filen2 <- unlist(strsplit(filen[length(filen)], "_"))
-  filen3 <-filen2[1]
+
+  # Get the name of the first file and use it to determine the type of file
+  # being processed, eg. FLOWdata, TSGdata, PCO2data
+  # file names follow the format '[file_type]_[date].csv'
+  #
+  # R has built in functions for getting file names - basename(file)
+  # as well as getting the directory of the file - dirname(file)
+  filen2 <- unlist(strsplit(basename(files[1]), "_"))
+  file_type <-filen2[1]
   
+  # already read the first file, so strip it out from the file array
+  files2 <- files[2:length(files)]
   for (i in files2){
     tsg <- data.frame(read.csv(i, header = TRUE))
     dataall <- rbind(dataall, tsg)
@@ -31,11 +38,11 @@ assemble.TSG <- function(output_dir, files, hourrate, missionnum){
   numcol <- length(datacolnames)
   startcol <- 3 # column in file with data 
   
-  if (filen3 == "PCO2data"){ # column in file with data for PCO2 data
+  if (file_type == "PCO2data"){ # column in file with data for PCO2 data
     startcol <- 6 
     numcol  <-  6
   }
-  if (filen3 == "TSGdata"){ # first column in file with data
+  if (file_type == "TSGdata"){ # first column in file with data
     startcol <- 4
   }
   
@@ -47,9 +54,9 @@ assemble.TSG <- function(output_dir, files, hourrate, missionnum){
     datacol_hour <- interp.tsghourly(datacol, hourrate) # call function to interpolate 
     colnames(datacol_hour) <- c("time",datacolnames[i]) 
     
-    filename <- paste0("TSG_",filen3,"_", datacolnames[i],"_",missionnum,".csv")
-    plotname <- paste0("TSG_",filen3,"_", datacolnames[i],"_",missionnum,".jpeg")
-    plotname2 <- paste0("TSG_nozero",filen3,"_", datacolnames[i],"_",missionnum,".jpeg")  
+    filename <- paste0("TSG_",file_type,"_", datacolnames[i],"_",missionnum,".csv")
+    plotname <- paste0("TSG_",file_type,"_", datacolnames[i],"_",missionnum,".jpeg")
+    plotname2 <- paste0("TSG_nozero",file_type,"_", datacolnames[i],"_",missionnum,".jpeg")  
     
     # create time series plot and save as a jpeg
     
@@ -58,7 +65,7 @@ assemble.TSG <- function(output_dir, files, hourrate, missionnum){
     jpeg(output_plot, width = 1150, height = 750)
 
     # 2. Create a plot time series
-    plot(datacol_hour,  main= paste0("TSG ",filen3," hourly"), ylab=datacolnames[i],xaxt="n", xlab=" ") 
+    plot(datacol_hour,  main= paste0("TSG ",file_type," hourly"), ylab=datacolnames[i],xaxt="n", xlab=" ") 
     title(xlab="Time (days)", mgp=c(4,1,0))
     axis.POSIXct(1, at = seq(hourrate[1],hourrate[length(hourrate)],by="day"), format = "%b-%d", las=2)
     # Close the pdf file
@@ -69,11 +76,11 @@ assemble.TSG <- function(output_dir, files, hourrate, missionnum){
     datacol_hour0[datacol_hour0 == 0] <- NA
     datacol_hour0[,2][datacol_hour0[,2] > 2500] <- NA
   
-    if (filen3 == "TSGdata"){
+    if (file_type == "TSGdata"){
       datacol_hour0[,2][datacol_hour0[,2] < 0.5] <- NA
     }
     
-    if (filen3 == "FLOWdata"){
+    if (file_type == "FLOWdata"){
       datacol_hour0[,2][datacol_hour0[,2] < 1] <- NA
       datacol_hour0[,2][datacol_hour0[,2] > 959] <- 0
     }
@@ -85,7 +92,7 @@ assemble.TSG <- function(output_dir, files, hourrate, missionnum){
     
     # 2. Create a plot
     plot(datacol_hour0,
-         main=paste0("TSG ",filen3," hourly zeros removed"), 
+         main=paste0("TSG ",file_type," hourly zeros removed"), 
          xlab=" ", 
          ylab=datacolnames[i],
          xaxt="n")
