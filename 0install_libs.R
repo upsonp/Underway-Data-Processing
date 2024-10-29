@@ -3,6 +3,8 @@ install.packages('ocedata')
 install.packages('ggplot2')
 install.packages('sf')
 install.packages("terra")
+install.packages("lubridate")
+install.packages("readr")
 
 install.packages('remotes')
 library(remotes)
