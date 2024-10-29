@@ -41,16 +41,18 @@ assemble.TSG <- function(output_dir, files, hourrate, missionnum){
   if (file_type == "PCO2data"){ # column in file with data for PCO2 data
     startcol <- 6 
     numcol  <-  6
-  }
-  if (file_type == "TSGdata"){ # first column in file with data
+  } else if (file_type == "TSGdata"){ # first column in file with data
     startcol <- 4
   }
   
+  start_datetime = hourrate[1]
+  end_datetime = hourrate[length(hourrate)]
   for (i in startcol:numcol){
   
     datacol <- data.frame(dataall$time, dataall[[i]])
-    colnames(datacol) <- c("time",datacolnames[i])
-    datacol$time <- as.POSIXct(datacol$time,tz = 'UTC') # format time
+    colnames(datacol) <- c("time", datacolnames[i])
+
+    datacol$time <- as.POSIXct(datacol$time, tz = 'UTC') # format time
     datacol_hour <- interp.tsghourly(datacol, hourrate) # call function to interpolate 
     colnames(datacol_hour) <- c("time",datacolnames[i]) 
     
@@ -65,50 +67,60 @@ assemble.TSG <- function(output_dir, files, hourrate, missionnum){
     jpeg(output_plot, width = 1150, height = 750)
 
     # 2. Create a plot time series
-    plot(datacol_hour,  main= paste0("TSG ",file_type," hourly"), ylab=datacolnames[i],xaxt="n", xlab=" ") 
+    plot(datacol_hour,  
+         main= paste0("TSG ", file_type, " hourly"), 
+         ylab=datacolnames[i], 
+         xaxt="n", 
+         xlab=" ") 
     title(xlab="Time (days)", mgp=c(4,1,0))
-    axis.POSIXct(1, at = seq(hourrate[1],hourrate[length(hourrate)],by="day"), format = "%b-%d", las=2)
+    axis.POSIXct(1, at = seq(start_datetime, end_datetime, by="day"), format = "%b-%d", las=2)
+
     # Close the pdf file
     dev.off()
     
     # create a second plot removing 0 values
     datacol_hour0 <- datacol_hour
+
     datacol_hour0[datacol_hour0 == 0] <- NA
     datacol_hour0[,2][datacol_hour0[,2] > 2500] <- NA
-  
+
     if (file_type == "TSGdata"){
       datacol_hour0[,2][datacol_hour0[,2] < 0.5] <- NA
-    }
-    
-    if (file_type == "FLOWdata"){
+    } else if (file_type == "FLOWdata"){
       datacol_hour0[,2][datacol_hour0[,2] < 1] <- NA
       datacol_hour0[,2][datacol_hour0[,2] > 959] <- 0
     }
+
     datacol_hour0[,2][datacol_hour0[,2] > 959] <- NA
-    
+
     # 1. Open jpeg file
     output_plot2 <- file.path(output_dir, plotname2)
     jpeg(output_plot2, width = 1150, height = 750)
+
+    # Make sure there's actually data to plot or we'll get a
+    # "no non-mission arguments to ..." error
+    if(length(datacol_hour0[!is.na(datacol_hour0[2])]) > 0) {
+      # 2. Create a plot
+      plot(datacol_hour0,
+           main=paste0("TSG ",file_type," hourly zeros removed"),
+           xlab=" ", 
+           ylab=datacolnames[i],
+           xaxt="n")
+        title(xlab="Time (days)", mgp=c(4,1,0))
+        axis.POSIXct(1, at = seq(start_datetime, end_datetime, by="day"), format = "%b-%d", las=2)
+
+        # write a csv with interpolated data and time, if there's no non-zero
+        # data, it the variable won't be written
+        # saved in hourly_TSG_dataplots folder
+        output <- file.path(output_dir, filename)
+        write.csv(datacol_hour, file = output)
+    } else {
+      message(paste0("No ", datacolnames[i], " data to plot"))
+    }
     
-    # 2. Create a plot
-    plot(datacol_hour0,
-         main=paste0("TSG ",file_type," hourly zeros removed"), 
-         xlab=" ", 
-         ylab=datacolnames[i],
-         xaxt="n")
-    
-    title(xlab="Time (days)", mgp=c(4,1,0))
-    
-    axis.POSIXct(1, 
-                 at = seq(hourrate[1], hourrate[length(hourrate)], by="day"), 
-                 format = "%b-%d", las=2)
     # Close the pdf file
     dev.off()
     
-    #write a csv with interpolated data and time
-    #saved in hourly_TSG_dataplots folder
-    output <- file.path(output_dir, filename)
-    write.csv(datacol_hour, file = output)
     rm(datacol_hour)
   
   }

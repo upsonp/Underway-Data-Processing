@@ -168,7 +168,7 @@ for (i in filesinterp2){
   coln2 <- colnames(interpdataall) #Get the column name
   
   interpdataall <- cbind(interpdataall, tsginterpall[,3])# add new column
-  colnames(interpdataall)<-c(coln2,cc) #adding name
+  colnames(interpdataall)<-c(coln2, cc) #adding name
 }
 
 interpdataall$Conductivity_S_m[interpdataall$Conductivity_S_m > 959]<- NA
